@@ -1,0 +1,5 @@
+# becertain.app: alles öffentlich, auch für Such- und KI-Crawler.
+User-agent: *
+Allow: /
+
+Sitemap: https://becertain.app/sitemap.xml

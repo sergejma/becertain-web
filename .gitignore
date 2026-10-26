@@ -1,0 +1,4 @@
+# Nicht veröffentlichen (GitHub Pages liefert sonst alles im Repo aus)
+.DS_Store
+_seo/
+screenshots/

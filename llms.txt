@@ -1,0 +1,14 @@
+# becertain · becertain.app
+
+> becertain ist die Marke für Prüfungstrainer-Apps für iPhone von mindcom (Sergej Markwart, Rheine). Eine App je Prüfung. Jede Aufgabe ist eine eigene Übungsfrage mit Erklärung und Fundstelle im Gesetz, mit Rechtsstand. Gratis laden mit Proberunde, danach Pro als einmaliger Kauf, kein Abo. Kein Konto, keine Tracker, der Fortschritt bleibt auf dem iPhone.
+
+## Apps
+
+- [AEVO Prüfung · becertain](https://becertain.app/aevo/): Trainer für die schriftliche Ausbildereignungsprüfung (Ausbilderschein). Lernen nach den vier Handlungsfeldern, Simulation im echten Format, Wiederholung und Fehler bis zum Termin, Prognose mit offenem Rechenweg. Proberunde mit 40 Aufgaben gratis (30 üben, 10 Kurz-Simulation). Pro einmal kaufen, kein Abo. Status: bald im App Store. Eigene Übungsfragen, unabhängig von IHK, DIHK und HWK. Rechtsstand 22.10.2026.
+
+## Hilfe und Rechtliches
+
+- [Support](https://becertain.app/support/): Kontakt sergej@mindcom.io, Fehler melden, Kauf wiederherstellen.
+- [Datenschutz](https://becertain.app/datenschutz/): App und Website, keine Cookies, keine Tracker, Hosting bei GitHub Pages.
+- [Nutzungsbedingungen](https://becertain.app/nutzungsbedingungen/)
+- [Impressum](https://becertain.app/impressum/)
