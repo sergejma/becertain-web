@@ -20,9 +20,10 @@ from urllib.parse import urlparse, unquote
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = "https://becertain.app"
 VOID = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "source", "track", "wbr"}
+# Wortgleich mit pruefungstrainer-content/pakete/aevo/aevo-1.0.0.json, Feld paket.pflichthinweis.
 PFLICHT = ("Für die AEVO-Prüfung bei deiner IHK oder HWK. Jede Aufgabe folgt dem Rahmenplan der AEVO und dem Format "
-           "der schriftlichen Prüfung. Jede Lösung ist mit Gesetz und Fundstelle belegt, Rechtsstand 22.10.2026. "
-           "Eigene Übungsfragen, unabhängig von IHK, DIHK und HWK.")
+           "der schriftlichen Prüfung. Jede Lösung nennt die Stelle in Gesetz, Verordnung oder Rahmenplan, aus der sie "
+           "folgt. Rechtsstand 26.10.2026. Eigene Übungsfragen, unabhängig von IHK, DIHK und HWK.")
 SKIP_DIRS = {".git", "screenshots", "_seo", "tools"}
 
 
