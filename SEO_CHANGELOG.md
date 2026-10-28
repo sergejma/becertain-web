@@ -46,6 +46,15 @@ Regel (SEO Blueprint, Muster aus getfaceit.com): Was rankt, wird nicht angefasst
 - Grund: Beweis vor Angebot (Hormozi), echte Screens statt Platzhalter. Erwartung: längere Verweildauer und mehr Klicks auf den Store-Link nach Livegang; vorher nicht messbar.
 - Messtermin: mit dem ersten Vergleich vier Wochen nach Livegang.
 
+### 28.10.2026: Fragenzahl „über 800“ (Entwurf, nicht veröffentlicht)
+
+- Freigabe Sergej 28.10.2026: Die Fragenzahl heißt „über 800 Fragen“, nie die genaue Zahl. Gilt, solange das Paket über 800 Aufgaben hat; bei jedem Paket-Update prüfen (heute `aevo-1.0.0.json`: 853).
+- `/aevo/` Kopf, Unterzeile: „Über 800 eigene Fragen nach dem Rahmenplan, Probeprüfungen über 180 Minuten, und du siehst, wo dir noch Punkte fehlen.“
+- `/aevo/` Gratis und Pro: „40 von über 800 Fragen in zwei Teilen, …“ und „Über 800 Fragen, mit Erklärung und Paragraf.“
+- `/` AEVO-Karte: „Über 800 Fragen, jede mit Erklärung und Paragraf. Der Einstiegstest mit 40 davon ist gratis, …“
+- Titel, Description, H1, JSON-LD und FAQ unverändert (nennen keine Fragenzahl).
+- Grund: Zahl statt Adjektiv; Umfang ist ein Kaufgrund für Pro. Messtermin wie oben.
+
 ## Messung
 
 - Erster Vergleich: vier Wochen nach Livegang in der Search Console (Indexierung, Impressionen und Position für „aevo prüfung", „aevo prüfung app", „ausbilderschein app", „becertain").
