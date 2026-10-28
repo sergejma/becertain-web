@@ -37,6 +37,15 @@ Regel (SEO Blueprint, Muster aus getfaceit.com): Was rankt, wird nicht angefasst
 - Erwartung: keine messbare Wirkung vor dem Livegang. Danach prüfen, ob „aevo probeprüfung“ und „aevo prüfung app“ Impressionen bringen.
 - Messtermin: mit dem ersten Vergleich vier Wochen nach Livegang.
 
+### 28.10.2026: Produktseite mit App-Screens, Demo-Frage und Beweisen (Entwurf, nicht veröffentlicht)
+
+- `/aevo/`: neue Reihenfolge Kopf mit App-Screen, Galerie mit fünf Screens (Bildtexte aus `docs/store/aevo-screenshot-plan.md`), „Probier eine Frage“ (Aufgabe `aevo-hf3.6-007` aus `aevo-1.0.0.json`, § 21 Abs. 2 BBiG), drei Beweise, Gratis und Pro, Hinweis, FAQ. Abschnitte „Was die App kann“ und „So sieht es aus“ (Platzhalter) entfallen, ihr Inhalt steckt in Galerie und Beweisen. H2 `#gruende` jetzt „Drei Dinge, die du in der App nachprüfen kannst“.
+- Titel, Description, H1-Text, Canonical, FAQ und `FAQPage` unverändert; H1 bekommt nur einen Zeilenumbruch für breite Fenster. `MobileApplication` um `screenshot` (fünf PNG, 840 px) ergänzt. `og:image` bleibt `og-aevo.png`.
+- `/`: AEVO-Karte mit Screen, neue Karte „Sachkunde § 34a, Bald“ ohne Termin.
+- Neu: `assets/screens/` (WebP und PNG, lazy, mit Breite und Höhe), `assets/site.js` (eigene Datei, kein externes Skript).
+- Grund: Beweis vor Angebot (Hormozi), echte Screens statt Platzhalter. Erwartung: längere Verweildauer und mehr Klicks auf den Store-Link nach Livegang; vorher nicht messbar.
+- Messtermin: mit dem ersten Vergleich vier Wochen nach Livegang.
+
 ## Messung
 
 - Erster Vergleich: vier Wochen nach Livegang in der Search Console (Indexierung, Impressionen und Position für „aevo prüfung", „aevo prüfung app", „ausbilderschein app", „becertain").

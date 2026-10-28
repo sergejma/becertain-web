@@ -4,7 +4,7 @@ Website der App-Familie becertain: Startseite, Produktseite je Prüfung (zuerst 
 
 ## Stack
 
-- Reines HTML und CSS, kein Framework, kein Build-Schritt, kein JavaScript.
+- Reines HTML und CSS, kein Framework, kein Build-Schritt. Eine kleine Datei `assets/site.js` (ohne Abhängigkeiten, ohne Netzwerk, ohne Speicher) für das Einblenden beim Scrollen, den Balken „Chance zu bestehen“ und die Demo-Frage auf `/aevo/`. Ohne JavaScript bleibt alles lesbar.
 - Schrift: Systemschrift (SF Pro und SF Mono auf Apple, sonst Segoe UI, Roboto oder Inter, falls installiert). Keine externen Schriften, keine Anfragen an andere Server.
 - Farben, Raster und Radien aus `../pruefungstrainer-ios/BecertainDesign/README.md` als CSS-Variablen in `assets/site.css`, Light und Dark über `prefers-color-scheme`.
 - Keine Cookies, keine Tracker, deshalb kein Cookie-Hinweis.
@@ -19,7 +19,8 @@ Website der App-Familie becertain: Startseite, Produktseite je Prüfung (zuerst 
 ├── datenschutz/index.html      App und Website, App-Teil wortgleich mit Texte.swift
 ├── nutzungsbedingungen/        wortgleich mit Texte.swift
 ├── impressum/  support/  404.html
-├── assets/                     site.css, favicon.svg, icon-180.png, icon-512.png, og-*.png
+├── assets/                     site.css, site.js, favicon.svg, icon-180.png, icon-512.png, og-*.png
+│   └── screens/                App-Screens aus pruefungstrainer-ios/Store/raw/1206x2622, 420 und 840 px, WebP mit PNG-Fallback
 ├── sitemap.xml  robots.txt  llms.txt
 ├── CNAME                       becertain.app
 ├── .nojekyll                   GitHub liefert alles ohne Jekyll aus
@@ -87,7 +88,7 @@ Der Prüfer braucht nur Python 3. Er prüft: geschlossene Elemente, interne Link
 1. **App Store Connect:** Datenschutz-URL `https://becertain.app/datenschutz/`, Support-URL `https://becertain.app/support/`, Marketing-URL `https://becertain.app/aevo/`. Die Nutzungsbedingungen `https://becertain.app/nutzungsbedingungen/` als eigene Lizenzvereinbarung (EULA) eintragen oder in die Beschreibung verlinken; ohne Eintrag gilt die Standard-Lizenz von Apple.
 2. **Store-Badge:** das Badge „Laden im App Store" von Apple (Apple Marketing Tools, deutsch, schwarz und weiß) als SVG nach `assets/` legen. In `index.html` und `aevo/index.html` jeweils den Kommentar `APP-STORE-BADGE` suchen und den Platzhalter `<p class="store-slot" …>Bald im App Store</p>` ersetzen durch einen Link `<a href="https://apps.apple.com/de/app/…/id…">` mit dem Badge als `<img alt="Laden im App Store">`. Auf der Startseite zusätzlich den Chip „Bald im App Store" entfernen.
 3. **Strukturierte Daten:** in `aevo/index.html` im Block `MobileApplication` `"downloadUrl"` und `"sameAs"` mit der App-Store-URL ergänzen. Keine Bewertungen eintragen, solange es keine echten gibt.
-4. **Screenshots:** in `aevo/index.html` den Kommentar `SCREENSHOTS` suchen und die vier Platzhalter durch Bilder aus der Store-Pipeline ersetzen (WebP, Breite und Höhe angeben, `loading="lazy"`, Alt-Text beschreibt den Inhalt).
+4. **Screenshots:** stehen schon in `assets/screens/`. Kommen neue Rohbilder, neu erzeugen: `sips --resampleWidth <420|840>` für PNG, `cwebp -q 80 -m 6 -resize <420|840> 0` für WebP, Dateinamen gleich lassen, Alt-Texte in `aevo/index.html` prüfen.
 5. `llms.txt` und `SEO_CHANGELOG.md` nachziehen, `python3 tools/pruefen.py`, pushen.
 
 ## Updates

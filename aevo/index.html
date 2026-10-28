@@ -24,6 +24,8 @@
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/assets/icon-180.png">
   <link rel="stylesheet" href="/assets/site.css">
+  <script>document.documentElement.classList.add("js")</script>
+  <script src="/assets/site.js" defer></script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -107,6 +109,13 @@
       "inLanguage": "de-DE",
       "description": "Trainer für die schriftliche AEVO-Prüfung: eigene Fragen nach Rahmenplan mit Erklärung und Paragraf, Probeprüfung auf Zeit, Wiederholung bis zum Termin.",
       "image": "https://becertain.app/assets/og-aevo.png",
+      "screenshot": [
+        "https://becertain.app/assets/screens/auswertung-840.png",
+        "https://becertain.app/assets/screens/probepruefung-840.png",
+        "https://becertain.app/assets/screens/erklaerung-840.png",
+        "https://becertain.app/assets/screens/fortschritt-840.png",
+        "https://becertain.app/assets/screens/wiederholen-840.png"
+      ],
       "publisher": {
         "@id": "https://becertain.app/#org"
       },
@@ -168,98 +177,200 @@
     </div>
   </header>
   <main id="inhalt">
-    <section class="hero">
-      <div class="wrap">
-        <p class="label">App für iPhone · Ausbilderschein</p>
-        <h1>AEVO-Prüfung üben, mit Paragraf zu jeder Antwort.</h1>
-        <p class="lead">AEVO Prüfung · becertain bereitet dich auf die schriftliche Ausbildereignungsprüfung vor. Du übst mit eigenen Fragen nach dem Rahmenplan, schreibst Probeprüfungen über 180 Minuten und siehst, wo dir noch Punkte fehlen.</p>
-        <div class="actions">
-          <!-- APP-STORE-BADGE: Platzhalter. Nach dem Livegang durch das Badge von Apple mit Link auf die App-Store-URL ersetzen (README, Livegang). -->
-          <p class="store-slot" data-app-store-url="">Bald im App Store</p>
-        </div>
-        <p class="reassure">Gratis laden. Pro einmal kaufen, kein Abo.</p>
-      </div>
-    </section>
-
-    <section class="section" aria-labelledby="was">
-      <div class="wrap">
-        <div class="section-head">
-          <p class="label">Was die App ist</p>
-          <h2 id="was">Was die App kann</h2>
-        </div>
-        <p class="intro">Fragen nach Themen, Probeprüfung auf Zeit, Wiederholung bis zum Termin und dein Stand je Handlungsfeld.</p>
-        <div class="card"><h3>Lernen nach Themen</h3><p>Alle vier Handlungsfelder der AEVO. Einfach- und Mehrfachauswahl, Zuordnung, Reihenfolge und Situationsaufgaben, jede mit Erklärung und Paragraf.</p></div>
-        <div class="card"><h3>Probeprüfung</h3><p>180 Minuten, Lösungen erst nach der Abgabe, dann jede Aufgabe mit Erklärung.</p></div>
-        <div class="card"><h3>Wiederholen</h3><p>Die App legt dir jeden Tag vor, was fällig ist, und dazu deine Fehler. Bis zu deinem Termin.</p></div>
-        <div class="card"><h3>Fortschritt</h3><p>Dein Stand je Handlungsfeld, die Tage bis zur Prüfung, deine Chance zu bestehen und wie wir sie rechnen.</p></div>
-      </div>
-    </section>
-
-    <section class="section" aria-labelledby="preis">
-      <div class="wrap">
-        <div class="section-head">
-          <p class="label">Gratis und Pro</p>
-          <h2 id="preis">Erst prüfen, dann zahlen</h2>
-        </div>
-        <div class="offer">
-          <div class="card">
-            <h3>Einstiegstest <span class="price">Gratis</span></h3>
-            <p>40 Fragen in zwei Teilen, dieselben Fragen und Erklärungen wie in Pro.</p>
-            <ul class="checks"><li><span>Teil 1: 30 Fragen aus allen vier Handlungsfeldern, mit voller Erklärung und Paragraf.</span></li><li><span>Teil 2: 10 neue Aufgaben auf Zeit, so schnell wie in der Prüfung.</span></li><li><span>Danach: wie viel du je Handlungsfeld richtig hattest, und deine erste Chance zu bestehen.</span></li><li><span>Die 40 Fragen bleiben offen. Nichts wird weggenommen.</span></li></ul>
+    <section class="hero hero--product">
+      <div class="wrap wrap--wide">
+        <div class="hero__text">
+          <p class="label">App für iPhone · Ausbilderschein</p>
+          <h1>AEVO-Prüfung üben,<br> mit Paragraf zu jeder Antwort.</h1>
+          <p class="lead">Du übst mit eigenen Fragen nach dem Rahmenplan, schreibst Probeprüfungen über 180 Minuten und siehst, wo dir noch Punkte fehlen.</p>
+          <div class="actions">
+            <!-- APP-STORE-BADGE: Platzhalter. Nach dem Livegang href="https://apps.apple.com/de/app/…/id6827949762" ergänzen, aria-disabled entfernen, später das Badge von Apple (README, Livegang). -->
+            <a class="button" data-app-store-url="" aria-disabled="true">Im App Store</a>
+            <a class="button button--secondary" href="#probieren">Frage ausprobieren</a>
           </div>
-          <div class="card card--pro">
-            <h3>Pro <span class="price">Einmal kaufen</span></h3>
-            <p>Pro bereitet dich bis zu deinem Prüfungstermin vor.</p>
-            <ul class="checks"><li><span>Alle Fragen, mit Erklärung und Paragraf.</span></li><li><span>Volle Probeprüfung über 180 Minuten, so oft du willst.</span></li><li><span>Dein Plan bis zu deinem Termin.</span></li><li><span>Deine Fehler und Wiederholungen kommen von selbst.</span></li></ul>
-            <p class="reassure">Einmal kaufen, kein Abo. Den Preis zeigt dir der App Store.</p>
-          </div>
+          <p class="reassure">Bald im App Store. Gratis laden, Pro einmal kaufen, kein Abo.</p>
         </div>
-        <div class="card" style="margin-top: var(--s16)">
-          <h3>Drei Zusagen</h3>
-          <ul class="checks"><li><span>Du hast Pro schon ausprobiert: Der Einstiegstest war echt.</span></li><li><span>Gilt auch, wenn du die Prüfung wiederholst.</span></li><li><span>Ändert sich das Recht, bekommst du die neuen Aufgaben ohne Aufpreis.</span></li></ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" aria-labelledby="gruende">
-      <div class="wrap">
-        <div class="section-head">
-          <p class="label">Warum Pro</p>
-          <h2 id="gruende">Was anders ist</h2>
-        </div>
-        <ol class="points">
-          <li><div class="card"><h3>Paragraf zu jeder Antwort, mit Wortlaut.</h3><p>Unter jeder Erklärung steht die Stelle aus BBiG, AEVO, Jugendarbeitsschutzgesetz oder Rahmenplan, zum Beispiel § 27 Abs. 2 BBiG.</p></div></li>
-          <li><div class="card"><h3>Probeprüfung über 180 Minuten, so oft du willst.</h3><p>Aufgaben zu Ausgangssituationen wie in der schriftlichen Prüfung. Danach deine Chance zu bestehen, und du siehst, wie wir rechnen.</p></div></li>
-          <li><div class="card"><h3>Jeden Tag die richtigen Fragen bis zu deinem Termin.</h3><p>Die App legt dir jeden Tag vor, was du wiederholen musst, und dazu deine Fehler.</p></div></li>
-        </ol>
+        <div class="hero__device device"><picture><source type="image/webp" srcset="/assets/screens/erklaerung-420.webp 420w, /assets/screens/erklaerung-840.webp 840w" sizes="(min-width: 900px) 300px, 68vw"><img src="/assets/screens/erklaerung-420.png" srcset="/assets/screens/erklaerung-420.png 420w, /assets/screens/erklaerung-840.png 840w" sizes="(min-width: 900px) 300px, 68vw" width="420" height="913" alt="App-Screen Erklärung: Rückmeldung „Richtig.“ mit 1 von 1 Punkt, darunter die Erklärung und die Quelle § 1 Abs. 3 Satz 1 BBiG mit aufgeklapptem Gesetzestext." fetchpriority="high" decoding="async"></picture></div>
       </div>
     </section>
 
     <section class="section" aria-labelledby="bilder">
       <div class="wrap wrap--wide">
-        <div class="section-head">
+        <div class="section-head" data-reveal>
           <p class="label">Aus der App</p>
           <h2 id="bilder">So sieht es aus</h2>
         </div>
-        <!-- SCREENSHOTS: Platzhalter. Je Platz ein Bild aus der Store-Pipeline einsetzen:
-             <img src="/assets/aevo/simulation.webp" width="1290" height="2796" alt="…" loading="lazy">, Alt-Text beschreibt den Inhalt. -->
-        <div class="shots">
-          <figure class="shot">
-            <div class="shot__slot" aria-hidden="true"><span>Bild folgt</span></div>
-            <figcaption>Probeprüfung auf Zeit</figcaption>
-          </figure>
-          <figure class="shot">
-            <div class="shot__slot" aria-hidden="true"><span>Bild folgt</span></div>
-            <figcaption>Erklärung mit Paragraf</figcaption>
-          </figure>
-          <figure class="shot">
-            <div class="shot__slot" aria-hidden="true"><span>Bild folgt</span></div>
-            <figcaption>Fortschritt und Chance zu bestehen</figcaption>
-          </figure>
-          <figure class="shot">
-            <div class="shot__slot" aria-hidden="true"><span>Bild folgt</span></div>
-            <figcaption>Fehler wiederholen</figcaption>
-          </figure>
+        <ul class="gallery" data-reveal style="--i: 1">
+          <li class="shot">
+            <div class="device device--small"><picture><source type="image/webp" srcset="/assets/screens/auswertung-420.webp 420w, /assets/screens/auswertung-840.webp 840w" sizes="(min-width: 900px) 190px, 240px"><img src="/assets/screens/auswertung-420.png" srcset="/assets/screens/auswertung-420.png 420w, /assets/screens/auswertung-840.png 840w" sizes="(min-width: 900px) 190px, 240px" width="420" height="913" alt="App-Screen Auswertung nach dem Einstiegstest: 27 von 40 richtig, Teil 1 mit 20 von 30, kurze Probeprüfung mit 7 von 10, darunter am sichersten Handlungsfeld 4 und am meisten fehlt Handlungsfeld 1." loading="lazy" decoding="async"></picture></div>
+            <div class="shot__text">
+              <p class="label">Auswertung</p>
+              <h3>Dein Stand nach 40 Fragen</h3>
+              <p>Richtig je Handlungsfeld und wo du anfangen solltest.</p>
+            </div>
+          </li>
+          <li class="shot">
+            <div class="device device--small"><picture><source type="image/webp" srcset="/assets/screens/probepruefung-420.webp 420w, /assets/screens/probepruefung-840.webp 840w" sizes="(min-width: 900px) 190px, 240px"><img src="/assets/screens/probepruefung-420.png" srcset="/assets/screens/probepruefung-420.png 420w, /assets/screens/probepruefung-840.png 840w" sizes="(min-width: 900px) 190px, 240px" width="420" height="913" alt="App-Screen Probeprüfung: Uhr oben bei 2:57:14, aufgeklappte Ausgangssituation „Ausbildung auf Distanz im Softwarehaus“ und darunter die erste Aufgabe zu dieser Situation." loading="lazy" decoding="async"></picture></div>
+            <div class="shot__text">
+              <p class="label">Probeprüfung</p>
+              <h3>Übe die ganze Prüfung auf Zeit.</h3>
+              <p>180 Minuten, so oft du willst. Danach jede Aufgabe mit Erklärung.</p>
+            </div>
+          </li>
+          <li class="shot">
+            <div class="device device--small"><picture><source type="image/webp" srcset="/assets/screens/erklaerung-420.webp 420w, /assets/screens/erklaerung-840.webp 840w" sizes="(min-width: 900px) 190px, 240px"><img src="/assets/screens/erklaerung-420.png" srcset="/assets/screens/erklaerung-420.png 420w, /assets/screens/erklaerung-840.png 840w" sizes="(min-width: 900px) 190px, 240px" width="420" height="913" alt="App-Screen Erklärung: Rückmeldung „Richtig.“ mit 1 von 1 Punkt, darunter die Erklärung und die Quelle § 1 Abs. 3 Satz 1 BBiG mit aufgeklapptem Gesetzestext." loading="lazy" decoding="async"></picture></div>
+            <div class="shot__text">
+              <p class="label">Erklärung</p>
+              <h3>Nachlesen, warum eine Antwort richtig ist.</h3>
+              <p>Jede Lösung mit Erklärung und dem Satz aus Gesetz oder Rahmenplan.</p>
+            </div>
+          </li>
+          <li class="shot">
+            <div class="device device--small"><picture><source type="image/webp" srcset="/assets/screens/fortschritt-420.webp 420w, /assets/screens/fortschritt-840.webp 840w" sizes="(min-width: 900px) 190px, 240px"><img src="/assets/screens/fortschritt-420.png" srcset="/assets/screens/fortschritt-420.png 420w, /assets/screens/fortschritt-840.png 840w" sizes="(min-width: 900px) 190px, 240px" width="420" height="913" alt="App-Screen Fortschritt: 34 Tage bis zur Prüfung, Chance zu bestehen etwa 75 % mit Balken und der Zeile „So rechnen wir“, darunter bearbeitet 22 % und richtig 64 %." loading="lazy" decoding="async"></picture></div>
+            <div class="shot__text">
+              <p class="label">Fortschritt</p>
+              <h3>Wie gut bist du vorbereitet?</h3>
+              <p>Gerechnet aus deinen Antworten. Wie wir rechnen, steht daneben.</p>
+            </div>
+          </li>
+          <li class="shot">
+            <div class="device device--small"><picture><source type="image/webp" srcset="/assets/screens/wiederholen-420.webp 420w, /assets/screens/wiederholen-840.webp 840w" sizes="(min-width: 900px) 190px, 240px"><img src="/assets/screens/wiederholen-420.png" srcset="/assets/screens/wiederholen-420.png 420w, /assets/screens/wiederholen-840.png 840w" sizes="(min-width: 900px) 190px, 240px" width="420" height="913" alt="App-Screen Fehler wiederholen: Hinweis „Diese Frage hast du am 25. Oktober 2026 falsch beantwortet.“ über einer Frage zum Gesamtsozialversicherungsbeitrag mit vier Antworten." loading="lazy" decoding="async"></picture></div>
+            <div class="shot__text">
+              <p class="label">Wiederholen</p>
+              <h3>Jede falsche Antwort kommt wieder dran.</h3>
+              <p>Bis du sie richtig hast. Die App plant das für dich.</p>
+            </div>
+          </li>
+        </ul>
+        <p class="gallery-hint footnote">Wische für alle fünf Bilder.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="probieren">
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <p class="label">Ausprobieren</p>
+          <h2 id="probieren">Probier eine Frage</h2>
+        </div>
+        <p class="intro" data-reveal style="--i: 1">Eine Aufgabe aus der App, Handlungsfeld 3. Wähle eine Antwort und prüf sie. Danach liest du die Erklärung und den Paragrafen, wie in der App.</p>
+        <div class="card demo" id="demo" data-aufgabe="aevo-hf3.6-007" data-thema="hf3.6" data-reveal style="--i: 2" hidden>
+          <p class="demo__meta"><span class="mono-chip">3.6</span><span>Zusatzangebote und Verkürzung</span></p>
+          <p class="demo__frage" id="demo-frage">Die vorzeitig zugelassene Auszubildende Carla, Hotelfachfrau, besteht ihre Abschlussprüfung; der Prüfungsausschuss gibt das Ergebnis am 20. Juni bekannt. Ihr Vertrag läuft bis 31. Juli. Wann endet ihr Ausbildungsverhältnis?</p>
+          <p class="demo__anleitung">Wähle eine Antwort.</p>
+          <ul class="optionen" aria-labelledby="demo-frage"></ul>
+          <div class="demo__aktion">
+            <p class="demo__grund">Wähle eine Antwort, dann kannst du prüfen.</p>
+            <button class="button" type="button" data-pruefen disabled>Antwort prüfen</button>
+          </div>
+          <div class="demo__ergebnis" aria-live="polite"></div>
+        </div>
+        <div class="card" id="demo-ohne-js">
+          <p class="demo__frage">Die vorzeitig zugelassene Auszubildende Carla, Hotelfachfrau, besteht ihre Abschlussprüfung; der Prüfungsausschuss gibt das Ergebnis am 20. Juni bekannt. Ihr Vertrag läuft bis 31. Juli. Wann endet ihr Ausbildungsverhältnis?</p>
+          <p class="muted">Lösung: am 20. Juni, nach § 21 Abs. 2 BBiG. Zum Ausprobieren braucht die Seite JavaScript.</p>
+        </div>
+        <script type="application/json" id="demo-aufgabe">
+{
+  "id": "aevo-hf3.6-007",
+  "revision": 1,
+  "thema": "hf3.6",
+  "typ": "einfachauswahl",
+  "schwierigkeit": "mittel",
+  "frage": "Die vorzeitig zugelassene Auszubildende Carla, Hotelfachfrau, besteht ihre Abschlussprüfung; der Prüfungsausschuss gibt das Ergebnis am 20. Juni bekannt. Ihr Vertrag läuft bis 31. Juli. Wann endet ihr Ausbildungsverhältnis?",
+  "optionen": [
+    {
+      "id": "a",
+      "text": "Am 20. Juni"
+    },
+    {
+      "id": "b",
+      "text": "Mit Erhalt des Zeugnisses"
+    },
+    {
+      "id": "c",
+      "text": "Am 31. Juli"
+    },
+    {
+      "id": "d",
+      "text": "Am 30. Juni"
+    }
+  ],
+  "loesung": {
+    "richtig": "a"
+  },
+  "erklaerung": "Bestehen Auszubildende die Abschlussprüfung vor Ablauf der Ausbildungsdauer, endet das Berufsausbildungsverhältnis mit der Bekanntgabe des Ergebnisses durch den Prüfungsausschuss, hier am 20. Juni. Das vertragliche Ende, das Monatsende oder der Zugang des schriftlichen Zeugnisses sind dafür nicht maßgeblich.",
+  "fundstellen": [
+    {
+      "quelle": "bbig",
+      "paragraf": "21",
+      "absatz": "2",
+      "zitat": "Bestehen Auszubildende vor Ablauf der Ausbildungsdauer die Abschlussprüfung, so endet das Berufsausbildungsverhältnis mit Bekanntgabe des Ergebnisses durch den Prüfungsausschuss.",
+      "kurz": "BBiG",
+      "titel": "Berufsbildungsgesetz"
+    }
+  ],
+  "rechtsstand": "26.10.2026",
+  "paket": "aevo-1.0.0"
+}
+        </script>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="gruende">
+      <div class="wrap wrap--wide">
+        <div class="section-head" data-reveal>
+          <p class="label">Was anders ist</p>
+          <h2 id="gruende">Drei Dinge, die du in der App nachprüfen kannst</h2>
+        </div>
+        <ul class="proofs">
+          <li class="card proof" data-reveal>
+            <p class="label">Probeprüfung</p>
+            <p class="proof__zahl">180 <small>Minuten</small></p>
+            <h3>Die ganze Prüfung auf Zeit, so oft du willst.</h3>
+            <p>Aufgaben zu Ausgangssituationen wie in der schriftlichen Prüfung. Lösungen erst nach der Abgabe, dann jede Aufgabe mit Erklärung.</p>
+          </li>
+          <li class="card proof" data-reveal style="--i: 1">
+            <p class="label">Quelle</p>
+            <p class="proof__zahl">§ <small>zu jeder Lösung</small></p>
+            <h3>Der Satz aus Gesetz oder Rahmenplan, im Wortlaut.</h3>
+            <p>Aus BBiG, AEVO, Jugendarbeitsschutzgesetz oder Rahmenplan, zum Beispiel § 21 Abs. 2 BBiG. Rechtsstand 26.10.2026.</p>
+          </li>
+          <li class="card proof" data-reveal style="--i: 2">
+            <p class="label">Chance zu bestehen</p>
+            <p class="proof__zahl"><small>etwa</small>75&nbsp;% <span class="chip">Beispiel</span></p>
+            <div class="balken" style="--wert: 75%" role="img" aria-label="Balken bei etwa 75 von 100 Prozent, Beispiel"><span class="balken__spur"></span><span class="balken__wert"></span></div>
+            <p class="balken-skala" aria-hidden="true"><span>0 %</span><span>100 %</span></p>
+            <h3>Aus deinen Antworten gerechnet.</h3>
+            <details class="rechenweg">
+              <summary>So rechnen wir</summary>
+              <p>Je Handlungsfeld zählt deine letzte Antwort auf jede Frage, wenn seit dem Versuch davor mindestens 20 Stunden vergangen sind. Daraus und aus der Zahl der Prüfungsaufgaben je Handlungsfeld schätzen wir, wie wahrscheinlich du 50 von 100 Punkten schaffst. Wir rechnen vorsichtig: Mit wenigen Antworten setzen wir deinen Wert niedriger an, als er ist. Und weil die echte Prüfung andere Fragen stellt, ziehen wir noch etwas ab. Über 85&nbsp;% gehen wir erst, wenn du eine volle Probeprüfung bestanden hast. Das gilt nur für den schriftlichen Teil.</p>
+            </details>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="preis">
+      <div class="wrap wrap--wide">
+        <div class="section-head" data-reveal>
+          <p class="label">Gratis und Pro</p>
+          <h2 id="preis">Erst prüfen, dann zahlen</h2>
+        </div>
+        <div class="offer">
+          <div class="card" data-reveal>
+            <h3>Einstiegstest <span class="price">Gratis</span></h3>
+            <p>40 Fragen in zwei Teilen, dieselben Fragen und Erklärungen wie in Pro.</p>
+            <ul class="checks"><li><span>Teil 1: 30 Fragen aus allen vier Handlungsfeldern, mit voller Erklärung und Paragraf.</span></li><li><span>Teil 2: 10 neue Aufgaben auf Zeit, so schnell wie in der Prüfung.</span></li><li><span>Danach die Auswertung: wie viel du je Handlungsfeld richtig hattest, und deine erste Chance zu bestehen.</span></li><li><span>Die 40 Fragen bleiben offen. Nichts wird weggenommen.</span></li></ul>
+          </div>
+          <div class="card card--pro" data-reveal style="--i: 1">
+            <h3>Pro <span class="price">Einmal kaufen</span></h3>
+            <p>Pro bereitet dich bis zu deinem Prüfungstermin vor.</p>
+            <ul class="checks"><li><span>Alle Fragen, mit Erklärung und Paragraf.</span></li><li><span>Volle Probeprüfung über 180 Minuten, so oft du willst.</span></li><li><span>Dein Plan bis zu deinem Termin.</span></li><li><span>Die App sagt dir jeden Tag, was du wiederholen sollst.</span></li></ul>
+            <p class="reassure">Einmal kaufen, kein Abo. Den Preis zeigt dir der App Store.</p>
+          </div>
+        </div>
+        <div class="card" style="margin-top: var(--s16); --i: 2" data-reveal>
+          <h3>Drei Zusagen</h3>
+          <ul class="checks"><li><span>Du hast Pro schon ausprobiert: Der Einstiegstest war echt.</span></li><li><span>Gilt auch, wenn du die Prüfung wiederholst.</span></li><li><span>Ändert sich das Recht, bekommst du die neuen Aufgaben ohne Aufpreis.</span></li></ul>
         </div>
       </div>
     </section>
@@ -275,7 +386,7 @@
 
     <section class="section" aria-labelledby="fragen">
       <div class="wrap">
-        <div class="section-head">
+        <div class="section-head" data-reveal>
           <p class="label">Fragen</p>
           <h2 id="fragen">Häufige Fragen</h2>
         </div>

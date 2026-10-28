@@ -24,6 +24,8 @@
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/assets/icon-180.png">
   <link rel="stylesheet" href="/assets/site.css">
+  <script>document.documentElement.classList.add("js")</script>
+  <script src="/assets/site.js" defer></script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -103,39 +105,52 @@
     </section>
 
     <section class="section" aria-labelledby="erste-app">
-      <div class="wrap">
-        <div class="section-head">
-          <p class="label">Die erste App</p>
+      <div class="wrap wrap--wide">
+        <div class="section-head" data-reveal>
+          <p class="label">Die Apps</p>
           <h2 id="erste-app">Zuerst die AEVO</h2>
         </div>
-        <article class="card app-card">
-          <div class="app-card__head">
-            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect width="24" height="24" rx="5.33" fill="#1F44C4"/><path d="M6 17.5h4v-4h4v-4h4" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <div>
-              <h3 class="app-card__name"><a href="/aevo/">AEVO Prüfung · becertain</a></h3>
-              <p class="app-card__status"><span class="chip">Bald im App Store</span></p>
+        <div class="apps">
+          <article class="card app-card app-card--screen" data-reveal>
+            <div class="app-card__head">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect width="24" height="24" rx="5.33" fill="#1F44C4"/><path d="M6 17.5h4v-4h4v-4h4" fill="none" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <div>
+                <h3 class="app-card__name"><a href="/aevo/">AEVO Prüfung · becertain</a></h3>
+                <p class="app-card__status"><span class="chip">Bald im App Store</span></p>
+              </div>
             </div>
-          </div>
-          <p>Für die schriftliche Ausbildereignungsprüfung, kurz Ausbilderschein. Der Einstiegstest mit 40 Fragen ist gratis. Danach gibt es Pro: einmal kaufen, kein Abo.</p>
-          <p><a href="/aevo/">Mehr zur App</a></p>
-        </article>
-        <p class="muted small" style="margin-top: var(--s16)">Weitere Prüfungen folgen. Jede bekommt ihre eigene App und hier eine eigene Seite.</p>
+            <div class="app-card__screen device device--small"><picture><source type="image/webp" srcset="/assets/screens/auswertung-420.webp 420w, /assets/screens/auswertung-840.webp 840w" sizes="148px"><img src="/assets/screens/auswertung-420.png" srcset="/assets/screens/auswertung-420.png 420w, /assets/screens/auswertung-840.png 840w" sizes="148px" width="420" height="913" alt="App-Screen Auswertung nach dem Einstiegstest: 27 von 40 richtig, je Handlungsfeld, am meisten fehlt Handlungsfeld 1." loading="lazy" decoding="async"></picture></div>
+            <p>Für die schriftliche Ausbildereignungsprüfung, kurz Ausbilderschein. Der Einstiegstest mit 40 Fragen ist gratis, danach siehst du deine Auswertung je Handlungsfeld. Pro kaufst du einmal, kein Abo.</p>
+            <p><a href="/aevo/">Mehr zur App</a></p>
+          </article>
+          <article class="card app-card app-card--bald" data-reveal style="--i: 1">
+            <div class="app-card__head">
+              <span class="app-card__icon-bald" aria-hidden="true">34a</span>
+              <div>
+                <h3 class="app-card__name">Sachkunde § 34a</h3>
+                <p class="app-card__status"><span class="chip">Bald</span></p>
+              </div>
+            </div>
+            <p>Für die Sachkundeprüfung im Bewachungsgewerbe. Eigene App, eigene Seite, gebaut wie die AEVO: Erklärung und Paragraf zu jeder Antwort.</p>
+            <p class="muted small">Weitere Prüfungen folgen. Jede bekommt ihre eigene App und hier eine eigene Seite.</p>
+          </article>
+        </div>
       </div>
     </section>
 
     <section class="section" aria-labelledby="gleich">
       <div class="wrap">
-        <div class="section-head">
+        <div class="section-head" data-reveal>
           <p class="label">In jeder App</p>
           <h2 id="gleich">Was bei becertain immer gilt</h2>
         </div>
-        <ul class="checks"><li><span>Zu jeder Frage Erklärung und Paragraf, mit Rechtsstand.</span></li><li><span>Eigene Übungsfragen nach Rahmenplan und Prüfungsformat. Keine abgeschriebenen Prüfungsaufgaben.</span></li><li><span>Erst gratis ausprobieren, dann einmal kaufen. Kein Abo.</span></li><li><span>Kein Konto. Dein Fortschritt bleibt auf deinem iPhone.</span></li><li><span>„Fehler melden“ an jeder Frage. Wir prüfen jede Meldung.</span></li><li><span>Keine Bestehensquoten. Die Chance zu bestehen ist eine Schätzung, und du siehst, wie wir rechnen.</span></li></ul>
+        <ul class="checks" data-reveal style="--i: 1"><li><span>Zu jeder Frage Erklärung und Paragraf, mit Rechtsstand.</span></li><li><span>Eigene Übungsfragen nach Rahmenplan und Prüfungsformat. Keine abgeschriebenen Prüfungsaufgaben.</span></li><li><span>Erst gratis ausprobieren, dann einmal kaufen. Kein Abo.</span></li><li><span>Kein Konto. Dein Fortschritt bleibt auf deinem iPhone.</span></li><li><span>„Fehler melden“ an jeder Frage. Wir prüfen jede Meldung.</span></li><li><span>Keine Bestehensquoten. Die Chance zu bestehen ist eine Schätzung, und du siehst, wie wir rechnen.</span></li></ul>
       </div>
     </section>
 
     <section class="section" aria-labelledby="wer">
       <div class="wrap">
-        <div class="section-head">
+        <div class="section-head" data-reveal>
           <p class="label">Wer dahinter steht</p>
           <h2 id="wer">Wer die Apps macht</h2>
         </div>
