@@ -1,5 +1,21 @@
-# becertain.app: alles öffentlich, auch für Such- und KI-Crawler.
+# becertain.app: alles öffentlich, für Suchmaschinen und ausdrücklich auch für KI-Crawler.
+# Kurzfassung für Sprachmodelle: /llms.txt, Volltext: /llms-full.txt
+
 User-agent: *
+Allow: /
+
+# KI-Crawler und KI-Suchen, ausdrücklich erlaubt
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
 Allow: /
 
 Sitemap: https://becertain.app/sitemap.xml

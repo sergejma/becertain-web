@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>AEVO Prüfung üben: App für den Ausbilderschein · becertain</title>
-  <meta name="description" content="Übe für die AEVO-Prüfung mit eigenen Fragen nach Rahmenplan: Erklärung und Paragraf zu jeder Lösung, Probeprüfung über 180 Minuten, Einstiegstest gratis, Pro ohne Abo.">
+  <meta name="description" content="Übe für die AEVO-Prüfung: über 800 Fragen nach Rahmenplan, Paragraf zu jeder Lösung, Probeprüfung über 180 Minuten. Starte gratis mit dem Einstiegstest.">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://becertain.app/aevo/">
   <meta name="theme-color" content="#F5F6F8" media="(prefers-color-scheme: light)">
@@ -15,7 +15,7 @@
   <meta property="og:locale" content="de_DE">
   <meta property="og:url" content="https://becertain.app/aevo/">
   <meta property="og:title" content="AEVO Prüfung üben: App für den Ausbilderschein · becertain">
-  <meta property="og:description" content="Übe für die AEVO-Prüfung mit eigenen Fragen nach Rahmenplan: Erklärung und Paragraf zu jeder Lösung, Probeprüfung über 180 Minuten, Einstiegstest gratis, Pro ohne Abo.">
+  <meta property="og:description" content="Übe für die AEVO-Prüfung: über 800 Fragen nach Rahmenplan, Paragraf zu jeder Lösung, Probeprüfung über 180 Minuten. Starte gratis mit dem Einstiegstest.">
   <meta property="og:image" content="https://becertain.app/assets/og-aevo.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -46,10 +46,13 @@
       "name": "becertain",
       "url": "https://becertain.app/",
       "logo": "https://becertain.app/assets/icon-512.png",
+      "description": "Marke für Prüfungstrainer-Apps für iPhone von mindcom: eine App je Prüfung, zu jeder Frage Erklärung und Paragraf.",
       "email": "sergej@mindcom.io",
       "founder": {
-        "@type": "Person",
-        "name": "Sergej Markwart"
+        "@id": "https://becertain.app/#sergej-markwart"
+      },
+      "parentOrganization": {
+        "@id": "https://mindcom.io/#org"
       },
       "address": {
         "@type": "PostalAddress",
@@ -67,19 +70,82 @@
       }
     },
     {
+      "@type": "Organization",
+      "@id": "https://mindcom.io/#org",
+      "name": "mindcom",
+      "url": "https://mindcom.io/",
+      "email": "sergej@mindcom.io",
+      "founder": {
+        "@id": "https://becertain.app/#sergej-markwart"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://becertain.app/#sergej-markwart",
+      "name": "Sergej Markwart",
+      "url": "https://becertain.app/impressum/",
+      "worksFor": {
+        "@id": "https://mindcom.io/#org"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Rheine",
+        "addressCountry": "DE"
+      }
+    },
+    {
+      "@type": "Legislation",
+      "@id": "https://becertain.app/aevo/#ausbeignv",
+      "name": "Ausbilder-Eignungsverordnung",
+      "alternateName": [
+        "AEVO",
+        "AusbEignV 2009"
+      ],
+      "legislationIdentifier": "AusbEignV 2009",
+      "legislationDate": "2009-01-21",
+      "inLanguage": "de",
+      "url": "https://www.gesetze-im-internet.de/ausbeignv_2009/",
+      "sameAs": [
+        "https://de.wikipedia.org/wiki/Ausbilder-Eignungsverordnung"
+      ]
+    },
+    {
       "@type": "WebPage",
       "@id": "https://becertain.app/aevo/#webpage",
       "url": "https://becertain.app/aevo/",
       "name": "AEVO Prüfung üben: App für den Ausbilderschein · becertain",
-      "description": "Übe für die AEVO-Prüfung mit eigenen Fragen nach Rahmenplan: Erklärung und Paragraf zu jeder Lösung, Probeprüfung über 180 Minuten, Einstiegstest gratis, Pro ohne Abo.",
+      "description": "Übe für die AEVO-Prüfung: über 800 Fragen nach Rahmenplan, Paragraf zu jeder Lösung, Probeprüfung über 180 Minuten. Starte gratis mit dem Einstiegstest.",
       "inLanguage": "de-DE",
       "isPartOf": {
         "@id": "https://becertain.app/#website"
       },
-      "dateModified": "2026-10-28",
+      "dateModified": "2026-10-30",
       "breadcrumb": {
         "@id": "https://becertain.app/aevo/#breadcrumb"
-      }
+      },
+      "about": {
+        "@id": "https://becertain.app/aevo/#ausbeignv"
+      },
+      "hasPart": [
+        {
+          "@id": "https://becertain.app/aevo/pruefung/#webpage"
+        },
+        {
+          "@id": "https://becertain.app/aevo/fragen/#webpage"
+        },
+        {
+          "@id": "https://becertain.app/aevo/handlungsfeld-1/#webpage"
+        },
+        {
+          "@id": "https://becertain.app/aevo/handlungsfeld-2/#webpage"
+        },
+        {
+          "@id": "https://becertain.app/aevo/handlungsfeld-3/#webpage"
+        },
+        {
+          "@id": "https://becertain.app/aevo/handlungsfeld-4/#webpage"
+        }
+      ]
     },
     {
       "@type": "BreadcrumbList",
@@ -124,7 +190,24 @@
         "price": "0",
         "priceCurrency": "EUR",
         "description": "Gratis laden mit Einstiegstest. Pro als einmaliger In-App-Kauf, kein Abo."
-      }
+      },
+      "applicationSubCategory": "Prüfungsvorbereitung",
+      "about": {
+        "@id": "https://becertain.app/aevo/#ausbeignv"
+      },
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Prüflinge der Ausbildereignungsprüfung (Ausbilderschein)"
+      },
+      "featureList": [
+        "Über 800 eigene Fragen nach dem Rahmenplan der AEVO, jede mit Erklärung und Paragraf",
+        "Probeprüfung über 180 Minuten mit Ausgangssituationen",
+        "Einstiegstest mit 40 Fragen gratis, danach Auswertung je Handlungsfeld",
+        "Chance zu bestehen mit offener Rechnung",
+        "Falsche Antworten kommen wieder dran, bis sie sitzen",
+        "Kein Konto, Lernen und Probeprüfung auch offline"
+      ],
+      "isAccessibleForFree": true
     },
     {
       "@type": "FAQPage",
@@ -375,6 +458,17 @@
       </div>
     </section>
 
+    <section class="section" aria-labelledby="mehr">
+      <div class="wrap">
+        <div class="section-head" data-reveal>
+          <p class="label">Zum Nachlesen</p>
+          <h2 id="mehr">Mehr zur AEVO-Prüfung</h2>
+        </div>
+        <p class="intro" data-reveal style="--i: 1">Hier liest du, wie die Prüfung abläuft und was in den vier Handlungsfeldern drankommt. Auf jeder Seite zu einem Handlungsfeld probierst du eine weitere Frage aus der App aus.</p>
+        <ul class="toc" data-reveal style="--i: 2"><li><a href="/aevo/pruefung/">AEVO-Prüfung: Ablauf, Dauer und Bestehen</a></li><li><a href="/aevo/fragen/">AEVO-Prüfungsfragen: Aufbau und Aufgabentypen</a></li><li><a href="/aevo/handlungsfeld-1/">Handlungsfeld 1: Ausbildungsvoraussetzungen prüfen und Ausbildung planen</a></li><li><a href="/aevo/handlungsfeld-2/">Handlungsfeld 2: Ausbildung vorbereiten und bei der Einstellung mitwirken</a></li><li><a href="/aevo/handlungsfeld-3/">Handlungsfeld 3: Ausbildung durchführen</a></li><li><a href="/aevo/handlungsfeld-4/">Handlungsfeld 4: Ausbildung abschließen</a></li></ul>
+      </div>
+    </section>
+
     <section class="section" aria-labelledby="hinweis">
       <div class="wrap">
         <div class="notice">
@@ -420,6 +514,7 @@
       </div>
       <nav class="footer-nav" aria-label="Rechtliches und Kontakt"><ul><li><a href="/">Start</a></li><li><a href="/aevo/" aria-current="page">AEVO Prüfung</a></li><li><a href="/support/">Support</a></li><li><a href="/datenschutz/">Datenschutz</a></li><li><a href="/nutzungsbedingungen/">Nutzungsbedingungen</a></li><li><a href="/impressum/">Impressum</a></li></ul></nav>
       <p class="footnote">Anbieter: Sergej Markwart, mindcom</p>
+      <p class="footnote" data-stand="2026-10-30">Stand dieser Seite: 30. Oktober 2026</p>
     </div>
   </footer>
 </body>

@@ -1,0 +1,793 @@
+# becertain: Volltext der wichtigsten Seiten
+
+> Sichtbarer Text von becertain.app als Markdown, erzeugt aus dem HTML mit tools/llms_full.py. Kurzfassung und Seitenliste: https://becertain.app/llms.txt. Anbieter: Sergej Markwart, mindcom, Rheine.
+
+---
+
+Seite: https://becertain.app/
+Titel: becertain: Prüfungs-Apps mit Erklärung und Paragraf
+Stand: 2026-10-30
+
+Prüfungstrainer für iPhone
+
+# Prüfungsfragen mit Erklärung und Paragraf.
+
+becertain macht Prüfungstrainer für iPhone, eine App je Prüfung, entwickelt von Sergej Markwart (mindcom) in Rheine. Zu jeder Frage liest du, warum die Antwort stimmt und in welchem Paragrafen das steht. Du schreibst Probeprüfungen auf Zeit und siehst, wo dir noch Punkte fehlen. Kein Konto, kein Abo.
+
+[AEVO Prüfung ansehen](https://becertain.app/aevo/)
+
+Bald im App Store
+
+Die Apps
+
+## Zuerst die AEVO
+
+### [AEVO Prüfung · becertain](https://becertain.app/aevo/)
+
+Bald im App Store
+
+Für die schriftliche Ausbildereignungsprüfung, kurz Ausbilderschein. Über 800 Fragen, jede mit Erklärung und Paragraf. Der Einstiegstest mit 40 davon ist gratis, danach siehst du deine Auswertung je Handlungsfeld. Pro kaufst du einmal, kein Abo.
+
+[Mehr zur AEVO-App](https://becertain.app/aevo/)
+
+### Sachkunde § 34a
+
+Bald
+
+Für die Sachkundeprüfung im Bewachungsgewerbe. Eigene App, eigene Seite, gebaut wie die AEVO: Erklärung und Paragraf zu jeder Antwort.
+
+Weitere Prüfungen folgen. Jede bekommt ihre eigene App und hier eine eigene Seite.
+
+In jeder App
+
+## Was bei becertain immer gilt
+
+- Zu jeder Frage Erklärung und Paragraf, mit Rechtsstand.
+
+- Eigene Übungsfragen nach Rahmenplan und Prüfungsformat. Keine abgeschriebenen Prüfungsaufgaben.
+
+- Erst gratis ausprobieren, dann einmal kaufen. Kein Abo.
+
+- Kein Konto. Dein Fortschritt bleibt auf deinem iPhone.
+
+- „Fehler melden“ an jeder Frage. Wir prüfen jede Meldung.
+
+- Keine Bestehensquoten. Die Chance zu bestehen ist eine Schätzung, und du siehst, wie wir rechnen.
+
+Wer dahinter steht
+
+## Wer die Apps macht
+
+becertain ist die Marke für die Prüfungs-Apps von mindcom, dem Unternehmen von Sergej Markwart in Rheine. Fragen und Fehlermeldungen landen direkt bei ihm. So erreichst du ihn: [Support](https://becertain.app/support/).
+
+---
+
+Seite: https://becertain.app/aevo/
+Titel: AEVO Prüfung üben: App für den Ausbilderschein · becertain
+Stand: 2026-10-30
+
+App für iPhone · Ausbilderschein
+
+# AEVO-Prüfung üben, mit Paragraf zu jeder Antwort.
+
+Über 800 eigene Fragen nach dem Rahmenplan, Probeprüfungen über 180 Minuten, und du siehst, wo dir noch Punkte fehlen.
+
+Im App Store Frage ausprobieren
+
+Bald im App Store. Gratis laden, Pro einmal kaufen, kein Abo.
+
+Aus der App
+
+## So sieht es aus
+
+Auswertung
+
+### Dein Stand nach 40 Fragen
+
+Richtig je Handlungsfeld und wo du anfangen solltest.
+
+Probeprüfung
+
+### Übe die ganze Prüfung auf Zeit.
+
+180 Minuten, so oft du willst. Danach jede Aufgabe mit Erklärung.
+
+Erklärung
+
+### Nachlesen, warum eine Antwort richtig ist.
+
+Jede Lösung mit Erklärung und dem Satz aus Gesetz oder Rahmenplan.
+
+Fortschritt
+
+### Wie gut bist du vorbereitet?
+
+Gerechnet aus deinen Antworten. Wie wir rechnen, steht daneben.
+
+Wiederholen
+
+### Jede falsche Antwort kommt wieder dran.
+
+Bis du sie richtig hast. Die App plant das für dich.
+
+Wische für alle fünf Bilder.
+
+Ausprobieren
+
+## Probier eine Frage
+
+Eine Aufgabe aus der App, Handlungsfeld 3. Wähle eine Antwort und prüf sie. Danach liest du die Erklärung und den Paragrafen, wie in der App.
+
+Die vorzeitig zugelassene Auszubildende Carla, Hotelfachfrau, besteht ihre Abschlussprüfung; der Prüfungsausschuss gibt das Ergebnis am 20. Juni bekannt. Ihr Vertrag läuft bis 31. Juli. Wann endet ihr Ausbildungsverhältnis?
+
+Lösung: am 20. Juni, nach § 21 Abs. 2 BBiG. Zum Ausprobieren braucht die Seite JavaScript.
+
+Was anders ist
+
+## Drei Dinge, die du in der App nachprüfen kannst
+
+Probeprüfung
+
+180 Minuten
+
+### Die ganze Prüfung auf Zeit, so oft du willst.
+
+Aufgaben zu Ausgangssituationen wie in der schriftlichen Prüfung. Lösungen erst nach der Abgabe, dann jede Aufgabe mit Erklärung.
+
+Quelle
+
+§ zu jeder Lösung
+
+### Der Satz aus Gesetz oder Rahmenplan, im Wortlaut.
+
+Aus BBiG, AEVO, Jugendarbeitsschutzgesetz oder Rahmenplan, zum Beispiel § 21 Abs. 2 BBiG. Rechtsstand 26.10.2026.
+
+Chance zu bestehen
+
+etwa75 % Beispiel
+
+### Aus deinen Antworten gerechnet.
+
+### So rechnen wir
+
+Je Handlungsfeld zählt deine letzte Antwort auf jede Frage, wenn seit dem Versuch davor mindestens 20 Stunden vergangen sind. Daraus und aus der Zahl der Prüfungsaufgaben je Handlungsfeld schätzen wir, wie wahrscheinlich du 50 von 100 Punkten schaffst. Wir rechnen vorsichtig: Mit wenigen Antworten setzen wir deinen Wert niedriger an, als er ist. Und weil die echte Prüfung andere Fragen stellt, ziehen wir noch etwas ab. Über 85 % gehen wir erst, wenn du eine volle Probeprüfung bestanden hast. Das gilt nur für den schriftlichen Teil.
+
+Gratis und Pro
+
+## Erst prüfen, dann zahlen
+
+### Einstiegstest Gratis
+
+40 von über 800 Fragen in zwei Teilen, dieselben Fragen und Erklärungen wie in Pro.
+
+- Teil 1: 30 Fragen aus allen vier Handlungsfeldern, mit voller Erklärung und Paragraf.
+
+- Teil 2: 10 neue Aufgaben auf Zeit, so schnell wie in der Prüfung.
+
+- Danach die Auswertung: wie viel du je Handlungsfeld richtig hattest, und deine erste Chance zu bestehen.
+
+- Die 40 Fragen bleiben offen. Nichts wird weggenommen.
+
+### Pro Einmal kaufen
+
+Pro bereitet dich bis zu deinem Prüfungstermin vor.
+
+- Über 800 Fragen, mit Erklärung und Paragraf.
+
+- Volle Probeprüfung über 180 Minuten, so oft du willst.
+
+- Dein Plan bis zu deinem Termin.
+
+- Die App sagt dir jeden Tag, was du wiederholen sollst.
+
+Einmal kaufen, kein Abo. Den Preis zeigt dir der App Store.
+
+### Drei Zusagen
+
+- Du hast Pro schon ausprobiert: Der Einstiegstest war echt.
+
+- Gilt auch, wenn du die Prüfung wiederholst.
+
+- Ändert sich das Recht, bekommst du die neuen Aufgaben ohne Aufpreis.
+
+Zum Nachlesen
+
+## Mehr zur AEVO-Prüfung
+
+Hier liest du, wie die Prüfung abläuft und was in den vier Handlungsfeldern drankommt. Auf jeder Seite zu einem Handlungsfeld probierst du eine weitere Frage aus der App aus.
+
+- [AEVO-Prüfung: Ablauf, Dauer und Bestehen](https://becertain.app/aevo/pruefung/)
+
+- [AEVO-Prüfungsfragen: Aufbau und Aufgabentypen](https://becertain.app/aevo/fragen/)
+
+- [Handlungsfeld 1: Ausbildungsvoraussetzungen prüfen und Ausbildung planen](https://becertain.app/aevo/handlungsfeld-1/)
+
+- [Handlungsfeld 2: Ausbildung vorbereiten und bei der Einstellung mitwirken](https://becertain.app/aevo/handlungsfeld-2/)
+
+- [Handlungsfeld 3: Ausbildung durchführen](https://becertain.app/aevo/handlungsfeld-3/)
+
+- [Handlungsfeld 4: Ausbildung abschließen](https://becertain.app/aevo/handlungsfeld-4/)
+
+## Hinweis
+
+Für die AEVO-Prüfung bei deiner IHK oder HWK. Jede Aufgabe folgt dem Rahmenplan der AEVO und dem Format der schriftlichen Prüfung. Jede Lösung nennt die Stelle in Gesetz, Verordnung oder Rahmenplan, aus der sie folgt. Rechtsstand 26.10.2026. Eigene Übungsfragen, unabhängig von IHK, DIHK und HWK.
+
+Fragen
+
+## Häufige Fragen
+
+### Was ist gratis und was kostet Pro?
+
+Gratis ist der Einstiegstest mit 40 Fragen: 30 zum Üben mit voller Erklärung und 10 auf Zeit. Danach siehst du deinen Stand. Pro schaltet alle Fragen, Probeprüfungen über 180 Minuten und den Plan bis zu deinem Termin frei. Pro ist ein einmaliger Kauf, kein Abo. Den Preis zeigt dir der App Store vor dem Kauf.
+
+### Brauche ich ein Konto oder Internet?
+
+Nein. Es gibt kein Konto und keine Anmeldung. Lernen und Probeprüfung laufen auch offline. Nur Kauf und Wiederherstellen brauchen eine Verbindung.
+
+### Wie aktuell sind die Aufgaben?
+
+Jede Lösung nennt den Paragrafen oder die Stelle im Rahmenplan, Rechtsstand 26.10.2026. Ändert sich das Recht, bekommst du die neuen Aufgaben ohne Aufpreis. Findest du einen Fehler, meldest du ihn direkt an der Frage. Wir prüfen jede Meldung.
+
+### Garantiert mir die App, dass ich bestehe?
+
+Nein. Die App hilft dir beim Üben. Ob du bestehst, hängt von dir und von der Prüfung ab. Die Chance zu bestehen ist eine Schätzung aus deinen Antworten, keine Zusage. Pro gilt auch, wenn du die Prüfung wiederholst.
+
+Noch eine Frage? Schreib an [sergej@mindcom.io](mailto:sergej@mindcom.io) oder lies den [Support](https://becertain.app/support/).
+
+---
+
+Seite: https://becertain.app/aevo/pruefung/
+Titel: AEVO-Prüfung: Ablauf, Dauer, Aufgaben, Bestehen · becertain
+Stand: 2026-10-30
+
+AEVO Prüfung · Ablauf
+
+# AEVO-Prüfung: Ablauf, Dauer, Aufgaben und Bestehen
+
+Die AEVO-Prüfung ist die Prüfung zum Ausbilderschein nach der Ausbilder-Eignungsverordnung (AusbEignV). Sie hat zwei Teile: schriftlich 180 Minuten mit fallbezogenen Aufgaben aus allen vier Handlungsfeldern, praktisch höchstens 30 Minuten für Präsentation und Fachgespräch. Du bestehst, wenn jeder Teil mindestens „ausreichend“ ist. Diese Seite fasst § 4 AusbEignV zusammen, mit Paragraf zu jeder Aussage. Sie ist von becertain, dem Anbieter der App AEVO Prüfung · becertain für iPhone.
+
+Stand: 30. Oktober 2026. Verantwortlich: Sergej Markwart, becertain. Quellen am Ende der Seite.
+
+## Die Prüfung auf einen Blick
+
+- **Schriftlicher Teil:** Fallbezogene Aufgaben aus allen vier Handlungsfeldern, 180 Minuten (§ 4 Abs. 2 AusbEignV: „soll drei Stunden dauern“).
+
+- **Praktischer Teil:** Präsentation oder praktische Durchführung einer Ausbildungssituation und Fachgespräch, zusammen höchstens 30 Minuten, die Präsentation höchstens 15 Minuten (§ 4 Abs. 3). In Landwirtschaft und Hauswirtschaft höchstens 60 Minuten (§ 4 Abs. 4).
+
+- **Bestanden:** Jeder Teil mindestens „ausreichend“ (§ 4 Abs. 1 Satz 3).
+
+- **Wiederholen:** Zweimal innerhalb eines Prüfungsverfahrens, ein bestandener Teil kann angerechnet werden (§ 4 Abs. 1 Satz 4 und 5).
+
+- **Abnahme:** Ein Prüfungsausschuss der zuständigen Stelle, meist deiner IHK oder HWK (§ 4 Abs. 5).
+
+## Der schriftliche Teil: 180 Minuten, vier Handlungsfelder
+
+Im schriftlichen Teil bearbeitest du „fallbezogene Aufgaben aus allen Handlungsfeldern“ (§ 4 Abs. 2 Satz 1 AusbEignV). Die Handlungsfelder folgen dem Ablauf einer Ausbildung, von der Planung bis zum Abschluss (§ 2 AusbEignV):
+
+- [Handlungsfeld 1: Ausbildungsvoraussetzungen prüfen und Ausbildung planen](https://becertain.app/aevo/handlungsfeld-1/)
+
+- [Handlungsfeld 2: Ausbildung vorbereiten und bei der Einstellung von Auszubildenden mitwirken](https://becertain.app/aevo/handlungsfeld-2/)
+
+- [Handlungsfeld 3: Ausbildung durchführen](https://becertain.app/aevo/handlungsfeld-3/)
+
+- [Handlungsfeld 4: Ausbildung abschließen](https://becertain.app/aevo/handlungsfeld-4/)
+
+Der Rahmenplan des BIBB von 2023 teilt die Lehrgangsdauer so auf: 15 % für Handlungsfeld 1, 20 % für Handlungsfeld 2, 50 % für Handlungsfeld 3 und 15 % für Handlungsfeld 4. Wie stark die Prüfung die Felder gewichtet, steht weder in der Verordnung noch im Rahmenplan. Die Probeprüfung in der App verteilt ihre Aufgaben im selben Verhältnis wie der Rahmenplan; ob deine Prüfung das genauso macht, haben wir nicht geprüft.
+
+## Aufgaben: Fälle aus dem Ausbildungsalltag
+
+Die Verordnung verlangt fallbezogene Aufgaben. Eine Zahl der Aufgaben, ein Punkteschema oder ein Aufgabenformat legt sie nicht fest. Lehrbücher zur Prüfung arbeiten mit Auswahlaufgaben zu einer Ausgangssituation: ein kurzer Fall aus einem Betrieb, dazu mehrere Aufgaben. Bei Mehrfachauswahl steht dabei, wie viele Antworten richtig sind.
+
+Wie viele Aufgaben deine Prüfung hat und wie viele Punkte es gibt, regelt die Prüfungsordnung deiner zuständigen Stelle. Für sie gilt § 47 BBiG, auf den § 4 Abs. 5 AusbEignV verweist: Die Prüfungsordnung regelt unter anderem die Gliederung der Prüfung und die Bewertungsmaßstäbe. Wie solche Aufgaben gebaut sind, steht unter [AEVO-Prüfungsfragen: Aufbau und Aufgabentypen](https://becertain.app/aevo/fragen/).
+
+## Wann du bestehst
+
+Die Prüfung ist bestanden, „wenn jeder Prüfungsteil mit mindestens ‚ausreichend‘ bewertet wurde“ (§ 4 Abs. 1 Satz 3 AusbEignV). Ein sehr guter schriftlicher Teil gleicht einen nicht bestandenen praktischen Teil also nicht aus, und umgekehrt.
+
+Wie viele Punkte „ausreichend“ sind, steht nicht in der Verordnung, sondern im Bewertungsmaßstab der Prüfungsordnung (§ 47 Abs. 2 BBiG). Die App rechnet mit 50 von 100 Punkten. Diese Grenze haben wir nicht an einer Prüfungsordnung geprüft. Frag im Zweifel bei deiner Anmeldung nach.
+
+## Wiederholen und anrechnen
+
+Eine nicht bestandene Prüfung kannst du innerhalb eines Prüfungsverfahrens zweimal wiederholen. Hast du einen Teil bestanden, kann er dabei angerechnet werden (§ 4 Abs. 1 Satz 4 und 5 AusbEignV). Du schreibst dann zum Beispiel nur den schriftlichen Teil noch einmal.
+
+## Wer die Prüfung nicht ablegen muss
+
+Wer eine Meisterprüfung oder eine andere Fortbildungsprüfung nach Handwerksordnung oder BBiG bestanden hat, die die berufs- und arbeitspädagogische Eignung einschließt, gilt als geeignet (§ 6 Abs. 2 AusbEignV). Das gilt auch für eine bestandene Prüfung nach einer früheren Ausbilder-Eignungsverordnung (§ 6 Abs. 1). Andere Prüfungen, die den Anforderungen ganz oder teilweise entsprechen, können auf Antrag ganz oder teilweise befreien (§ 6 Abs. 3). Wer schon vor dem 1. August 2009 ausgebildet hat, ist unter den Bedingungen des § 7 befreit.
+
+## So übst du den schriftlichen Teil
+
+Die App AEVO Prüfung · becertain hat über 800 eigene Fragen nach dem Rahmenplan, jede mit Erklärung und Paragraf. Die Probeprüfung dauert 180 Minuten, mit Aufgaben zu Ausgangssituationen und den Lösungen erst nach der Abgabe. Den praktischen Teil mit Präsentation und Fachgespräch deckt die App nicht ab.
+
+[Zur AEVO-App](https://becertain.app/aevo/)
+
+Der Einstiegstest mit 40 Fragen ist gratis. Eine Frage kannst du gleich hier ausprobieren, zum Beispiel aus [Handlungsfeld 3](https://becertain.app/aevo/handlungsfeld-3/#probieren).
+
+## Häufige Fragen
+
+### Wie lange dauert die AEVO-Prüfung?
+
+Der schriftliche Teil soll drei Stunden dauern, also 180 Minuten (§ 4 Abs. 2 AusbEignV). Der praktische Teil mit Präsentation und Fachgespräch dauert zusammen höchstens 30 Minuten, die Präsentation höchstens 15 Minuten (§ 4 Abs. 3). In Landwirtschaft und Hauswirtschaft sind es höchstens 60 Minuten (§ 4 Abs. 4).
+
+### Wie viele Aufgaben hat die schriftliche AEVO-Prüfung?
+
+Die Ausbilder-Eignungsverordnung legt keine Zahl fest, sie verlangt nur fallbezogene Aufgaben aus allen vier Handlungsfeldern. Die Zahl steht in der Prüfungsordnung deiner zuständigen Stelle. Die Probeprüfung in der App hat 80 Aufgaben. Das ist ein Richtwert aus Lehrbüchern, an einer Prüfungsordnung haben wir ihn nicht geprüft.
+
+### Wann ist die AEVO-Prüfung bestanden?
+
+Wenn jeder Prüfungsteil, also der schriftliche und der praktische, mit mindestens „ausreichend“ bewertet wurde (§ 4 Abs. 1 Satz 3 AusbEignV). Wie viele Punkte das sind, regelt die Prüfungsordnung deiner zuständigen Stelle.
+
+### Wie oft darf ich die AEVO-Prüfung wiederholen?
+
+Eine nicht bestandene Prüfung kannst du innerhalb eines Prüfungsverfahrens zweimal wiederholen. Ein bestandener Prüfungsteil kann dabei angerechnet werden (§ 4 Abs. 1 Satz 4 und 5 AusbEignV).
+
+### Brauche ich mit Meisterbrief noch die AEVO-Prüfung?
+
+Meist nicht. Wer durch eine Meisterprüfung oder eine andere Fortbildungsprüfung nach Handwerksordnung oder BBiG die berufs- und arbeitspädagogische Eignung nachgewiesen hat, gilt als geeignet (§ 6 Abs. 2 AusbEignV).
+
+## Quellen
+
+- [§ 4 AusbEignV, Nachweis der Eignung](https://www.gesetze-im-internet.de/ausbeignv_2009/__4.html)
+
+- [§ 6 AusbEignV, Andere Nachweise](https://www.gesetze-im-internet.de/ausbeignv_2009/__6.html)
+
+- [§ 47 BBiG, Prüfungsordnung](https://www.gesetze-im-internet.de/bbig_2005/__47.html)
+
+- [Rahmenplan der Ausbilder-Eignungsverordnung, Hauptausschuss des BIBB vom 20. Juni 2023, BAnz AT 14.07.2023 S2 (PDF)](https://www.bibb.de/dokumente/pdf/HA135.pdf)
+
+---
+
+Seite: https://becertain.app/aevo/fragen/
+Titel: AEVO Prüfungsfragen: Aufbau und Aufgabentypen · becertain
+Stand: 2026-10-30
+
+AEVO Prüfung · Fragen
+
+# AEVO-Prüfungsfragen: so sind die Aufgaben aufgebaut
+
+Die schriftliche AEVO-Prüfung stellt fallbezogene Aufgaben aus vier Handlungsfeldern (§ 4 Abs. 2 AusbEignV). Eine Prüfungsfrage besteht meist aus einem kurzen Fall aus einem Betrieb, einer Frage und mehreren Antworten; bei Mehrfachauswahl steht dabei, wie viele richtig sind. becertain hat für die App AEVO Prüfung über 800 eigene Übungsfragen nach dem Rahmenplan geschrieben, jede mit Erklärung und Paragraf. Auf den vier Seiten zu den Handlungsfeldern probierst du je eine davon aus.
+
+Stand: 30. Oktober 2026. Verantwortlich: Sergej Markwart, becertain. Quellen am Ende der Seite.
+
+## Was eine AEVO-Prüfungsfrage ausmacht
+
+Die Verordnung spricht von fallbezogenen Aufgaben. Gemeint ist: Du bekommst eine Lage aus dem Ausbildungsalltag und entscheidest, was rechtlich gilt oder was pädagogisch sinnvoll ist. Typisch ist eine Ausgangssituation, also ein kurzer Text über einen Betrieb und seine Auszubildenden. Dazu gehören mehrere Aufgaben, die sich alle auf diesen Fall beziehen. Wer die Ausgangssituation genau liest, findet dort oft die Angabe, auf die es ankommt: das Alter der Auszubildenden, die Dauer der Probezeit oder ob es einen Betriebsrat gibt.
+
+Viele Fragen prüfen Paragrafen aus dem Berufsbildungsgesetz, dem Jugendarbeitsschutzgesetz oder dem Betriebsverfassungsgesetz. Andere prüfen Inhalte aus dem Rahmenplan, etwa Ausbildungsmethoden, Feedback oder Beurteilungsfehler. Dort gibt es keinen Paragrafen, die Lösung folgt aus dem Rahmenplan und der Lehrmeinung.
+
+## Die Aufgabentypen
+
+### Einfachauswahl
+
+Vier Antworten, genau eine ist richtig. In der App steht darunter „Wähle eine Antwort.“ Gut die Hälfte der Fragen in der App ist so gebaut.
+
+### Mehrfachauswahl mit Angabe der Anzahl
+
+Mehrere Antworten sind richtig, und die Aufgabe sagt dir, wie viele: „Wähle 2 Antworten.“ Lehrbücher zur AEVO zeigen dieses Format mit der Zahl der richtigen Antworten in Klammern. In der App ist etwa jede vierte Frage eine Mehrfachauswahl. Die Punkte gibt es in der App nur, wenn deine Auswahl ganz stimmt.
+
+### Zuordnung und Reihenfolge
+
+Zum Üben hat die App zusätzlich Aufgaben, in denen du Begriffe zuordnest oder Schritte in die richtige Reihenfolge bringst, zum Beispiel die Schritte vom Vertragsschluss bis zur Eintragung. Ob deine Prüfung solche Aufgaben stellt, regelt die Prüfungsordnung; geprüft haben wir das nicht.
+
+## Warum zu jeder Lösung die Quelle gehört
+
+Eine Lösung ohne Begründung hilft dir in der Prüfung wenig, weil dort andere Fälle kommen. In der App nennt jede Lösung die Stelle in Gesetz, Verordnung oder Rahmenplan, aus der sie folgt, mit dem Wortlaut zum Aufklappen und dem Rechtsstand 26.10.2026. So lernst du die Regel und nicht nur die Antwort. Findest du einen Fehler, meldest du ihn direkt an der Frage.
+
+## Fragen je Handlungsfeld
+
+Auf jeder Seite stehen die Themen des Rahmenplans in eigenen Worten und eine Frage aus der App zum Ausprobieren.
+
+- [Handlungsfeld 1: Ausbildungsvoraussetzungen prüfen und Ausbildung planen](https://becertain.app/aevo/handlungsfeld-1/)
+
+- [Handlungsfeld 2: Ausbildung vorbereiten und bei der Einstellung mitwirken](https://becertain.app/aevo/handlungsfeld-2/)
+
+- [Handlungsfeld 3: Ausbildung durchführen](https://becertain.app/aevo/handlungsfeld-3/)
+
+- [Handlungsfeld 4: Ausbildung abschließen](https://becertain.app/aevo/handlungsfeld-4/)
+
+Wie die Prüfung insgesamt abläuft, steht unter [AEVO-Prüfung: Ablauf, Dauer und Bestehen](https://becertain.app/aevo/pruefung/).
+
+## Gratis üben: der Einstiegstest
+
+In der App beginnst du mit dem Einstiegstest: 30 Fragen aus allen vier Handlungsfeldern mit voller Erklärung, danach 10 neue Aufgaben auf Zeit. Die Auswertung zeigt dir, wie viel du je Handlungsfeld richtig hattest. Der Einstiegstest ist gratis, Pro mit allen Fragen kaufst du einmal, kein Abo.
+
+[Zur AEVO-App](https://becertain.app/aevo/)
+
+## Quellen
+
+- [§ 4 AusbEignV, Nachweis der Eignung](https://www.gesetze-im-internet.de/ausbeignv_2009/__4.html)
+
+- [Rahmenplan der Ausbilder-Eignungsverordnung, Hauptausschuss des BIBB vom 20. Juni 2023, BAnz AT 14.07.2023 S2 (PDF)](https://www.bibb.de/dokumente/pdf/HA135.pdf)
+
+---
+
+Seite: https://becertain.app/aevo/handlungsfeld-1/
+Titel: AEVO Handlungsfeld 1: Ausbildung planen · becertain
+Stand: 2026-10-30
+
+AEVO Prüfung · Handlungsfeld 1
+
+# AEVO Handlungsfeld 1: Ausbildungsvoraussetzungen prüfen und Ausbildung planen
+
+Handlungsfeld 1 der Ausbilder-Eignungsverordnung (§ 3 Abs. 1 AusbEignV) fragt, ob und wie ein Betrieb ausbilden kann: Nutzen der Ausbildung, Bedarf, Berufsbildungssystem, Wahl des Berufs, Eignung von Betrieb und Ausbilder, Berufsvorbereitung und die Rollen im Betrieb. Der Rahmenplan von 2023 gibt ihm 15 % der Lehrgangsdauer. Hier stehen die sieben Themen in eigenen Worten, dazu eine Übungsfrage aus der App AEVO Prüfung · becertain und wie die App dieses Feld abdeckt.
+
+Stand: 30. Oktober 2026. Verantwortlich: Sergej Markwart, becertain. Quellen am Ende der Seite.
+
+## Die 7 Themen nach Rahmenplan
+
+Grundlage sind § 3 Abs. 1 AusbEignV und der Rahmenplan von 2023. Die Texte fassen die Kompetenzen in eigenen Worten zusammen, die Paragrafen zeigen, wo du nachlesen kannst.
+
+### 1.1 Vorteile und Nutzen der Ausbildung
+
+Du begründest, warum ein Betrieb ausbildet: Er sichert sich Fachkräfte, die seine Abläufe kennen, und spart Kosten für Suche und Einarbeitung. Ziel jeder Ausbildung ist die berufliche Handlungsfähigkeit (§ 1 Abs. 3 BBiG). Dazu gehören Kosten und Fördermöglichkeiten, Ausbildungsvergütung und Sozialversicherung.
+
+### 1.2 Ausbildungsbedarf planen
+
+Wie viele Auszubildende braucht der Betrieb, in welchen Berufen, ab wann? Du planst nach dem künftigen Personalbedarf und beachtest den rechtlichen Rahmen: BBiG, Handwerksordnung, Jugendarbeitsschutzgesetz, Arbeitszeitgesetz und Tarifverträge. Die Vergütung muss angemessen sein und darf die Mindestvergütung nicht unterschreiten (§ 17 BBiG).
+
+### 1.3 Berufsbildungssystem und Schnittstellen
+
+Im dualen System lernen Auszubildende im Betrieb und in der Berufsschule (§ 2 BBiG). Du kennst die Aufgaben der zuständigen Stellen, also der Kammern, und des Berufsbildungsausschusses. Dazu kommen die Wege nach der Ausbildung: Fortbildung, Meister, Studium, eingeordnet im Deutschen Qualifikationsrahmen.
+
+### 1.4 Ausbildungsberufe auswählen
+
+Ausgebildet wird in staatlich anerkannten Berufen nach ihrer Ausbildungsordnung (§ 4 BBiG). Die Ausbildungsordnung legt Bezeichnung, Dauer, Berufsbild, Ausbildungsrahmenplan und Prüfungsanforderungen fest (§ 5 BBiG). Du wählst den Beruf, der zu den Aufgaben des Betriebs passt, und kennst Regelungen für Menschen mit Behinderung.
+
+### 1.5 Eignung von Betrieb und Ausbildenden prüfen
+
+Einstellen darf, wer persönlich geeignet ist; ausbilden darf, wer persönlich und fachlich geeignet ist (§ 28 Abs. 1 BBiG). Die Ausbildungsstätte muss nach Art und Einrichtung geeignet sein (§ 27 BBiG). Fehlt ihr ein Teil, kann er außerhalb vermittelt werden, etwa überbetrieblich oder im Ausbildungsverbund. Die zuständige Stelle überwacht und berät (§ 76 BBiG).
+
+### 1.6 Berufsvorbereitende Maßnahmen
+
+Nicht jede Bewerberin ist sofort ausbildungsreif. Du kennst Wege dorthin: Berufsausbildungsvorbereitung nach § 68 BBiG, Einstiegsqualifizierung und Assistierte Ausbildung nach dem SGB III. Partner sind Schulen, die Agentur für Arbeit und Jugendberufsagenturen.
+
+### 1.7 Aufgaben der Mitwirkenden abstimmen
+
+Im Betrieb wirken mehrere Personen mit: der Ausbildende als Vertragspartner, die bestellten Ausbilder und ausbildende Fachkräfte, die unter Verantwortung des Ausbilders mitwirken (§ 28 Abs. 3 BBiG). Du stimmst ihre Aufgaben ab und beachtest die Rechte des Betriebsrats bei der Berufsbildung (§ 98 BetrVG).
+
+## Probier eine Frage
+
+Eine Aufgabe aus der App zu Handlungsfeld 1, Thema 1.5. Wähle eine Antwort und prüf sie. Danach liest du die Erklärung und den Paragrafen, wie in der App.
+
+Herr Okafor führt einen Bürofachhandel. Er ist persönlich geeignet, hat aber keine Ausbildereignung und will auch nicht selbst ausbilden. Darf er eine Auszubildende einstellen?
+
+Lösung: Ja, wenn er eine persönlich und fachlich geeignete Person als Ausbilderin oder Ausbilder bestellt, nach § 28 Abs. 1 und 2 BBiG. Zum Ausprobieren braucht die Seite JavaScript.
+
+## So deckt die App Handlungsfeld 1 ab
+
+In der App AEVO Prüfung · becertain hat Handlungsfeld 1 über 140 eigene Übungsfragen, verteilt auf alle Themen oben. Jede Lösung nennt die Stelle, aus der sie folgt, hier vor allem das Berufsbildungsgesetz, die Handwerksordnung, das SGB III und das Betriebsverfassungsgesetz. Den Wortlaut klappst du unter der Erklärung auf. In der Probeprüfung über 180 Minuten stammen 15 % der Aufgaben aus diesem Handlungsfeld, so wie der Rahmenplan die Lehrgangsdauer aufteilt. Ob deine Prüfung genauso gewichtet, haben wir nicht geprüft.
+
+Nach dem Einstiegstest mit 40 Fragen zeigt dir die Auswertung, wie viel du in Handlungsfeld 1 richtig hattest. Jede falsche Antwort kommt später wieder dran, bis du sie richtig hast. Der Einstiegstest ist gratis, Pro kaufst du einmal, kein Abo.
+
+[Zur AEVO-App](https://becertain.app/aevo/)
+
+Erst den Einstiegstest machen, dann entscheiden.
+
+## Weiterlesen
+
+- [Handlungsfeld 2: Ausbildung vorbereiten und bei der Einstellung von Auszubildenden mitwirken](https://becertain.app/aevo/handlungsfeld-2/)
+
+- [Handlungsfeld 3: Ausbildung durchführen](https://becertain.app/aevo/handlungsfeld-3/)
+
+- [Handlungsfeld 4: Ausbildung abschließen](https://becertain.app/aevo/handlungsfeld-4/)
+
+- [AEVO-Prüfung: Ablauf, Dauer und Bestehen](https://becertain.app/aevo/pruefung/)
+
+- [AEVO-Prüfungsfragen: Aufbau und Aufgabentypen](https://becertain.app/aevo/fragen/)
+
+## Quellen
+
+- [§ 3 AusbEignV, Handlungsfelder](https://www.gesetze-im-internet.de/ausbeignv_2009/__3.html)
+
+- [§ 28 BBiG, Eignung von Ausbildenden und Ausbildern](https://www.gesetze-im-internet.de/bbig_2005/__28.html)
+
+- [Ausbilder-Eignungsverordnung (AusbEignV) vom 21. Januar 2009, gesetze-im-internet.de](https://www.gesetze-im-internet.de/ausbeignv_2009/)
+
+- [Rahmenplan der Ausbilder-Eignungsverordnung, Hauptausschuss des BIBB vom 20. Juni 2023, BAnz AT 14.07.2023 S2 (PDF)](https://www.bibb.de/dokumente/pdf/HA135.pdf)
+
+---
+
+Seite: https://becertain.app/aevo/handlungsfeld-2/
+Titel: AEVO Handlungsfeld 2: Ausbildung vorbereiten · becertain
+Stand: 2026-10-30
+
+AEVO Prüfung · Handlungsfeld 2
+
+# AEVO Handlungsfeld 2: Ausbildung vorbereiten und bei der Einstellung von Auszubildenden mitwirken
+
+Handlungsfeld 2 der Ausbilder-Eignungsverordnung (§ 3 Abs. 2 AusbEignV) deckt alles ab, was vor dem ersten Ausbildungstag passiert: betrieblicher Ausbildungsplan, Beteiligung von Betriebsrat und Jugend- und Auszubildendenvertretung, Abstimmung mit der Berufsschule, Auswahl der Auszubildenden, Vertrag und Eintragung, Ausbildung im Ausland. Der Rahmenplan von 2023 gibt ihm 20 % der Lehrgangsdauer. Hier stehen die sechs Themen in eigenen Worten, dazu eine Übungsfrage aus der App AEVO Prüfung · becertain.
+
+Stand: 30. Oktober 2026. Verantwortlich: Sergej Markwart, becertain. Quellen am Ende der Seite.
+
+## Die 6 Themen nach Rahmenplan
+
+Grundlage sind § 3 Abs. 2 AusbEignV und der Rahmenplan von 2023. Die Texte fassen die Kompetenzen in eigenen Worten zusammen, die Paragrafen zeigen, wo du nachlesen kannst.
+
+### 2.1 Betrieblichen Ausbildungsplan erstellen
+
+Aus dem Ausbildungsrahmenplan der Ausbildungsordnung machst du einen Plan für deinen Betrieb: welche Inhalte wann, in welcher Abteilung, bei wem. Die sachliche und zeitliche Gliederung gehört in die Vertragsabfassung (§ 11 Abs. 1 Nr. 2 BBiG). Dazu gehören Versetzungspläne, Lernorte und Fragen der Dauer: Anrechnung, Verkürzung, Teilzeit.
+
+### 2.2 Interessenvertretungen beteiligen
+
+Betriebsrat, Personalrat, Schwerbehindertenvertretung und Jugend- und Auszubildendenvertretung haben Rechte in der Berufsbildung. Eine Jugend- und Auszubildendenvertretung wird gewählt, wenn ein Betrieb in der Regel mindestens fünf Jugendliche oder Auszubildende beschäftigt (§ 60 BetrVG). Du informierst die Vertretungen rechtzeitig und beachtest ihre Mitbestimmung bei Auswahl und Durchführung.
+
+### 2.3 Mit Kooperationspartnern abstimmen
+
+Betrieb und Berufsschule wirken zusammen, das Gesetz nennt das Lernortkooperation (§ 2 Abs. 2 BBiG). Für den Berufsschulunterricht stellst du Auszubildende frei (§ 15 BBiG). Dazu kommen überbetriebliche Lehrgänge, Auftrags- und Verbundausbildung und die Agentur für Arbeit.
+
+### 2.4 Auszubildende auswählen
+
+Du planst das Ausbildungsmarketing, legst Kriterien aus dem Beruf und dem Betrieb fest und wählst ein Verfahren: Test, Gespräch, Praktikum. Das Allgemeine Gleichbehandlungsgesetz verbietet Benachteiligung, auch schon in der Stellenanzeige (§ 11 AGG).
+
+### 2.5 Ausbildungsvertrag und Eintragung
+
+Den wesentlichen Inhalt des Vertrags fasst der Betrieb vor Beginn der Ausbildung in Textform ab (§ 11 BBiG). Manche Vereinbarungen sind nichtig, etwa Vertragsstrafen oder pauschaler Schadensersatz (§ 12 BBiG). Der Vertrag wird ins Verzeichnis der zuständigen Stelle eingetragen (§ 35 BBiG); bei Minderjährigen braucht es die ärztliche Erstuntersuchung (§ 32 JArbSchG). Die Probezeit dauert einen bis vier Monate (§ 20 BBiG).
+
+### 2.6 Ausbildung im Ausland
+
+Teile der Ausbildung können im Ausland stattfinden, wenn das dem Ausbildungsziel dient. Zusammen sollen sie ein Viertel der Ausbildungsdauer nicht überschreiten (§ 2 Abs. 3 BBiG). Du kennst Beratung, Förderprogramme und klärst Vergütung und Berufsschule.
+
+## Probier eine Frage
+
+Eine Aufgabe aus der App zu Handlungsfeld 2, Thema 2.5. Wähle eine Antwort und prüf sie. Danach liest du die Erklärung und den Paragrafen, wie in der App.
+
+Im Vertragsentwurf einer Kfz-Werkstatt steht: „Beschädigt der Auszubildende Werkzeug, zahlt er pauschal 200 Euro.“ Wie ist diese Klausel zu bewerten?
+
+Lösung: Sie ist nichtig, weil Schadensersatz nicht pauschal festgesetzt werden darf, nach § 12 Abs. 2 Nr. 4 BBiG. Zum Ausprobieren braucht die Seite JavaScript.
+
+## So deckt die App Handlungsfeld 2 ab
+
+In der App AEVO Prüfung · becertain hat Handlungsfeld 2 über 180 eigene Übungsfragen, verteilt auf alle Themen oben. Jede Lösung nennt die Stelle, aus der sie folgt, hier vor allem das Berufsbildungsgesetz, das Betriebsverfassungsgesetz, das Jugendarbeitsschutzgesetz und das Allgemeine Gleichbehandlungsgesetz. Den Wortlaut klappst du unter der Erklärung auf. In der Probeprüfung über 180 Minuten stammen 20 % der Aufgaben aus diesem Handlungsfeld, so wie der Rahmenplan die Lehrgangsdauer aufteilt. Ob deine Prüfung genauso gewichtet, haben wir nicht geprüft.
+
+Nach dem Einstiegstest mit 40 Fragen zeigt dir die Auswertung, wie viel du in Handlungsfeld 2 richtig hattest. Jede falsche Antwort kommt später wieder dran, bis du sie richtig hast. Der Einstiegstest ist gratis, Pro kaufst du einmal, kein Abo.
+
+[Zur AEVO-App](https://becertain.app/aevo/)
+
+Erst den Einstiegstest machen, dann entscheiden.
+
+## Weiterlesen
+
+- [Handlungsfeld 1: Ausbildungsvoraussetzungen prüfen und Ausbildung planen](https://becertain.app/aevo/handlungsfeld-1/)
+
+- [Handlungsfeld 3: Ausbildung durchführen](https://becertain.app/aevo/handlungsfeld-3/)
+
+- [Handlungsfeld 4: Ausbildung abschließen](https://becertain.app/aevo/handlungsfeld-4/)
+
+- [AEVO-Prüfung: Ablauf, Dauer und Bestehen](https://becertain.app/aevo/pruefung/)
+
+- [AEVO-Prüfungsfragen: Aufbau und Aufgabentypen](https://becertain.app/aevo/fragen/)
+
+## Quellen
+
+- [§ 3 AusbEignV, Handlungsfelder](https://www.gesetze-im-internet.de/ausbeignv_2009/__3.html)
+
+- [§ 12 BBiG, Nichtige Vereinbarungen](https://www.gesetze-im-internet.de/bbig_2005/__12.html)
+
+- [Ausbilder-Eignungsverordnung (AusbEignV) vom 21. Januar 2009, gesetze-im-internet.de](https://www.gesetze-im-internet.de/ausbeignv_2009/)
+
+- [Rahmenplan der Ausbilder-Eignungsverordnung, Hauptausschuss des BIBB vom 20. Juni 2023, BAnz AT 14.07.2023 S2 (PDF)](https://www.bibb.de/dokumente/pdf/HA135.pdf)
+
+---
+
+Seite: https://becertain.app/aevo/handlungsfeld-3/
+Titel: AEVO Handlungsfeld 3: Ausbildung durchführen · becertain
+Stand: 2026-10-30
+
+AEVO Prüfung · Handlungsfeld 3
+
+# AEVO Handlungsfeld 3: Ausbildung durchführen
+
+Handlungsfeld 3 der Ausbilder-Eignungsverordnung (§ 3 Abs. 3 AusbEignV) ist der Ausbildungsalltag: Lernkultur und Feedback, Probezeit, Lern- und Arbeitsaufgaben, Methoden und Medien, Lernschwierigkeiten, Verkürzung, Konflikte, Beurteilung und interkulturelle Kompetenz. Mit 50 % der Lehrgangsdauer ist es laut Rahmenplan von 2023 das größte der vier Felder. Hier stehen die neun Themen in eigenen Worten, dazu eine Übungsfrage aus der App AEVO Prüfung · becertain.
+
+Stand: 30. Oktober 2026. Verantwortlich: Sergej Markwart, becertain. Quellen am Ende der Seite.
+
+## Die 9 Themen nach Rahmenplan
+
+Grundlage sind § 3 Abs. 3 AusbEignV und der Rahmenplan von 2023. Die Texte fassen die Kompetenzen in eigenen Worten zusammen, die Paragrafen zeigen, wo du nachlesen kannst.
+
+### 3.1 Lernförderliche Bedingungen und Lernkultur
+
+Du sorgst für eine Lernumgebung, in der Auszubildende Fehler machen dürfen und daraus lernen. Dazu gehören Motivation, Lernziele, Feedback in beide Richtungen und der Ausbildungsnachweis, den du regelmäßig durchsiehst (§ 14 Abs. 2 BBiG).
+
+### 3.2 Probezeit organisieren und bewerten
+
+Die Ausbildung beginnt mit der Probezeit von einem bis vier Monaten (§ 20 BBiG). In dieser Zeit können beide Seiten ohne Frist kündigen, aber nur schriftlich (§ 22 BBiG). Du planst die Einführung, unterweist Jugendliche vor Beginn über Gefahren (§ 29 JArbSchG) und besprichst am Ende, wie es weitergeht.
+
+### 3.3 Lern- und Arbeitsaufgaben entwickeln
+
+Aus dem betrieblichen Ausbildungsplan und echten Aufträgen machst du Lern- und Arbeitsaufgaben mit klaren Lernzielen. Der Rahmenplan nennt dafür das Modell der vollständigen Handlung und das Lernen an realen Betriebsabläufen.
+
+### 3.4 Ausbildungsmethoden und Medien
+
+Du wählst Methoden und Medien nach Lernziel, Lernvoraussetzungen und Ausbildungsstand: auftragsorientierte Methoden, Simulation, praktische Erarbeitung, selbstgesteuertes Lernen, auch digitale Medien. Dieses Thema brauchst du auch im praktischen Teil der Prüfung, wenn du eine Ausbildungssituation präsentierst.
+
+### 3.5 Lernschwierigkeiten und Förderung
+
+Du erkennst Lernschwierigkeiten, suchst die Ursachen und bietest Lernberatung an. Hilfe von außen gibt es etwa über die Assistierte Ausbildung der Agentur für Arbeit (§ 74 SGB III). Reicht die Zeit nicht, kann die zuständige Stelle auf Antrag der Auszubildenden die Ausbildung verlängern (§ 8 Abs. 2 BBiG).
+
+### 3.6 Zusatzangebote und Verkürzung
+
+Starke Auszubildende förderst du mit Zusatzqualifikationen und mehr Verantwortung. Auf gemeinsamen Antrag kürzt die zuständige Stelle die Ausbildungsdauer, wenn das Ziel in kürzerer Zeit erreichbar ist (§ 8 Abs. 1 BBiG). Bei guten Leistungen ist auch eine vorzeitige Prüfung möglich (§ 45 Abs. 1 BBiG).
+
+### 3.7 Soziale und persönliche Entwicklung, Konflikte
+
+Der Betrieb muss Auszubildende charakterlich fördern und darf sie nicht gefährden (§ 14 Abs. 1 Nr. 5 BBiG). Du erkennst Konflikte früh, führst Gespräche wertschätzend und arbeitest daran, dass Ausbildungen nicht abgebrochen werden.
+
+### 3.8 Leistungen feststellen und beurteilen
+
+Du kontrollierst Lernerfolge mit Beobachtung, Arbeitsproben oder Präsentationen und vermeidest Beurteilungsfehler wie den Halo-Effekt oder den Nikolaus-Effekt. Du führst Beurteilungsgespräche und wertest Berufsschulzeugnisse und Zwischenprüfung aus (§ 48 BBiG).
+
+### 3.9 Interkulturelle Kompetenz
+
+Du begegnest Auszubildenden aus allen Kulturkreisen offen und förderst respektvollen Umgang im Team. Der Arbeitgeber muss Beschäftigte vor Benachteiligung schützen und dagegen vorbeugen (§ 12 AGG).
+
+## Probier eine Frage
+
+Eine Aufgabe aus der App zu Handlungsfeld 3, Thema 3.2. Wähle eine Antwort und prüf sie. Danach liest du die Erklärung und den Paragrafen, wie in der App.
+
+Eine Friseurmeisterin will ihrer Auszubildenden Selin in der Probezeit per Kurznachricht kündigen, weil Selin häufig zu spät kommt. Was gilt?
+
+Lösung: Die Kündigung ist unwirksam, weil sie schriftlich und nicht elektronisch erfolgen muss, nach § 22 Abs. 3 BBiG. Zum Ausprobieren braucht die Seite JavaScript.
+
+## So deckt die App Handlungsfeld 3 ab
+
+In der App AEVO Prüfung · becertain hat Handlungsfeld 3 über 370 eigene Übungsfragen, verteilt auf alle Themen oben. Jede Lösung nennt die Stelle, aus der sie folgt, hier vor allem der Rahmenplan, das Berufsbildungsgesetz, das Jugendarbeitsschutzgesetz und das Allgemeine Gleichbehandlungsgesetz. Den Wortlaut klappst du unter der Erklärung auf. In der Probeprüfung über 180 Minuten stammen 50 % der Aufgaben aus diesem Handlungsfeld, so wie der Rahmenplan die Lehrgangsdauer aufteilt. Ob deine Prüfung genauso gewichtet, haben wir nicht geprüft.
+
+Nach dem Einstiegstest mit 40 Fragen zeigt dir die Auswertung, wie viel du in Handlungsfeld 3 richtig hattest. Jede falsche Antwort kommt später wieder dran, bis du sie richtig hast. Der Einstiegstest ist gratis, Pro kaufst du einmal, kein Abo.
+
+[Zur AEVO-App](https://becertain.app/aevo/)
+
+Erst den Einstiegstest machen, dann entscheiden.
+
+## Weiterlesen
+
+- [Handlungsfeld 1: Ausbildungsvoraussetzungen prüfen und Ausbildung planen](https://becertain.app/aevo/handlungsfeld-1/)
+
+- [Handlungsfeld 2: Ausbildung vorbereiten und bei der Einstellung von Auszubildenden mitwirken](https://becertain.app/aevo/handlungsfeld-2/)
+
+- [Handlungsfeld 4: Ausbildung abschließen](https://becertain.app/aevo/handlungsfeld-4/)
+
+- [AEVO-Prüfung: Ablauf, Dauer und Bestehen](https://becertain.app/aevo/pruefung/)
+
+- [AEVO-Prüfungsfragen: Aufbau und Aufgabentypen](https://becertain.app/aevo/fragen/)
+
+## Quellen
+
+- [§ 3 AusbEignV, Handlungsfelder](https://www.gesetze-im-internet.de/ausbeignv_2009/__3.html)
+
+- [§ 22 BBiG, Kündigung](https://www.gesetze-im-internet.de/bbig_2005/__22.html)
+
+- [Ausbilder-Eignungsverordnung (AusbEignV) vom 21. Januar 2009, gesetze-im-internet.de](https://www.gesetze-im-internet.de/ausbeignv_2009/)
+
+- [Rahmenplan der Ausbilder-Eignungsverordnung, Hauptausschuss des BIBB vom 20. Juni 2023, BAnz AT 14.07.2023 S2 (PDF)](https://www.bibb.de/dokumente/pdf/HA135.pdf)
+
+---
+
+Seite: https://becertain.app/aevo/handlungsfeld-4/
+Titel: AEVO Handlungsfeld 4: Ausbildung abschließen · becertain
+Stand: 2026-10-30
+
+AEVO Prüfung · Handlungsfeld 4
+
+# AEVO Handlungsfeld 4: Ausbildung abschließen
+
+Handlungsfeld 4 der Ausbilder-Eignungsverordnung (§ 3 Abs. 4 AusbEignV) ist das Ende der Ausbildung: Vorbereitung auf die Abschluss- oder Gesellenprüfung, Anmeldung bei der zuständigen Stelle, Zeugnis, Übernahme und Weiterbildung. Der Rahmenplan von 2023 gibt ihm 15 % der Lehrgangsdauer. Hier stehen die vier Themen in eigenen Worten, dazu eine Übungsfrage aus der App AEVO Prüfung · becertain und wie die App dieses Feld abdeckt.
+
+Stand: 30. Oktober 2026. Verantwortlich: Sergej Markwart, becertain. Quellen am Ende der Seite.
+
+## Die 4 Themen nach Rahmenplan
+
+Grundlage sind § 3 Abs. 4 AusbEignV und der Rahmenplan von 2023. Die Texte fassen die Kompetenzen in eigenen Worten zusammen, die Paragrafen zeigen, wo du nachlesen kannst.
+
+### 4.1 Auf die Prüfung vorbereiten und zum Abschluss führen
+
+Die Prüfungsanforderungen stehen in der Ausbildungsordnung (§ 5 Abs. 1 Nr. 5 BBiG). Du bereitest Auszubildende darauf vor, auch mit Übungsprüfungen und Hilfe gegen Prüfungsangst. Besteht jemand nicht, verlängert sich die Ausbildung auf Verlangen bis zur nächsten Wiederholungsprüfung, höchstens um ein Jahr (§ 21 Abs. 3 BBiG). Die Abschlussprüfung kann zweimal wiederholt werden (§ 37 Abs. 1 BBiG).
+
+### 4.2 Zur Prüfung anmelden und Besonderheiten mitteilen
+
+Zur Abschlussprüfung kommt, wer die Ausbildungsdauer zurückgelegt hat, den Ausbildungsnachweis vorlegt und dessen Vertrag eingetragen ist (§ 43 Abs. 1 BBiG). Du achtest auf Anmeldetermine, die Freistellung (§ 15 BBiG) und teilst Besonderheiten mit, zum Beispiel einen Nachteilsausgleich für Menschen mit Behinderung (§ 65 BBiG).
+
+### 4.3 Am Zeugnis mitwirken
+
+Bei Ende der Ausbildung bekommt jede Auszubildende ein schriftliches Zeugnis, egal wann und warum die Ausbildung endet (§ 16 Abs. 1 BBiG). Es nennt Art, Dauer und Ziel der Ausbildung und die erworbenen Fertigkeiten; auf Verlangen auch Verhalten und Leistung (§ 16 Abs. 2). Formulierungen müssen klar sein und dürfen nichts verstecken (§ 109 Abs. 2 GewO).
+
+### 4.4 Über Übernahme und Weiterbildung beraten
+
+Arbeitet jemand nach der Ausbildung einfach weiter, entsteht ein unbefristetes Arbeitsverhältnis (§ 24 BBiG). Eine Pflicht, im Betrieb zu bleiben, darf erst in den letzten sechs Monaten vereinbart werden (§ 12 Abs. 1 BBiG). Du berätst über Fortbildung, etwa zum Meister, und über Förderung wie das Aufstiegs-BAföG nach dem AFBG.
+
+## Probier eine Frage
+
+Eine Aufgabe aus der App zu Handlungsfeld 4, Thema 4.3. Wähle eine Antwort und prüf sie. Danach liest du die Erklärung und den Paragrafen, wie in der App.
+
+Ein Auszubildender kündigt bei einem Sanitärgroßhandel nach sechs Wochen in der Probezeit und verlangt ein Zeugnis. Der Betrieb meint, bei so kurzer Zeit gebe es keines. Was gilt?
+
+Lösung: Er hat Anspruch, das Zeugnis ist bei jeder Beendigung auszustellen, nach § 16 Abs. 1 und 2 BBiG. Zum Ausprobieren braucht die Seite JavaScript.
+
+## So deckt die App Handlungsfeld 4 ab
+
+In der App AEVO Prüfung · becertain hat Handlungsfeld 4 über 140 eigene Übungsfragen, verteilt auf alle Themen oben. Jede Lösung nennt die Stelle, aus der sie folgt, hier vor allem das Berufsbildungsgesetz, das Aufstiegsfortbildungsförderungsgesetz, die Handwerksordnung und die Gewerbeordnung. Den Wortlaut klappst du unter der Erklärung auf. In der Probeprüfung über 180 Minuten stammen 15 % der Aufgaben aus diesem Handlungsfeld, so wie der Rahmenplan die Lehrgangsdauer aufteilt. Ob deine Prüfung genauso gewichtet, haben wir nicht geprüft.
+
+Nach dem Einstiegstest mit 40 Fragen zeigt dir die Auswertung, wie viel du in Handlungsfeld 4 richtig hattest. Jede falsche Antwort kommt später wieder dran, bis du sie richtig hast. Der Einstiegstest ist gratis, Pro kaufst du einmal, kein Abo.
+
+[Zur AEVO-App](https://becertain.app/aevo/)
+
+Erst den Einstiegstest machen, dann entscheiden.
+
+## Weiterlesen
+
+- [Handlungsfeld 1: Ausbildungsvoraussetzungen prüfen und Ausbildung planen](https://becertain.app/aevo/handlungsfeld-1/)
+
+- [Handlungsfeld 2: Ausbildung vorbereiten und bei der Einstellung von Auszubildenden mitwirken](https://becertain.app/aevo/handlungsfeld-2/)
+
+- [Handlungsfeld 3: Ausbildung durchführen](https://becertain.app/aevo/handlungsfeld-3/)
+
+- [AEVO-Prüfung: Ablauf, Dauer und Bestehen](https://becertain.app/aevo/pruefung/)
+
+- [AEVO-Prüfungsfragen: Aufbau und Aufgabentypen](https://becertain.app/aevo/fragen/)
+
+## Quellen
+
+- [§ 3 AusbEignV, Handlungsfelder](https://www.gesetze-im-internet.de/ausbeignv_2009/__3.html)
+
+- [§ 16 BBiG, Zeugnis](https://www.gesetze-im-internet.de/bbig_2005/__16.html)
+
+- [Ausbilder-Eignungsverordnung (AusbEignV) vom 21. Januar 2009, gesetze-im-internet.de](https://www.gesetze-im-internet.de/ausbeignv_2009/)
+
+- [Rahmenplan der Ausbilder-Eignungsverordnung, Hauptausschuss des BIBB vom 20. Juni 2023, BAnz AT 14.07.2023 S2 (PDF)](https://www.bibb.de/dokumente/pdf/HA135.pdf)
+
+---
+
+Seite: https://becertain.app/support/
+Titel: Support · becertain
+Stand: 2026-10-30
+
+Hilfe
+
+# Support
+
+Hinter becertain steht Sergej Markwart. Er liest jede Mail selbst.
+
+## Kontakt
+
+[Mail an sergej@mindcom.io](mailto:sergej@mindcom.io)
+
+Antwort meist innerhalb von zwei Werktagen. Am Wochenende und im Urlaub kann es länger dauern. Telefon-Support gibt es nicht.
+
+## Fehler in einer Aufgabe melden
+
+- Tippe in der Kopfzeile der Frage auf „Fehler melden“. Das geht an jeder Frage, auch in der Probeprüfung.
+
+- Wähle, was nicht stimmt, zum Beispiel „Die Lösung ist falsch“ oder „Die Quelle passt nicht“, und beschreib es kurz.
+
+- Tippe auf „Meldung speichern“. Die Meldung bleibt erst einmal auf deinem iPhone.
+
+- Unter Mehr › Fehlermeldungen sendest du sie „Per Mail“ oder teilst sie „Als Datei“.
+
+Die Meldung enthält die Aufgabe, die Art des Fehlers, deinen Text und die Version der App. Wir prüfen jede Meldung. Stimmt etwas nicht, korrigieren wir die Aufgabe mit einer der nächsten Aktualisierungen.
+
+## Technisches Problem
+
+Schreib uns eine Mail. Mit diesen Angaben können wir schneller helfen:
+
+- die Version der App, zu finden unter Mehr › Version
+
+- dein iPhone-Modell und die iOS-Version
+
+- was du getan hast und was dann passiert ist
+
+- ein Bildschirmfoto, wenn es hilft
+
+Lassen sich die Fragen nicht laden, bietet dir die App direkt „Fehler per Mail melden“ an.
+
+## Kauf und Pro
+
+### Pro auf einem neuen iPhone
+
+Öffne in der App die Seite Pro und tippe auf „Käufe wiederherstellen“. Du musst mit derselben Apple-ID angemeldet sein wie beim Kauf.
+
+### Erstattung
+
+Den Kauf wickelt Apple ab, Erstattungen entscheidet Apple. Du beantragst sie unter [reportaproblem.apple.com](https://reportaproblem.apple.com). Wir sehen keine Zahlungsdaten und können Käufe nicht selbst erstatten.
+
+## Deine Daten
+
+Dein Fortschritt liegt nur auf deinem iPhone. Löschst du die App, ist er weg. Mehr dazu unter [Datenschutz](https://becertain.app/datenschutz/).

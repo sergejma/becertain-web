@@ -55,7 +55,26 @@ Regel (SEO Blueprint, Muster aus getfaceit.com): Was rankt, wird nicht angefasst
 - Titel, Description, H1, JSON-LD und FAQ unverändert (nennen keine Fragenzahl).
 - Grund: Zahl statt Adjektiv; Umfang ist ein Kaufgrund für Pro. Messtermin wie oben.
 
+### 30.10.2026: AEVO-Hub mit sechs Inhaltsseiten, Audit, strukturierte Daten, KI-Suche (Entwurf, nicht veröffentlicht)
+
+Grundlage: SEO Blueprint der Knowledge Base (Keyword Research, On-Page-Elemente, Technischer Audit, Diagnose, Usability), CXL „SEO Prozess“ und „Bottom-of-funnel SEO“, Local SEO Phase 2 (llms.txt, KI-Crawler). Ausführlich mit Quelle je Maßnahme: `../docs/store/03-seo-massnahmen.md`.
+
+- Neue Seiten (je ein Hauptbegriff, Breadcrumb sichtbar und als `BreadcrumbList`, `Article`, auf Handlungsfeld- und Fragen-Seite zusätzlich `LearningResource`):
+  - `/aevo/pruefung/` „AEVO-Prüfung: Ablauf, Dauer, Aufgaben, Bestehen · becertain“, Hauptbegriff „aevo prüfung“ mit Info-Zusatz (Ablauf, Dauer, Bestehen); fünf FAQ mit `FAQPage`.
+  - `/aevo/fragen/` „AEVO Prüfungsfragen: Aufbau und Aufgabentypen · becertain“, Hauptbegriff „aevo prüfungsfragen“ (100 Suchen), Nebenbegriffe „ada schein prüfungsfragen“, „ausbildereignungsprüfung fragen“.
+  - `/aevo/handlungsfeld-1/` bis `-4/` „AEVO Handlungsfeld n: … · becertain“, Themen des Rahmenplans in eigenen Worten, je eine echte Aufgabe zum Ausprobieren (aevo-hf1.5-001, aevo-hf2.5-007, aevo-hf3.2-003, aevo-hf4.3-002; Einfachauswahl, mittel, mit BBiG-Paragraf), Fragenzahl je Feld gerundet (über 140, über 180, über 370, über 140). Suchvolumen für „aevo handlungsfeld“ ist nicht gemessen.
+- `/aevo/`: Titel und H1 unverändert. Description 167 auf 154 Zeichen, mit „Starte gratis mit dem Einstiegstest“. Neuer Abschnitt „Mehr zur AEVO-Prüfung“ mit Links auf alle sechs Seiten (vor dem Hinweis). JSON-LD: `Legislation` AEVO (sameAs Wikipedia, gesetze-im-internet.de), `MobileApplication` mit `featureList`, `audience`, `about`, `isAccessibleForFree`; keine Bewertungen.
+- `/`: Description mit Handlungsaufforderung, Lead nennt Sergej Markwart (mindcom) in Rheine, Ankertext „Mehr zur App“ wird „Mehr zur AEVO-App“.
+- `/datenschutz/`: Description 160 auf 140 Zeichen. Rechtstext unverändert.
+- Alle Seiten: `Organization` becertain mit `founder` (Person Sergej Markwart) und `parentOrganization` (mindcom, mindcom.io), `dateModified` 2026-10-30. Auf `/`, `/aevo/`, `/support/` sichtbar „Stand dieser Seite: 30. Oktober 2026“ im Fuß (`data-stand`), auf den neuen Seiten im Kopf.
+- `robots.txt`: KI-Crawler ausdrücklich erlaubt (GPTBot, OAI-SearchBot, ChatGPT-User, ClaudeBot, Claude-SearchBot, Claude-User, PerplexityBot, Perplexity-User, Google-Extended, Applebot-Extended, CCBot). `llms.txt` nach llmstxt.org mit Kernfakten, Seitenliste, Pflichthinweis, Kontakt; neu `llms-full.txt` (aus dem HTML erzeugt mit `tools/llms_full.py`).
+- `sitemap.xml`: zwölf Seiten, `lastmod` 2026-10-30.
+- `tools/pruefen.py`: Titel höchstens 60, Description 70 bis 155, Überschriften ohne Sprung, OG passend, Bilder mit Maßen und lazy, Pflichtfelder je Schema-Typ, @id-Verweise, FAQ sichtbar, Brotkrümel sichtbar, Datum sichtbar gleich `dateModified` gleich `lastmod`, verbotene Wörter auf neuen Seiten, nie 853, robots.txt, llms.txt, llms-full.txt aktuell.
+- Erwartung: Indexierung der sechs Seiten innerhalb von vier Wochen nach Einreichen; erste Impressionen für „aevo prüfung ablauf“, „aevo prüfungsfragen“, „aevo handlungsfeld 3“. Risiko: `/aevo/` und `/aevo/pruefung/` teilen „aevo prüfung“; in der Search Console auf Wechsel der URL je Suchanfrage achten.
+- Messtermin: vier Wochen nach Livegang, dann acht Wochen. Bis dahin Titel und H1 der neuen Seiten nicht anfassen.
+
 ## Messung
 
 - Erster Vergleich: vier Wochen nach Livegang in der Search Console (Indexierung, Impressionen und Position für „aevo prüfung", „aevo prüfung app", „ausbilderschein app", „becertain").
-- Bis dahin nicht anfassen: Titel und H1 von `/aevo/`, URL-Struktur (`/aevo/` bleibt die Wurzel aller AEVO-Seiten).
+- Bis dahin nicht anfassen: Titel und H1 von `/aevo/`, URL-Struktur (`/aevo/` bleibt die Wurzel aller AEVO-Seiten, Inhaltsseiten darunter).
+- Search Console: zuerst `/aevo/`, `/aevo/pruefung/`, `/aevo/fragen/`, `/aevo/handlungsfeld-3/` per URL-Prüfung zur Indexierung anmelden, danach die übrigen über die Sitemap.

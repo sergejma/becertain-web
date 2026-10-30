@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>becertain: Prüfungs-Apps mit Erklärung und Paragraf</title>
-  <meta name="description" content="becertain macht Prüfungstrainer für iPhone, eine App je Prüfung. Zu jeder Frage die Erklärung und der Paragraf, Probeprüfung auf Zeit, kein Abo.">
+  <meta name="description" content="becertain macht Prüfungstrainer für iPhone, eine App je Prüfung, mit Erklärung und Paragraf zu jeder Frage. Starte mit der AEVO-Prüfung, kein Abo.">
   <meta name="robots" content="index, follow, max-image-preview:large">
   <link rel="canonical" href="https://becertain.app/">
   <meta name="theme-color" content="#F5F6F8" media="(prefers-color-scheme: light)">
@@ -15,7 +15,7 @@
   <meta property="og:locale" content="de_DE">
   <meta property="og:url" content="https://becertain.app/">
   <meta property="og:title" content="becertain: Prüfungs-Apps mit Erklärung und Paragraf">
-  <meta property="og:description" content="becertain macht Prüfungstrainer für iPhone, eine App je Prüfung. Zu jeder Frage die Erklärung und der Paragraf, Probeprüfung auf Zeit, kein Abo.">
+  <meta property="og:description" content="becertain macht Prüfungstrainer für iPhone, eine App je Prüfung, mit Erklärung und Paragraf zu jeder Frage. Starte mit der AEVO-Prüfung, kein Abo.">
   <meta property="og:image" content="https://becertain.app/assets/og-becertain.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -46,10 +46,13 @@
       "name": "becertain",
       "url": "https://becertain.app/",
       "logo": "https://becertain.app/assets/icon-512.png",
+      "description": "Marke für Prüfungstrainer-Apps für iPhone von mindcom: eine App je Prüfung, zu jeder Frage Erklärung und Paragraf.",
       "email": "sergej@mindcom.io",
       "founder": {
-        "@type": "Person",
-        "name": "Sergej Markwart"
+        "@id": "https://becertain.app/#sergej-markwart"
+      },
+      "parentOrganization": {
+        "@id": "https://mindcom.io/#org"
       },
       "address": {
         "@type": "PostalAddress",
@@ -67,16 +70,40 @@
       }
     },
     {
+      "@type": "Organization",
+      "@id": "https://mindcom.io/#org",
+      "name": "mindcom",
+      "url": "https://mindcom.io/",
+      "email": "sergej@mindcom.io",
+      "founder": {
+        "@id": "https://becertain.app/#sergej-markwart"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://becertain.app/#sergej-markwart",
+      "name": "Sergej Markwart",
+      "url": "https://becertain.app/impressum/",
+      "worksFor": {
+        "@id": "https://mindcom.io/#org"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Rheine",
+        "addressCountry": "DE"
+      }
+    },
+    {
       "@type": "WebPage",
       "@id": "https://becertain.app/#webpage",
       "url": "https://becertain.app/",
       "name": "becertain: Prüfungs-Apps mit Erklärung und Paragraf",
-      "description": "becertain macht Prüfungstrainer für iPhone, eine App je Prüfung. Zu jeder Frage die Erklärung und der Paragraf, Probeprüfung auf Zeit, kein Abo.",
+      "description": "becertain macht Prüfungstrainer für iPhone, eine App je Prüfung, mit Erklärung und Paragraf zu jeder Frage. Starte mit der AEVO-Prüfung, kein Abo.",
       "inLanguage": "de-DE",
       "isPartOf": {
         "@id": "https://becertain.app/#website"
       },
-      "dateModified": "2026-10-28"
+      "dateModified": "2026-10-30"
     }
   ]
 }
@@ -95,7 +122,7 @@
       <div class="wrap">
         <p class="label">Prüfungstrainer für iPhone</p>
         <h1>Prüfungsfragen mit Erklärung und Paragraf.</h1>
-        <p class="lead">becertain macht Prüfungstrainer, eine App je Prüfung. Zu jeder Frage liest du, warum die Antwort stimmt und in welchem Paragrafen das steht. Du schreibst Probeprüfungen auf Zeit und siehst, wo dir noch Punkte fehlen. Kein Konto, kein Abo.</p>
+        <p class="lead">becertain macht Prüfungstrainer für iPhone, eine App je Prüfung, entwickelt von Sergej Markwart (mindcom) in Rheine. Zu jeder Frage liest du, warum die Antwort stimmt und in welchem Paragrafen das steht. Du schreibst Probeprüfungen auf Zeit und siehst, wo dir noch Punkte fehlen. Kein Konto, kein Abo.</p>
         <div class="actions">
           <a class="button" href="/aevo/">AEVO Prüfung ansehen</a>
           <!-- APP-STORE-BADGE: Platzhalter. Nach dem Livegang durch das Badge von Apple mit Link auf die App-Store-URL ersetzen (README, Livegang). -->
@@ -121,7 +148,7 @@
             </div>
             <div class="app-card__screen device device--small"><picture><source type="image/webp" srcset="/assets/screens/auswertung-420.webp 420w, /assets/screens/auswertung-840.webp 840w" sizes="148px"><img src="/assets/screens/auswertung-420.png" srcset="/assets/screens/auswertung-420.png 420w, /assets/screens/auswertung-840.png 840w" sizes="148px" width="420" height="913" alt="App-Screen Auswertung nach dem Einstiegstest: 27 von 40 richtig, je Handlungsfeld, am meisten fehlt Handlungsfeld 1." loading="lazy" decoding="async"></picture></div>
             <p>Für die schriftliche Ausbildereignungsprüfung, kurz Ausbilderschein. Über 800 Fragen, jede mit Erklärung und Paragraf. Der Einstiegstest mit 40 davon ist gratis, danach siehst du deine Auswertung je Handlungsfeld. Pro kaufst du einmal, kein Abo.</p>
-            <p><a href="/aevo/">Mehr zur App</a></p>
+            <p><a href="/aevo/">Mehr zur AEVO-App</a></p>
           </article>
           <article class="card app-card app-card--bald" data-reveal style="--i: 1">
             <div class="app-card__head">
@@ -166,6 +193,7 @@
       </div>
       <nav class="footer-nav" aria-label="Rechtliches und Kontakt"><ul><li><a href="/" aria-current="page">Start</a></li><li><a href="/aevo/">AEVO Prüfung</a></li><li><a href="/support/">Support</a></li><li><a href="/datenschutz/">Datenschutz</a></li><li><a href="/nutzungsbedingungen/">Nutzungsbedingungen</a></li><li><a href="/impressum/">Impressum</a></li></ul></nav>
       <p class="footnote">Anbieter: Sergej Markwart, mindcom</p>
+      <p class="footnote" data-stand="2026-10-30">Stand dieser Seite: 30. Oktober 2026</p>
     </div>
   </footer>
 </body>

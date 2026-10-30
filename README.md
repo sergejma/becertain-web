@@ -1,6 +1,6 @@
 # pruefungstrainer-web · becertain.app
 
-Website der App-Familie becertain: Startseite, Produktseite je Prüfung (zuerst `/aevo/`) und die Seiten, die der App Store verlangt (Datenschutz, Nutzungsbedingungen, Support, Impressum). Später der SEO-Hub (BRIEF Abschnitt 6). Regeln in `../CLAUDE.md`, Übergabe in `~/Documents/pruefungstrainer-research/BRIEF.md`.
+Website der App-Familie becertain: Startseite, Produktseite je Prüfung (zuerst `/aevo/`) mit Inhaltsseiten darunter (SEO-Hub, BRIEF Abschnitt 6) und die Seiten, die der App Store verlangt (Datenschutz, Nutzungsbedingungen, Support, Impressum). SEO-Maßnahmen und Quellen: `../docs/store/03-seo-massnahmen.md`. Regeln in `../CLAUDE.md`, Übergabe in `~/Documents/pruefungstrainer-research/BRIEF.md`.
 
 ## Stack
 
@@ -15,16 +15,20 @@ Website der App-Familie becertain: Startseite, Produktseite je Prüfung (zuerst 
 ```
 .
 ├── index.html                  Startseite becertain
-├── aevo/index.html             Produktseite AEVO Prüfung · becertain (wird zum Hub für AEVO)
+├── aevo/index.html             Produktseite AEVO Prüfung · becertain, Hub für AEVO
+│   ├── pruefung/               AEVO-Prüfung: Ablauf, Dauer, Aufgaben, Bestehen (FAQ)
+│   ├── fragen/                 AEVO-Prüfungsfragen: Aufbau und Aufgabentypen
+│   └── handlungsfeld-1/ … -4/  Themen je Handlungsfeld und eine Frage zum Ausprobieren
 ├── datenschutz/index.html      App und Website, App-Teil wortgleich mit Texte.swift
 ├── nutzungsbedingungen/        wortgleich mit Texte.swift
 ├── impressum/  support/  404.html
 ├── assets/                     site.css, site.js, favicon.svg, icon-180.png, icon-512.png, og-*.png
 │   └── screens/                App-Screens aus pruefungstrainer-ios/Store/raw/1206x2622, 420 und 840 px, WebP mit PNG-Fallback
-├── sitemap.xml  robots.txt  llms.txt
+├── sitemap.xml  robots.txt  llms.txt  llms-full.txt (aus dem HTML erzeugt)
 ├── CNAME                       becertain.app
 ├── .nojekyll                   GitHub liefert alles ohne Jekyll aus
-├── tools/pruefen.py            Prüfer (Wohlgeformtheit, Links, SEO, Hausregeln)
+├── tools/pruefen.py            Prüfer (Wohlgeformtheit, Links, SEO, strukturierte Daten, Hausregeln, Crawler-Dateien)
+├── tools/llms_full.py          schreibt llms-full.txt aus dem sichtbaren Text der wichtigsten Seiten
 ├── screenshots/                Prüfbilder 390 px und 1280 px (in .gitignore, nicht veröffentlicht)
 └── SEO_CHANGELOG.md            jede SEO-Änderung mit Datum, Grund, Messtermin
 ```
@@ -40,14 +44,17 @@ python3 tools/pruefen.py
 # „Alles grün." oder eine Liste der Befunde, Rückgabewert 1
 ```
 
-Der Prüfer braucht nur Python 3. Er prüft: geschlossene Elemente, interne Links und Anker, `lang="de"`, Titel, Description (70 bis 170 Zeichen), genau eine h1, kanonische URL, gültiges JSON-LD, Alt-Texte, keine externen Skripte oder Schriften, keine Gedankenstriche, „IHK" nie in Titel, Description oder Überschriften, Marke klein, Pflichthinweis im Fuß jeder Seite, Sitemap vollständig. Vor jedem Push laufen lassen.
+Der Prüfer braucht nur Python 3. Er prüft: geschlossene Elemente, interne Links und Anker, nichtssagende Ankertexte, `lang="de"`, Titel (höchstens 60 Zeichen), Description (70 bis 155 Zeichen), Open Graph und Twitter Card, genau eine h1 und keine übersprungene Überschriftenebene, kanonische URL, Bilder mit Alt-Text, Breite, Höhe und `loading="lazy"`, JSON-LD (gültig, Pflichtfelder je Typ, @id-Verweise, FAQ sichtbar, Brotkrümel sichtbar, keine Bewertungen), sichtbares Datum `data-stand` gleich `dateModified` gleich `lastmod`, keine externen Skripte oder Schriften, keine Gedankenstriche, „IHK" nie in Titel, Description oder Überschriften, Marke klein, nie die genaue Fragenzahl, verbotene Wörter auf den Inhaltsseiten, Pflichthinweis im Fuß jeder Seite, Sitemap vollständig, `robots.txt` mit KI-Crawlern, `llms.txt` vollständig, `llms-full.txt` aktuell. Vor jedem Push laufen lassen.
+
+Nach jeder Textänderung an Start, AEVO-Seiten oder Support: `python3 tools/llms_full.py`, sonst meldet der Prüfer eine veraltete `llms-full.txt`. Ändert sich eine Seite, `dateModified`, `data-stand` und `lastmod` in der Sitemap gemeinsam auf das neue Datum setzen.
 
 ## Texte ändern
 
 - Datenschutz und Nutzungsbedingungen sind wortgleich mit `pruefungstrainer-ios/Motor/Sources/Motor/Texte/Texte.swift` (Enums `Datenschutz`, `Nutzungsbedingungen`, `Impressum`). Wer einen Satz in der App ändert, ändert ihn hier mit, und umgekehrt. Datum unter „Stand" anpassen.
 - Einzige Abweichung: Der Abschnitt „Nutzungsstatistik" steht im Web ohne den Vermerk „[TELEMETRIE: Platzhalter.]", der Inhalt ist gleich.
 - Pflichthinweis steht im Fuß jeder Seite und auf `/aevo/` als Hinweis, wortgleich mit dem Paket. Ändert er sich, alle Seiten und `tools/pruefen.py` (Konstante `PFLICHT`) anpassen.
-- Kopf und Fuß sind in jeder Seite ausgeschrieben. Eine Änderung dort gilt für alle sieben HTML-Dateien.
+- Kopf und Fuß sind in jeder Seite ausgeschrieben. Eine Änderung dort gilt für alle 13 HTML-Dateien.
+- Fragenzahl je Handlungsfeld auf den Inhaltsseiten (über 140, über 180, über 370, über 140) und die Demo-Aufgaben stammen aus `aevo-1.0.0.json` und `STATISTIK.md`. Bei jedem Paket-Update prüfen, ob Zahlen und Aufgaben noch stimmen.
 
 ## Erstes Deployment (Sergej)
 
@@ -89,7 +96,7 @@ Der Prüfer braucht nur Python 3. Er prüft: geschlossene Elemente, interne Link
 2. **Store-Badge:** das Badge „Laden im App Store" von Apple (Apple Marketing Tools, deutsch, schwarz und weiß) als SVG nach `assets/` legen. In `index.html` und `aevo/index.html` jeweils den Kommentar `APP-STORE-BADGE` suchen und den Platzhalter `<p class="store-slot" …>Bald im App Store</p>` ersetzen durch einen Link `<a href="https://apps.apple.com/de/app/…/id…">` mit dem Badge als `<img alt="Laden im App Store">`. Auf der Startseite zusätzlich den Chip „Bald im App Store" entfernen.
 3. **Strukturierte Daten:** in `aevo/index.html` im Block `MobileApplication` `"downloadUrl"` und `"sameAs"` mit der App-Store-URL ergänzen. Keine Bewertungen eintragen, solange es keine echten gibt.
 4. **Screenshots:** stehen schon in `assets/screens/`. Kommen neue Rohbilder, neu erzeugen: `sips --resampleWidth <420|840>` für PNG, `cwebp -q 80 -m 6 -resize <420|840> 0` für WebP, Dateinamen gleich lassen, Alt-Texte in `aevo/index.html` prüfen.
-5. `llms.txt` und `SEO_CHANGELOG.md` nachziehen, `python3 tools/pruefen.py`, pushen.
+5. `llms.txt` (Status „bald im App Store“ ändern) und `SEO_CHANGELOG.md` nachziehen, `python3 tools/llms_full.py`, `python3 tools/pruefen.py`, pushen.
 
 ## Updates
 
