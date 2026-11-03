@@ -17,6 +17,14 @@
    nie die genaue Fragenzahl, auf den neuen Inhaltsseiten keine verbotenen Wörter (offiziell, empfohlen …).
 6. Dateien für Crawler: Sitemap vollständig, robots.txt mit Sitemap-Zeile und ohne Sperre für KI-Crawler,
    llms.txt im Format von llmstxt.org mit allen Seiten der Sitemap und dem Pflichthinweis, llms-full.txt aktuell.
+7. Bereich /34a/: Pflichthinweis 34a im Fuß, alle Inhaltsseiten vorhanden und von /34a/ verlinkt, Brotkrümel sichtbar,
+   keine verbotenen Wörter, nie die genaue Fragenzahl 645.
+8. Bilder, die noch fehlen dürfen: Ein Block mit data-wartet-auf-dateien und hidden (Galerie auf /34a/, bis die Screens
+   aus der Store-Pipeline da sind) darf auf fehlende Bilder zeigen; der Prüfer meldet als Hinweis, wie viele fehlen,
+   und sobald alle da sind, dass hidden entfernt werden kann. Ohne hidden ist jedes fehlende Bild ein Befund.
+   Geprüft werden src und jede Adresse in srcset.
+9. Demo-Aufgaben („Probier eine Frage“): Das Inline-JSON muss wortgleich zur Aufgabe im Inhaltspaket sein (Frage,
+   Antworten, Lösung, Erklärung; jedes gezeigte Zitat steht im Paket), wenn das Paket unter ../pruefungstrainer-content liegt.
 
 Rückgabewert 0, wenn alles grün ist, sonst 1.
 """
@@ -34,6 +42,11 @@ VOID = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "met
 PFLICHT = ("Für die AEVO-Prüfung bei deiner IHK oder HWK. Jede Aufgabe folgt dem Rahmenplan der AEVO und dem Format "
            "der schriftlichen Prüfung. Jede Lösung nennt die Stelle in Gesetz, Verordnung oder Rahmenplan, aus der sie "
            "folgt. Rechtsstand 26.10.2026. Eigene Übungsfragen, unabhängig von IHK, DIHK und HWK.")
+# Wortgleich mit pruefungstrainer-content/pakete/34a/34a-1.0.0.json, Feld paket.pflichthinweis. Gilt für alle Seiten unter /34a/.
+PFLICHT_34A = ("Für die Sachkundeprüfung nach § 34a GewO bei deiner IHK. Jede Aufgabe folgt den sieben Sachgebieten der "
+               "Bewachungsverordnung und dem Format der schriftlichen Prüfung. Jede Lösung nennt die Stelle in Gesetz, "
+               "Verordnung, Unfallverhütungsvorschrift oder Rahmenplan, aus der sie folgt. Rechtsstand 3.11.2026. Eigene "
+               "Übungsfragen, unabhängig von IHK und DIHK.")
 SKIP_DIRS = {".git", "screenshots", "_seo", "tools", "docs"}
 TITEL_MAX = 60
 DESC_MIN, DESC_MAX = 70, 155
@@ -42,6 +55,12 @@ DESC_MIN, DESC_MAX = 70, 155
 # verlinkt sein.
 NEUE_SEITEN = ["/aevo/pruefung/", "/aevo/fragen/", "/aevo/handlungsfeld-1/", "/aevo/handlungsfeld-2/",
                "/aevo/handlungsfeld-3/", "/aevo/handlungsfeld-4/"]
+# Inhaltsseiten des Bereichs /34a/ (3.11.2026). Müssen existieren, in der Sitemap stehen und von /34a/ verlinkt sein.
+SEITEN_34A = ["/34a/pruefung/", "/34a/fragen/"] + [f"/34a/sachgebiet-{n}/" for n in range(1, 8)]
+# Genaue Fragenzahlen der Pakete; sichtbar steht immer „über 800“ und „über 600“.
+GENAUE_ZAHLEN = r"\b(853|645)\b"
+# Inhaltspakete für den Abgleich der Demo-Aufgaben (Feld "paket" im Inline-JSON).
+CONTENT = os.path.join(os.path.dirname(ROOT), "pruefungstrainer-content", "pakete")
 # Rechtsseiten tragen ihr eigenes „Stand:“ für den Rechtstext statt data-stand.
 RECHTSSEITEN = {"/datenschutz/", "/nutzungsbedingungen/", "/impressum/"}
 # Wörter, die auf den neuen Inhaltsseiten nie vorkommen dürfen (Textregeln Sergej). Die freigegebenen Bestandstexte
@@ -94,11 +113,18 @@ class Seite(HTMLParser):
         self.brot_links = []
         self.hat_brot = False
         self.robots = None
+        self.wartend = []          # (url, hidden) in Blöcken mit data-wartet-auf-dateien
+        self._wartet = None        # (Stapeltiefe, hidden) des offenen Blocks
+        self.demo_json = None
+        self._in_demo = False
+        self._demobuf = []
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
         if tag not in VOID:
             self.stack.append((tag, self.getpos()))
+        if "data-wartet-auf-dateien" in a and tag not in VOID:
+            self._wartet = (len(self.stack), "hidden" in a)
         if "id" in a:
             if a["id"] in self.ids:
                 self.fehler.append(f"doppelte id #{a['id']}")
@@ -125,6 +151,10 @@ class Seite(HTMLParser):
             if a.get("type") == "application/ld+json":
                 self._in["script_ld"] = True
                 self._ldbuf = []
+            elif a.get("type") == "application/json" and a.get("id") == "demo-aufgabe":
+                self._in["script"] = True
+                self._in_demo = True
+                self._demobuf = []
             else:
                 self._in["script"] = True
                 if a.get("src") and urlparse(a["src"]).netloc:
@@ -162,8 +192,14 @@ class Seite(HTMLParser):
             self._ahref = a["href"]
             if self._in["brot"]:
                 self.brot_links.append(a["href"])
-        if tag in ("img", "script", "source") and "src" in a:
-            self.srcs.append(a["src"])
+        quellen = [a["src"]] if tag in ("img", "script", "source") and "src" in a else []
+        if tag in ("img", "source") and a.get("srcset"):
+            quellen += [teil.strip().split()[0] for teil in a["srcset"].split(",") if teil.strip()]
+        for q in quellen:
+            if self._wartet:
+                self.wartend.append((q, self._wartet[1]))
+            else:
+                self.srcs.append(q)
         if tag == "link" and "href" in a:
             self.srcs.append(a["href"])
 
@@ -183,9 +219,14 @@ class Seite(HTMLParser):
             self.fehler.append(f"</{tag}> in Zeile {self.getpos()[0]} schließt <{offen}> aus Zeile {pos[0]}")
         if tag == "title":
             self._in["title"] = False
+        if self._wartet and len(self.stack) < self._wartet[0]:
+            self._wartet = None
         if tag == "script":
             if self._in["script_ld"]:
                 self.ld.append("".join(self._ldbuf))
+            if self._in_demo:
+                self.demo_json = "".join(self._demobuf)
+                self._in_demo = False
             self._in["script_ld"] = self._in["script"] = False
         if tag == "style":
             self._in["style"] = False
@@ -211,6 +252,9 @@ class Seite(HTMLParser):
             self.title += data
         if self._in["script_ld"]:
             self._ldbuf.append(data)
+            return
+        if self._in_demo:
+            self._demobuf.append(data)
             return
         if self._in["script"] or self._in["style"]:
             return
@@ -328,7 +372,7 @@ def pruefe_ld(name, pfad, s, bloecke, seitenpfade):
                     f.append(f"{name}: BreadcrumbList Eintrag {i} unvollständig")
             if items and items[-1].get("item") != BASE + pfad:
                 f.append(f"{name}: BreadcrumbList endet nicht bei {BASE + pfad}")
-            if pfad in NEUE_SEITEN:
+            if pfad in NEUE_SEITEN + SEITEN_34A:
                 soll = [it["item"].replace(BASE, "") for it in items[:-1]]
                 if not s.hat_brot:
                     f.append(f"{name}: keine sichtbare Brotkrümelnavigation")
@@ -361,6 +405,37 @@ def pruefe_ld(name, pfad, s, bloecke, seitenpfade):
     if not knoten:
         f.append(f"{name}: kein JSON-LD")
     return f, datum
+
+
+def pruefe_demo(name, s):
+    """Demo-Aufgabe wortgleich mit dem Inhaltspaket; ohne Paket (anderer Rechner) wird nicht geprüft."""
+    if s.demo_json is None:
+        return []
+    try:
+        d = json.loads(s.demo_json)
+    except ValueError as e:
+        return [f"{name}: Demo-Aufgabe kein gültiges JSON ({e})"]
+    paket = d.get("paket", "")
+    familie = paket.rsplit("-", 1)[0]
+    datei = os.path.join(CONTENT, familie, paket + ".json")
+    if not os.path.isfile(datei):
+        return []
+    with open(datei, encoding="utf-8") as fh:
+        aufgaben = {a["id"]: a for a in json.load(fh)["aufgaben"]}
+    a = aufgaben.get(d.get("id"))
+    if a is None:
+        return [f"{name}: Demo-Aufgabe {d.get('id')} nicht in {paket}"]
+    f = []
+    for feld in ("frage", "optionen", "loesung", "erklaerung", "typ"):
+        if d.get(feld) != a.get(feld):
+            f.append(f"{name}: Demo-Aufgabe {a['id']}: {feld} weicht vom Paket ab")
+    # Jedes gezeigte Zitat steht wortgleich im Paket; eine Seite darf weniger Quellen zeigen (aevo-hf3.2-003 ohne Rahmenplan).
+    paket_zitate = [x.get("zitat") for x in a["fundstellen"]]
+    if not d.get("fundstellen") or any(x.get("zitat") not in paket_zitate for x in d["fundstellen"]):
+        f.append(f"{name}: Demo-Aufgabe {a['id']}: Zitate weichen vom Paket ab")
+    if norm(d.get("frage", "")) not in norm(" ".join(s.text)):
+        f.append(f"{name}: Demo-Frage nicht sichtbar (Fassung ohne JavaScript)")
+    return f
 
 
 def pruefe_robots():
@@ -410,10 +485,12 @@ def pruefe_llms(sitemap_locs):
         f.append("llms.txt: Kurzbeschreibung als Blockzitat fehlt (llmstxt.org)")
     if PFLICHT not in text:
         f.append("llms.txt: Pflichthinweis fehlt oder weicht ab")
+    if PFLICHT_34A not in text:
+        f.append("llms.txt: Pflichthinweis 34a fehlt oder weicht ab")
     for loc in sitemap_locs:
         if f"]({loc})" not in text:
             f.append(f"llms.txt: {loc} fehlt")
-    if re.search(r"\b853\b", text):
+    if re.search(GENAUE_ZAHLEN, text):
         f.append("llms.txt: genaue Fragenzahl")
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     import llms_full  # noqa: E402
@@ -428,6 +505,7 @@ def pruefe_llms(sitemap_locs):
 
 def main():
     fehler, geprueft, links = [], 0, 0
+    hinweise = []
     geparst = {}
     for datei in sorted(seiten()):
         s = Seite()
@@ -509,17 +587,27 @@ def main():
                 f.append(f"{name}: „IHK\" in Titel, Description oder Überschrift: {h.strip()!r}")
         if re.search(r"\bBecertain\b|\bBECERTAIN\b|\bBeCertain\b", sichtbar + s.title):
             f.append(f"{name}: Marke nicht klein geschrieben")
-        if re.search(r"\b853\b", sichtbar + (s.desc or "")):
-            f.append(f"{name}: genaue Fragenzahl 853 statt „über 800“")
-        if pfad in NEUE_SEITEN:
+        treffer = re.search(GENAUE_ZAHLEN, sichtbar + (s.desc or ""))
+        if treffer:
+            f.append(f"{name}: genaue Fragenzahl {treffer.group(0)} statt „über 800“ oder „über 600“")
+        if pfad in NEUE_SEITEN or pfad.startswith("/34a/"):
             ohne_fuss = norm(sichtbar.replace(" ".join(s.footer_text), ""))
             for muster in VERBOTEN:
                 treffer = re.search(muster, ohne_fuss + " " + s.title + " " + (s.desc or ""), re.I)
                 if treffer:
                     f.append(f"{name}: verbotenes Wort {treffer.group(0)!r}")
         fuss = re.sub(r"\s+", " ", " ".join(s.footer_text))
-        if PFLICHT not in fuss:
+        if (PFLICHT_34A if pfad.startswith("/34a/") else PFLICHT) not in fuss:
             f.append(f"{name}: Pflichthinweis fehlt im Fuß")
+        f += pruefe_demo(name, s)
+        fehlend = [u for u, _ in s.wartend if (t := ziel(u, pfad)) and not os.path.isfile(t[0])]
+        versteckt = any(h for _, h in s.wartend)
+        if s.wartend and not versteckt:
+            f += [f"{name}: Bild fehlt, Block ist sichtbar: {u}" for u in fehlend]
+        elif s.wartend and fehlend:
+            hinweise.append(f"{name}: Galerie ausgeblendet, {len(set(fehlend))} von {len(set(u for u, _ in s.wartend))} Bilddateien fehlen noch")
+        elif s.wartend:
+            hinweise.append(f"{name}: alle Bilder der ausgeblendeten Galerie liegen vor; hidden entfernen und screenshot im JSON-LD ergänzen")
         for href, text in s.anker:
             if norm(text).lower().rstrip(".") in NICHTSSAGEND:
                 f.append(f"{name}: nichtssagender Ankertext {text!r} für {href}")
@@ -556,6 +644,14 @@ def main():
             fehler.append(f"Inhaltsseite {p} fehlt")
         elif aevo is not None and p not in aevo.links:
             fehler.append(f"aevo/index.html: kein Link auf {p}")
+    s34 = geparst.get(os.path.join(ROOT, "34a", "index.html"))
+    if s34 is None:
+        fehler.append("34a/index.html fehlt")
+    for p in SEITEN_34A:
+        if p not in seitenpfade:
+            fehler.append(f"Inhaltsseite {p} fehlt")
+        elif s34 is not None and p not in s34.links:
+            fehler.append(f"34a/index.html: kein Link auf {p}")
     for pflicht in ("CNAME", ".nojekyll", "robots.txt"):
         if not os.path.isfile(os.path.join(ROOT, pflicht)):
             fehler.append(f"{pflicht} fehlt")
@@ -563,6 +659,8 @@ def main():
     fehler += pruefe_llms(locs)
 
     print(f"{geprueft} Seiten, {links} interne Links und Quellen, {len(locs)} Sitemap-Einträge geprüft.")
+    for h in hinweise:
+        print("  Hinweis: " + h)
     if fehler:
         print(f"{len(fehler)} Befunde:")
         for x in fehler:

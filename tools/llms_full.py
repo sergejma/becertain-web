@@ -26,6 +26,16 @@ SEITEN = [
     "/aevo/handlungsfeld-2/",
     "/aevo/handlungsfeld-3/",
     "/aevo/handlungsfeld-4/",
+    "/34a/",
+    "/34a/pruefung/",
+    "/34a/fragen/",
+    "/34a/sachgebiet-1/",
+    "/34a/sachgebiet-2/",
+    "/34a/sachgebiet-3/",
+    "/34a/sachgebiet-4/",
+    "/34a/sachgebiet-5/",
+    "/34a/sachgebiet-6/",
+    "/34a/sachgebiet-7/",
     "/support/",
 ]
 VOID = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "source", "track", "wbr"}

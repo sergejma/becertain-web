@@ -1,8 +1,8 @@
 # becertain
 
-> becertain ist die Marke für Prüfungstrainer-Apps für iPhone von mindcom (Sergej Markwart, Rheine). Eine App je Prüfung, die erste ist AEVO Prüfung · becertain für die Ausbildereignungsprüfung nach der Ausbilder-Eignungsverordnung (AEVO, AusbEignV), kurz Ausbilderschein. Jede Frage ist eine eigene Übungsfrage mit Erklärung und Paragraf. Gratis laden mit Einstiegstest, danach Pro als einmaliger Kauf, kein Abo, kein Konto.
+> becertain ist die Marke für Prüfungstrainer-Apps für iPhone von mindcom (Sergej Markwart, Rheine). Eine App je Prüfung: AEVO Prüfung · becertain für die Ausbildereignungsprüfung nach der Ausbilder-Eignungsverordnung (AEVO, AusbEignV), kurz Ausbilderschein, und, in Vorbereitung, 34a Sachkunde · becertain für die Sachkundeprüfung im Bewachungsgewerbe nach § 34a GewO. Jede Frage ist eine eigene Übungsfrage mit Erklärung und Paragraf. Gratis laden mit Einstiegstest, danach Pro als einmaliger Kauf, kein Abo, kein Konto.
 
-Stand: 30.10.2026. Rechtsstand der Fragen: 26.10.2026.
+Stand: 03.11.2026. Rechtsstand der Fragen: AEVO 26.10.2026, 34a 3.11.2026.
 
 Kernfakten zur App AEVO Prüfung · becertain:
 
@@ -19,6 +19,19 @@ Kernfakten zur App AEVO Prüfung · becertain:
 
 Pflichthinweis: Für die AEVO-Prüfung bei deiner IHK oder HWK. Jede Aufgabe folgt dem Rahmenplan der AEVO und dem Format der schriftlichen Prüfung. Jede Lösung nennt die Stelle in Gesetz, Verordnung oder Rahmenplan, aus der sie folgt. Rechtsstand 26.10.2026. Eigene Übungsfragen, unabhängig von IHK, DIHK und HWK.
 
+Kernfakten zur App 34a Sachkunde · becertain:
+
+- Plattform: iPhone, Sprache Deutsch. Status: in Vorbereitung, noch nicht im App Store.
+- Umfang: über 600 eigene Übungsaufgaben zu allen sieben Sachgebieten nach § 7 BewachV (öffentliche Sicherheit und Ordnung mit Gewerberecht, Datenschutzrecht, BGB, Straf- und Strafverfahrensrecht mit Waffen, Unfallverhütungsvorschrift Wach- und Sicherungsdienste, Umgang mit Menschen, Sicherheitstechnik).
+- Jede Lösung nennt die Stelle in Gesetz, Verordnung, Unfallverhütungsvorschrift oder Rahmenplan mit Wortlaut, zum Beispiel § 859 Abs. 2 BGB. Sachgebiete 6 und 7 folgen der Lehrmeinung nach dem Rahmenplan für die Sachkundeprüfung.
+- Prüfung: jede Aufgabe zweimal ohne Lösung gelöst (Blindrunden), 230 Aufgaben einer Prüfliste und weitere Stichproben gegen zwei Lehrbücher abgeglichen.
+- Probeprüfung im Format seit 1.7.2025: 82 Aufgaben in 120 Minuten, höchstens 120 Punkte, bestanden ab 60, Teilpunkte, bis zu zwei richtige Antworten je Aufgabe.
+- Fachbegriffe antippen mit Kurzerklärung; mündliche Prüfung (etwa 15 Minuten, Schwerpunkt Sachgebiete 1 und 6 nach § 11 Abs. 2 BewachV) mit offenen Fragen üben.
+- Gratis: Einstiegstest mit 45 Aufgaben, 35 zum Üben und 10 auf Zeit, danach Auswertung je Sachgebiet.
+- Pro: 14,99 € als einmaliger Kauf im App Store, kein Abo, kein Konto.
+
+Pflichthinweis 34a: Für die Sachkundeprüfung nach § 34a GewO bei deiner IHK. Jede Aufgabe folgt den sieben Sachgebieten der Bewachungsverordnung und dem Format der schriftlichen Prüfung. Jede Lösung nennt die Stelle in Gesetz, Verordnung, Unfallverhütungsvorschrift oder Rahmenplan, aus der sie folgt. Rechtsstand 3.11.2026. Eigene Übungsfragen, unabhängig von IHK und DIHK.
+
 Kontakt: Sergej Markwart, mindcom, Litestr. 4, 48431 Rheine, sergej@mindcom.io. Fehler in einer Frage meldet man direkt in der App an der Frage.
 
 ## AEVO Prüfung
@@ -31,14 +44,27 @@ Kontakt: Sergej Markwart, mindcom, Litestr. 4, 48431 Rheine, sergej@mindcom.io. 
 - [AEVO Handlungsfeld 3: Ausbildung durchführen](https://becertain.app/aevo/handlungsfeld-3/): Die neun Themen nach Rahmenplan, vom Lernklima bis zur Beurteilung, und eine Übungsfrage zu § 22 BBiG.
 - [AEVO Handlungsfeld 4: Ausbildung abschließen](https://becertain.app/aevo/handlungsfeld-4/): Die vier Themen nach Rahmenplan (Prüfungsvorbereitung, Anmeldung, Zeugnis, Übernahme und Weiterbildung) und eine Übungsfrage zu § 16 BBiG.
 
+## 34a Sachkunde
+
+- [34a Sachkunde · becertain](https://becertain.app/34a/): Produktseite der App (in Vorbereitung) mit einer Übungsfrage zum Ausprobieren, wie die Aufgaben geprüft werden, Gratis und Pro, häufigen Fragen.
+- [Sachkundeprüfung 34a: Ablauf, Punkte, Termine und Gebühr](https://becertain.app/34a/pruefung/): Schriftlich 82 Aufgaben in 120 Minuten, 120 Punkte, bestanden ab 60, Teilpunkte seit 1.7.2025; mündlich etwa 15 Minuten nach § 11 Abs. 2 BewachV; Termine; Gebühr laut IHK-Angaben 170 bis 225 €; Unterschied zur Unterrichtung.
+- [Prüfungsfragen zur Sachkundeprüfung 34a](https://becertain.app/34a/fragen/): Aufbau der Aufgaben mit bis zu zwei richtigen Antworten und die sieben Sachgebiete mit je einem Satz.
+- [Sachgebiet 1: Öffentliche Sicherheit und Ordnung, Gewerberecht](https://becertain.app/34a/sachgebiet-1/): Grundrechte, Jedermannsrechte, Erlaubnis nach § 34a GewO, Pflichten nach der BewachV, Übungsfrage zu § 34a Abs. 1a GewO.
+- [Sachgebiet 2: Datenschutzrecht](https://becertain.app/34a/sachgebiet-2/): DSGVO und BDSG, Videoüberwachung, Rechte der Betroffenen, Übungsfrage zu Art. 29 DSGVO.
+- [Sachgebiet 3: Bürgerliches Gesetzbuch](https://becertain.app/34a/sachgebiet-3/): Besitz und Eigentum, Notwehr, Notstand, Selbsthilfe, Schadensersatz, Fundsachen, Übungsfrage zu § 227 BGB.
+- [Sachgebiet 4: Straf- und Strafverfahrensrecht, Umgang mit Waffen](https://becertain.app/34a/sachgebiet-4/): Notwehr nach StGB, Straftaten im Dienst, Festnahme nach § 127 StPO, Waffenrecht, Übungsfrage zu § 127 Abs. 3 StPO.
+- [Sachgebiet 5: Unfallverhütungsvorschrift Wach- und Sicherungsdienste](https://becertain.app/34a/sachgebiet-5/): DGUV Vorschrift 23 und 1, Übungsfrage zu § 4 Abs. 3 DGUV Vorschrift 23.
+- [Sachgebiet 6: Umgang mit Menschen](https://becertain.app/34a/sachgebiet-6/): Kommunikation, Deeskalation, Eigensicherung, Vielfalt, Menschenmengen (Lehrmeinung nach Rahmenplan), Übungsfrage zu § 323c StGB.
+- [Sachgebiet 7: Grundzüge der Sicherheitstechnik](https://becertain.app/34a/sachgebiet-7/): Mechanik, Meldeanlagen, Funk, Brandschutz (Lehrmeinung nach Rahmenplan), Übungsfrage zu melden, retten, löschen.
+
 ## becertain
 
-- [Startseite](https://becertain.app/): Die Marke becertain, die Apps (AEVO, Sachkunde § 34a folgt) und was in jeder App gilt.
+- [Startseite](https://becertain.app/): Die Marke becertain, die Apps (AEVO, 34a Sachkunde in Vorbereitung) und was in jeder App gilt.
 - [Support](https://becertain.app/support/): Kontakt per Mail, Fehler in einer Aufgabe melden, technische Probleme, Pro wiederherstellen, Erstattung über Apple.
 
 ## Optional
 
-- [Volltext der wichtigsten Seiten](https://becertain.app/llms-full.txt): Der sichtbare Text von Startseite, AEVO-Seiten und Support als Markdown.
+- [Volltext der wichtigsten Seiten](https://becertain.app/llms-full.txt): Der sichtbare Text von Startseite, AEVO-Seiten, 34a-Seiten und Support als Markdown.
 - [Datenschutz](https://becertain.app/datenschutz/): App und Website, keine Cookies, keine Tracker, Hosting bei GitHub Pages.
 - [Nutzungsbedingungen](https://becertain.app/nutzungsbedingungen/): Gratis und Pro, Kauf über Apple, Inhalte mit Rechtsstand, kein Versprechen zum Ergebnis.
 - [Impressum](https://becertain.app/impressum/): Anbieter Sergej Markwart, mindcom.io, Rheine.

@@ -1,4 +1,4 @@
-/* becertain.app: Einblenden beim Scrollen, Balken „Chance zu bestehen", Probier-eine-Frage.
+/* becertain.app: Einblenden beim Scrollen, Balken „Chance zu bestehen", Probier-eine-Frage (AEVO und 34a).
    Ohne Abhängigkeiten, ohne Netzwerk, ohne Speicher. Bewegung nur über CSS, das bei
    prefers-reduced-motion abschaltet. Ohne JavaScript ist alles sichtbar (Klasse .js fehlt). */
 (function () {
@@ -75,7 +75,9 @@
   }
 
   function quelleText(f) {
-    var t = "§\u00a0" + f.paragraf;
+    // Rahmenplan und andere Quellen ohne Paragraf: „Rahmenplan 34a, Abschnitt 6“
+    if (!f.paragraf && !f.artikel) return f.kurz + (f.abschnitt ? ", Abschnitt\u00a0" + f.abschnitt : "");
+    var t = f.artikel ? "Art.\u00a0" + f.artikel : "§\u00a0" + f.paragraf;
     if (f.absatz) t += " Abs.\u00a0" + f.absatz;
     if (f.satz) t += " Satz\u00a0" + f.satz;
     if (f.nummer) t += " Nr.\u00a0" + f.nummer;

@@ -6,7 +6,7 @@
 
 Seite: https://becertain.app/
 Titel: becertain: Prüfungs-Apps mit Erklärung und Paragraf
-Stand: 2026-10-30
+Stand: 2026-11-03
 
 Prüfungstrainer für iPhone
 
@@ -30,11 +30,13 @@ Für die schriftliche Ausbildereignungsprüfung, kurz Ausbilderschein. Über 800
 
 [Mehr zur AEVO-App](https://becertain.app/aevo/)
 
-### Sachkunde § 34a
+### [34a Sachkunde · becertain](https://becertain.app/34a/)
 
-Bald
+In Vorbereitung
 
-Für die Sachkundeprüfung im Bewachungsgewerbe. Eigene App, eigene Seite, gebaut wie die AEVO: Erklärung und Paragraf zu jeder Antwort.
+Für die Sachkundeprüfung im Bewachungsgewerbe nach § 34a GewO. Über 600 eigene Aufgaben zu allen sieben Sachgebieten, jede mit Erklärung und Quelle, und eine Probeprüfung mit 82 Aufgaben in 120 Minuten. Der Einstiegstest ist gratis, Pro kaufst du einmal, kein Abo.
+
+[Mehr zur 34a-App](https://becertain.app/34a/)
 
 Weitere Prüfungen folgen. Jede bekommt ihre eigene App und hier eine eigene Seite.
 
@@ -733,6 +735,1104 @@ Erst den Einstiegstest machen, dann entscheiden.
 - [Ausbilder-Eignungsverordnung (AusbEignV) vom 21. Januar 2009, gesetze-im-internet.de](https://www.gesetze-im-internet.de/ausbeignv_2009/)
 
 - [Rahmenplan der Ausbilder-Eignungsverordnung, Hauptausschuss des BIBB vom 20. Juni 2023, BAnz AT 14.07.2023 S2 (PDF)](https://www.bibb.de/dokumente/pdf/HA135.pdf)
+
+---
+
+Seite: https://becertain.app/34a/
+Titel: 34a Sachkundeprüfung: App für den 34a Schein · becertain
+Stand: 2026-11-03
+
+App für iPhone · Bewachungsgewerbe
+
+# Sachkundeprüfung 34a üben, mit Quelle zu jeder Antwort.
+
+Für die Sachkundeprüfung nach § 34a GewO. Eigene Aufgaben in einfacher Sprache, und du siehst, wo dir noch Punkte fehlen.
+
+- Über 600 eigene Aufgaben zu allen sieben Sachgebieten, jede mit Quelle.
+
+- Probeprüfung im echten Format: 82 Aufgaben in 120 Minuten, mit Punkten wie seit dem 1. Juli 2025.
+
+- Fachbegriffe antippen: Besitzdiener, frische Tat, Notwehr, kurz erklärt.
+
+- Mündliche Prüfung üben, mit Sachgebiet 1 und 6.
+
+Bald im App Store Frage ausprobieren
+
+In Vorbereitung. Gratis laden, Pro einmal kaufen für 14,99 €, kein Abo, kein Konto.
+
+Ausprobieren
+
+## Probier eine Frage
+
+Eine Aufgabe aus der App, Sachgebiet 3. Wähle eine Antwort und prüf sie. Danach liest du die Erklärung und den Paragrafen, wie in der App.
+
+Ein Stammkunde, dessen Namen und Adresse du kennst, rennt mit einer unbezahlten Flasche Whisky aus dem Laden. Du holst ihn direkt vor der Tür ein. Darfst du ihm die Flasche wieder abnehmen?
+
+Lösung: Ja. Ob der Täter bekannt ist, spielt bei der Besitzkehr keine Rolle, nach § 859 Abs. 2 BGB. Zum Ausprobieren braucht die Seite JavaScript.
+
+Was anders ist
+
+## So prüfen wir jede Aufgabe
+
+Quelle
+
+§ zu jeder Lösung
+
+### Der Satz aus Gesetz, Verordnung oder Rahmenplan, im Wortlaut.
+
+Aus GewO, BewachV, BGB, StGB, StPO, WaffG, DSGVO, DGUV Vorschrift 23 und weiteren, zum Beispiel § 859 Abs. 2 BGB. In Sachgebiet 6 und 7 gilt die Lehrmeinung nach Rahmenplan, das steht dann dabei. Rechtsstand 3.11.2026.
+
+Blindrunden
+
+2 Runden ohne Lösung
+
+### Jede Aufgabe zweimal blind gelöst.
+
+Getrennt voneinander und ohne Lösungsschlüssel. Wich eine Antwort ab, haben wir die Aufgabe überarbeitet und die geänderten Aufgaben noch einmal blind lösen lassen.
+
+Gegenprobe
+
+230 Aufgaben
+
+### Gegen zwei Lehrwerke geprüft.
+
+230 Aufgaben aus unserer Prüfliste und weitere Stichproben haben wir mit zwei Lehrbüchern zur Sachkundeprüfung abgeglichen. Danach haben wir eine Lösung geändert und zwei Aufgaben durch neue Fälle ersetzt. Wo ein Buch einen älteren Rechtsstand zeigt, etwa vor dem Messerverbot bei Veranstaltungen, folgt die Aufgabe dem Gesetz.
+
+Gratis und Pro
+
+## Erst prüfen, dann zahlen
+
+### Einstiegstest Gratis
+
+45 von über 600 Aufgaben in zwei Teilen, dieselben Aufgaben und Erklärungen wie in Pro.
+
+- Teil 1: 35 Aufgaben aus allen sieben Sachgebieten, mit voller Erklärung und Quelle.
+
+- Teil 2: 10 neue Aufgaben auf Zeit, mit Punkten wie in der Prüfung.
+
+- Danach die Auswertung: wie viel du je Sachgebiet richtig hattest.
+
+- Die 45 Aufgaben bleiben offen. Nichts wird weggenommen.
+
+### Pro 14,99 € einmal
+
+Pro bereitet dich bis zu deinem Prüfungstermin vor.
+
+- Über 600 Aufgaben, mit Erklärung und Quelle.
+
+- Volle Probeprüfung mit 82 Aufgaben in 120 Minuten, so oft du willst.
+
+- Mündliche Prüfung üben, mit Sachgebiet 1 und 6.
+
+- Die App sagt dir jeden Tag, was du wiederholen sollst.
+
+Einmal kaufen, kein Abo, kein Konto.
+
+Zum Nachlesen
+
+## Mehr zur Sachkundeprüfung
+
+Hier liest du, wie die Sachkundeprüfung abläuft und was in den sieben Sachgebieten drankommt. Auf jeder Seite zu einem Sachgebiet probierst du eine weitere Frage aus der App aus.
+
+- [Sachkundeprüfung 34a: Ablauf, Punkte, Termine und Gebühr](https://becertain.app/34a/pruefung/)
+
+- [Prüfungsfragen zur Sachkundeprüfung 34a nach Sachgebiet](https://becertain.app/34a/fragen/)
+
+- [Sachgebiet 1: Öffentliche Sicherheit und Ordnung, Gewerberecht](https://becertain.app/34a/sachgebiet-1/)
+
+- [Sachgebiet 2: Datenschutzrecht](https://becertain.app/34a/sachgebiet-2/)
+
+- [Sachgebiet 3: Bürgerliches Gesetzbuch](https://becertain.app/34a/sachgebiet-3/)
+
+- [Sachgebiet 4: Straf- und Strafverfahrensrecht, Umgang mit Waffen](https://becertain.app/34a/sachgebiet-4/)
+
+- [Sachgebiet 5: Unfallverhütungsvorschrift Wach- und Sicherungsdienste](https://becertain.app/34a/sachgebiet-5/)
+
+- [Sachgebiet 6: Umgang mit Menschen](https://becertain.app/34a/sachgebiet-6/)
+
+- [Sachgebiet 7: Grundzüge der Sicherheitstechnik](https://becertain.app/34a/sachgebiet-7/)
+
+## Hinweis
+
+Für die Sachkundeprüfung nach § 34a GewO bei deiner IHK. Jede Aufgabe folgt den sieben Sachgebieten der Bewachungsverordnung und dem Format der schriftlichen Prüfung. Jede Lösung nennt die Stelle in Gesetz, Verordnung, Unfallverhütungsvorschrift oder Rahmenplan, aus der sie folgt. Rechtsstand 3.11.2026. Eigene Übungsfragen, unabhängig von IHK und DIHK.
+
+Fragen
+
+## Häufige Fragen
+
+### Was ist gratis und was kostet Pro?
+
+Gratis ist der Einstiegstest mit 45 Aufgaben: 35 zum Üben mit voller Erklärung und 10 auf Zeit. Danach siehst du deinen Stand je Sachgebiet. Pro schaltet alle Aufgaben, die volle Probeprüfung und das Üben für die mündliche Prüfung frei. Pro kostet 14,99 € einmal, kein Abo, kein Konto.
+
+### Hilft die App auch bei der mündlichen Prüfung?
+
+Ja. Die mündliche Prüfung dauert etwa 15 Minuten je Person, mit dem Schwerpunkt auf Sachgebiet 1 und 6 (§ 11 Abs. 2 BewachV). Dafür übst du in der App mit offenen Fragen: Du antwortest laut, deckst die Musterantwort auf und schätzt selbst ein, ob du es konntest. Was noch nicht sitzt, kommt wieder dran.
+
+### Wie funktionieren die Teilpunkte?
+
+Seit dem 1. Juli 2025 hat die schriftliche Prüfung 82 Aufgaben und höchstens 120 Punkte, bestanden ist sie ab 60. Eine Aufgabe hat bis zu zwei richtige Antworten, und jede richtig markierte Antwort bringt einen Punkt, auch wenn die zweite fehlt. Die Probeprüfung in der App zählt nach diesem Schema. Was gilt, wenn du mehr Antworten markierst, als richtig sind, ist nicht veröffentlicht; das haben wir nicht geprüft.
+
+### Wie aktuell sind die Aufgaben?
+
+Jede Lösung nennt die Stelle in Gesetz, Verordnung, Unfallverhütungsvorschrift oder Rahmenplan, Rechtsstand 3.11.2026. Das Messerverbot bei öffentlichen Veranstaltungen nach § 42 Abs. 4a WaffG ist schon drin. Findest du einen Fehler, meldest du ihn direkt an der Frage. Wir prüfen jede Meldung.
+
+### Brauche ich die Sachkundeprüfung oder reicht die Unterrichtung?
+
+Das hängt von deiner Aufgabe ab. Für viele Wachpersonen reicht die Unterrichtung: mindestens 40 Unterrichtsstunden ohne Prüfung (§ 6 BewachV). Die Sachkundeprüfung brauchst du, wenn du ein Bewachungsunternehmen führst oder leitest, und für fünf Tätigkeiten: Kontrollgänge im öffentlichen Verkehrsraum, Schutz vor Ladendieben, Einlass in Diskotheken und leitende Aufgaben in Unterkünften für Geflüchtete und bei zugangsgeschützten Großveranstaltungen (§ 34a Abs. 1a GewO). Die App bereitet auf die Sachkundeprüfung vor.
+
+### Brauche ich ein Konto oder Internet?
+
+Nein. Es gibt kein Konto und keine Anmeldung. Lernen und Probeprüfung laufen auch offline. Nur Kauf und Wiederherstellen brauchen eine Verbindung.
+
+### Garantiert mir die App, dass ich bestehe?
+
+Nein. Die App hilft dir beim Üben. Ob du bestehst, hängt von dir und von der Prüfung ab. Pro gilt auch, wenn du die Prüfung wiederholst.
+
+Noch eine Frage? Schreib an [sergej@mindcom.io](mailto:sergej@mindcom.io) oder lies den [Support](https://becertain.app/support/).
+
+---
+
+Seite: https://becertain.app/34a/pruefung/
+Titel: Sachkundeprüfung 34a: Ablauf, Punkte, Termine · becertain
+Stand: 2026-11-03
+
+34a Sachkunde · Ablauf
+
+# Sachkundeprüfung 34a: Ablauf, Punkte, Termine und Gebühr
+
+Die Sachkundeprüfung nach § 34a GewO brauchst du, wenn du ein Bewachungsunternehmen führst oder bestimmte Aufgaben im Bewachungsgewerbe übernimmst. Sie hat zwei Teile: schriftlich 82 Aufgaben in 120 Minuten, bestanden ab 60 von 120 Punkten, mündlich etwa 15 Minuten mit dem Schwerpunkt auf Sachgebiet 1 und 6. Abgenommen wird sie von einem Prüfungsausschuss der Industrie- und Handelskammer. Diese Seite fasst die Regeln aus Gewerbeordnung und Bewachungsverordnung zusammen, mit Quelle zu jeder Aussage. Sie ist von becertain, dem Anbieter der App 34a Sachkunde · becertain für iPhone.
+
+Stand: 3. November 2026. Verantwortlich: Sergej Markwart, becertain. Quellen am Ende der Seite.
+
+## Die Prüfung auf einen Blick
+
+- **Schriftlicher Teil:** 82 Aufgaben im Antwort-Wahl-Verfahren, 120 Minuten, aus allen sieben Sachgebieten (§ 9 Abs. 2 BewachV).
+
+- **Punkte:** Höchstens 120, bestanden ab 60. Seit dem 1. Juli 2025 mit Teilpunkten, bis zu zwei richtige Antworten je Aufgabe.
+
+- **Mündlicher Teil:** Etwa 15 Minuten je Prüfling, bis zu fünf zugleich, Schwerpunkt Sachgebiet 1 und 6 (§ 11 Abs. 2 BewachV).
+
+- **Bestanden:** Schriftlicher und mündlicher Teil jeweils mindestens ausreichend (§ 11 Abs. 4 BewachV).
+
+- **Termine:** Bundesweit meist am dritten Donnerstag im Monat, im Dezember am zweiten.
+
+- **Gebühr:** Laut IHK-Angaben 170 bis 225 €, je nach Kammer.
+
+- **Wiederholen:** Erlaubt, ohne Höchstzahl in der Verordnung (§ 11 Abs. 6 BewachV).
+
+## Der schriftliche Teil: 82 Aufgaben in 120 Minuten
+
+Gegenstand der Prüfung sind die sieben Sachgebiete aus § 7 BewachV; die Prüfung soll sich auf jedes davon erstrecken (§ 9 Abs. 2 BewachV):
+
+- [Sachgebiet 1: Öffentliche Sicherheit und Ordnung, Gewerberecht](https://becertain.app/34a/sachgebiet-1/)
+
+- [Sachgebiet 2: Datenschutzrecht](https://becertain.app/34a/sachgebiet-2/)
+
+- [Sachgebiet 3: Bürgerliches Gesetzbuch](https://becertain.app/34a/sachgebiet-3/)
+
+- [Sachgebiet 4: Straf- und Strafverfahrensrecht, Umgang mit Waffen](https://becertain.app/34a/sachgebiet-4/)
+
+- [Sachgebiet 5: Unfallverhütungsvorschrift Wach- und Sicherungsdienste](https://becertain.app/34a/sachgebiet-5/)
+
+- [Sachgebiet 6: Umgang mit Menschen](https://becertain.app/34a/sachgebiet-6/)
+
+- [Sachgebiet 7: Grundzüge der Sicherheitstechnik](https://becertain.app/34a/sachgebiet-7/)
+
+Du beantwortest die Aufgaben im Antwort-Wahl-Verfahren, auf Papier oder am Bildschirm; das Verfahren bestimmt die Kammer. Die 120 Minuten stehen nicht in der Bewachungsverordnung, sondern in der Prüfungsordnung der Kammer, zum Beispiel in § 9 Abs. 4 der Prüfungsordnung der IHK Gera. Wie viele Aufgaben auf jedes Sachgebiet fallen, ist nicht veröffentlicht. Wie die Aufgaben gebaut sind, steht unter [Prüfungsfragen zur Sachkundeprüfung 34a](https://becertain.app/34a/fragen/).
+
+## Punkte und Teilpunkte seit dem 1. Juli 2025
+
+Bis zum 30. Juni 2025 gab es 72 Aufgaben und höchstens 100 Punkte, und eine Aufgabe zählte nur, wenn alle Kreuze stimmten. Seit dem 1. Juli 2025 gilt bundesweit: 82 Aufgaben ergeben höchstens 120 Punkte, bestanden ist der schriftliche Teil ab 60 Punkten. Eine richtige Teilantwort bringt einen Punkt, auch wenn die zweite richtige Antwort fehlt oder statt ihr eine falsche markiert ist. So beschreibt es das Informationsblatt der IHK Gera zum neuen Bewertungsschema.
+
+Eine Aufgabe hat bis zu zwei richtige Antworten, schreibt die DIHK-Bildungs-GmbH. Was gilt, wenn du mehr Antworten markierst, als richtig sind, haben wir in keiner Quelle gefunden; das ist nicht geprüft.
+
+## Der mündliche Teil: etwa 15 Minuten
+
+Im mündlichen Teil werden bis zu fünf Prüflinge zugleich geprüft, für jeden soll er etwa 15 Minuten dauern. Der Schwerpunkt liegt auf Sachgebiet 1, öffentliche Sicherheit und Ordnung mit Gewerberecht, und Sachgebiet 6, Umgang mit Menschen (§ 11 Abs. 2 BewachV). Erwarte Fragen, in denen du einen Fall erklärst: Was darfst du als Wachperson, was nur die Polizei? Wann darfst du jemanden festhalten? Wie entschärfst du einen Streit am Einlass?
+
+Die Einzelheiten regelt jede Kammer in ihrer Prüfungsordnung (§ 11 Abs. 8 BewachV). In der Prüfungsordnung der IHK Gera zum Beispiel kommt zur mündlichen Prüfung nur, wer den schriftlichen Teil bestanden hat, und das innerhalb von zwei Jahren (§ 9 Abs. 7). Was in den beiden Schwerpunkten drankommt, steht unter [Sachgebiet 1](https://becertain.app/34a/sachgebiet-1/) und [Sachgebiet 6](https://becertain.app/34a/sachgebiet-6/).
+
+## Bestehen und wiederholen
+
+Die Prüfung ist bestanden, wenn der schriftliche und der mündliche Teil jeweils mindestens mit ausreichend bewertet wurden (§ 11 Abs. 4 BewachV). Ein sehr guter schriftlicher Teil gleicht einen schwachen mündlichen also nicht aus. Danach stellt die Kammer eine Bescheinigung aus (§ 11 Abs. 7). Nicht bestanden? Die Prüfung darf wiederholt werden (§ 11 Abs. 6), eine Höchstzahl nennt die Verordnung nicht.
+
+## Termine und Gebühr
+
+Die schriftliche Prüfung findet an bundesweit einheitlichen Terminen statt, meist am dritten Donnerstag im Monat, im Dezember am zweiten. So steht es in der Terminliste 2026 und 2027 der DIHK-Bildungs-GmbH. Ob deine Kammer jeden Termin anbietet und bis wann du dich anmeldest, erfährst du dort. Geprüft wird auf Deutsch.
+
+Die Gebühr legt jede Kammer selbst fest. Laut IHK-Angaben, die wir gefunden haben, liegt sie zwischen 170 und 225 €. Den genauen Betrag nennt dir deine Kammer bei der Anmeldung.
+
+## Unterrichtung oder Sachkundeprüfung
+
+Die Unterrichtung dauert mindestens 40 Unterrichtsstunden, findet mündlich statt und endet ohne Prüfung mit einer Bescheinigung, wenn du ohne Fehlzeiten teilgenommen hast (§ 6 BewachV). Sie reicht für viele Wachpersonen (§ 34a Abs. 1a Satz 1 GewO).
+
+Die Sachkundeprüfung brauchst du als Unternehmer oder Leitung eines Bewachungsunternehmens (§ 34a Abs. 1 Satz 3 Nr. 3 GewO) und als Wachperson für fünf Tätigkeiten (§ 34a Abs. 1a Satz 2 GewO):
+
+- Kontrollgänge im öffentlichen Verkehrsraum oder in Hausrechtsbereichen mit tatsächlich öffentlichem Verkehr
+
+- Schutz vor Ladendieben
+
+- Bewachung im Einlassbereich von Diskotheken
+
+- Bewachung von Unterkünften für Asylsuchende und Geflüchtete in leitender Funktion
+
+- Bewachung von zugangsgeschützten Großveranstaltungen in leitender Funktion
+
+Wer die Sachkundeprüfung bestanden hat, braucht keine Unterrichtung mehr (§ 8 Nr. 4 BewachV).
+
+## Die Rechtsgrundlagen
+
+Die Pflicht zur Sachkundeprüfung steht in § 34a GewO. Inhalt und Ablauf regelt die Bewachungsverordnung: die sieben Sachgebiete in § 7, Zweck und Gegenstand der Prüfung in § 9, Prüfungsausschuss in § 10 und das Verfahren in § 11. Alles Weitere, etwa die Dauer des schriftlichen Teils und die Punkte, regeln die Kammern durch Satzung (§ 11 Abs. 8 BewachV).
+
+## So übst du für die Sachkundeprüfung
+
+Die App 34a Sachkunde · becertain hat über 600 eigene Aufgaben zu allen sieben Sachgebieten, jede mit Erklärung und Quelle. Die Probeprüfung hat 82 Aufgaben in 120 Minuten und zählt Teilpunkte wie die Prüfung. Für den mündlichen Teil übst du offene Fragen zu Sachgebiet 1 und 6.
+
+[Zur 34a-App](https://becertain.app/34a/)
+
+Der Einstiegstest mit 45 Aufgaben ist gratis. Eine Frage kannst du gleich hier ausprobieren, zum Beispiel aus [Sachgebiet 4](https://becertain.app/34a/sachgebiet-4/#probieren).
+
+## Häufige Fragen
+
+### Wie lange dauert die Sachkundeprüfung 34a?
+
+Der schriftliche Teil dauert 120 Minuten für 82 Aufgaben. Die Dauer regelt die Prüfungsordnung der Kammer, die Bewachungsverordnung nennt keine. Der mündliche Teil soll etwa 15 Minuten je Prüfling dauern, bis zu fünf Prüflinge werden zusammen geprüft (§ 11 Abs. 2 BewachV).
+
+### Wie viele Punkte brauche ich zum Bestehen?
+
+Im schriftlichen Teil 60 von 120 Punkten, also die Hälfte. Seit dem 1. Juli 2025 gibt es Teilpunkte: Bei einer Aufgabe mit zwei richtigen Antworten bringt jede richtig markierte einen Punkt. Bestanden ist die Prüfung, wenn der schriftliche und der mündliche Teil jeweils mindestens ausreichend sind (§ 11 Abs. 4 BewachV).
+
+### Was wird in der mündlichen Prüfung gefragt?
+
+Die mündliche Prüfung kann alle sieben Sachgebiete betreffen, der Schwerpunkt liegt auf Sachgebiet 1, öffentliche Sicherheit und Ordnung mit Gewerberecht, und Sachgebiet 6, Umgang mit Menschen (§ 11 Abs. 2 BewachV). Typisch sind Fragen, in denen du einen Fall aus dem Wachdienst erklärst. Die echten Fragen sind nicht veröffentlicht.
+
+### Was kostet die Sachkundeprüfung 34a?
+
+Die Gebühr legt jede Kammer selbst fest. Laut IHK-Angaben, die wir gefunden haben, liegt sie zwischen 170 und 225 €. Den genauen Betrag nennt dir deine Kammer bei der Anmeldung.
+
+### Wie oft darf ich die Sachkundeprüfung wiederholen?
+
+Die Prüfung darf wiederholt werden (§ 11 Abs. 6 BewachV), eine Höchstzahl nennt die Verordnung nicht. Wie die Teile angerechnet werden, regelt die Prüfungsordnung deiner Kammer.
+
+## Quellen
+
+- [§ 34a GewO, Bewachungsgewerbe](https://www.gesetze-im-internet.de/gewo/__34a.html)
+
+- [§ 11 BewachV, Prüfung, Verfahren](https://www.gesetze-im-internet.de/bewachv_2019/__11.html)
+
+- [§ 9 BewachV, Zweck und Gegenstand der Sachkundeprüfung](https://www.gesetze-im-internet.de/bewachv_2019/__9.html)
+
+- [§ 6 BewachV, Verfahren der Unterrichtung](https://www.gesetze-im-internet.de/bewachv_2019/__6.html)
+
+- [Informationsblatt zum neuen Bewertungsschema der Sachkundeprüfung im Bewachungsgewerbe, IHK Ostthüringen zu Gera, Stand 9. Mai 2025 (PDF)](https://www.ihk.de/blueprint/servlet/resource/blob/6557764/04e27d3867d0f2698a93f35ae0ca4254/skp-bewachung-info-zum-neuen-bewertungsschema-data.pdf)
+
+- [Prüfungsordnung der IHK Ostthüringen zu Gera für die Sachkundeprüfung im Bewachungsgewerbe](https://www.ihk.de/gera/servicemarken/ihre-ihk/rechtsgrundlagen-2022/sach-und-fachkundepruefungen/pruefungsordnung-sachkundepruefung-bewachung-5698952)
+
+- [Prüfungstermine 2026 und 2027, DIHK-Bildungs-GmbH (PDF)](https://www.dihk-bildungs-gmbh.de/resource/blob/127514/b141447451ba417ede492d9e8fc26b4d/pruefungstermine-2026-2027-data.pdf)
+
+- [Hinweis zu den Prüfungsaufgaben, DIHK-Bildungs-GmbH](https://www.dihk-bildungs-gmbh.de/weiterbildung/lernmaterial/ihk-gewo-34a)
+
+---
+
+Seite: https://becertain.app/34a/fragen/
+Titel: Sachkundeprüfung 34a Prüfungsfragen · becertain
+Stand: 2026-11-03
+
+34a Sachkunde · Fragen
+
+# Prüfungsfragen zur Sachkundeprüfung 34a: Aufbau und die sieben Sachgebiete
+
+Die schriftliche Sachkundeprüfung nach § 34a GewO stellt 82 Aufgaben aus den sieben Sachgebieten der Bewachungsverordnung (§ 7 und § 9 Abs. 2 BewachV). Jede Aufgabe hat mehrere Antworten, bis zu zwei davon sind richtig, und jede richtige bringt einen Punkt. becertain hat für die App 34a Sachkunde über 600 eigene Übungsaufgaben geschrieben, jede mit Erklärung und Quelle. Auf den sieben Seiten zu den Sachgebieten probierst du je eine davon aus.
+
+Stand: 3. November 2026. Verantwortlich: Sergej Markwart, becertain. Quellen am Ende der Seite.
+
+## Wie eine Prüfungsfrage aufgebaut ist
+
+Die Prüfung läuft im Antwort-Wahl-Verfahren. Du liest eine kurze Frage, oft mit einem Fall aus dem Wachdienst, und markierst die richtigen Antworten. Seit dem 1. Juli 2025 hat eine Aufgabe bis zu zwei richtige Antworten, und es gibt Teilpunkte: Jede richtig markierte Antwort zählt, auch wenn die zweite fehlt. Wie die Punkte genau verteilt werden, steht unter [Punkte und Teilpunkte](https://becertain.app/34a/pruefung/#punkte).
+
+Viele Fragen prüfen Paragrafen, etwa aus BGB, StGB, StPO, Waffengesetz oder Bewachungsverordnung. Oft entscheidet ein einzelnes Merkmal im Fall: Ist der Angriff noch im Gange oder schon vorbei? Wird der Täter auf frischer Tat verfolgt? Ist er bekannt? Andere Fragen, vor allem in Sachgebiet 6 und 7, prüfen die Lehrmeinung nach dem Rahmenplan, etwa zu Deeskalation oder Brandschutz.
+
+## Die Aufgabentypen in der App
+
+### Eine richtige Antwort
+
+Vier Antworten, genau eine ist richtig. In der App steht darunter „Wähle eine Antwort.“ Gut die Hälfte der Aufgaben ist so gebaut.
+
+### Zwei richtige Antworten
+
+Vier oder fünf Antworten, zwei sind richtig, und die Aufgabe sagt dir das: „Wähle 2 Antworten.“ Jede richtige bringt einen Punkt, wie in der Prüfung. Gut zwei von fünf Aufgaben in der App sind so gebaut.
+
+### Zuordnung
+
+Zum Üben hat die App zusätzlich einige Aufgaben, in denen du Fälle der passenden Vorschrift zuordnest, etwa Notwehr, Notstand, Selbsthilfe und Festnahme. In der Prüfung ist dieses Format nicht belegt.
+
+## Die sieben Sachgebiete
+
+Auf jeder Seite stehen die Unterthemen in eigenen Worten, die wichtigsten Paragrafen und eine Frage aus der App zum Ausprobieren.
+
+### 1 Öffentliche Sicherheit und Ordnung, Gewerberecht
+
+Staat und Grundrechte, die Grenze zur Polizei, die Erlaubnis nach § 34a GewO und die Pflichten nach der Bewachungsverordnung. Schwerpunkt auch in der mündlichen Prüfung. [Themen und eine Frage aus Sachgebiet 1](https://becertain.app/34a/sachgebiet-1/)
+
+### 2 Datenschutzrecht
+
+Was personenbezogene Daten sind, wann du sie verarbeiten darfst, was bei Videoüberwachung gilt und welche Rechte Betroffene haben. [Themen und eine Frage aus Sachgebiet 2](https://becertain.app/34a/sachgebiet-2/)
+
+### 3 Bürgerliches Gesetzbuch
+
+Besitz und Eigentum, Notwehr, Notstand und Selbsthilfe nach dem BGB, Schadensersatz und Fundsachen. [Themen und eine Frage aus Sachgebiet 3](https://becertain.app/34a/sachgebiet-3/)
+
+### 4 Straf- und Strafverfahrensrecht, Umgang mit Waffen
+
+Grundlagen des Strafrechts, Notwehr und Notstand, Straftaten aus dem Wachalltag, die vorläufige Festnahme und das Waffenrecht. [Themen und eine Frage aus Sachgebiet 4](https://becertain.app/34a/sachgebiet-4/)
+
+### 5 Unfallverhütungsvorschrift Wach- und Sicherungsdienste
+
+Die DGUV Vorschrift 23 für Wach- und Sicherungsdienste: Dienstanweisung, Ausrüstung, Hunde, Schusswaffen, Geldtransporte, dazu Erste Hilfe. [Themen und eine Frage aus Sachgebiet 5](https://becertain.app/34a/sachgebiet-5/)
+
+### 6 Umgang mit Menschen
+
+Wahrnehmung, Gesprächsführung, Konflikte, Deeskalation und Eigensicherung, Vielfalt und Menschenmengen. Schwerpunkt auch in der mündlichen Prüfung. [Themen und eine Frage aus Sachgebiet 6](https://becertain.app/34a/sachgebiet-6/)
+
+### 7 Grundzüge der Sicherheitstechnik
+
+Mechanische Sicherungen, Melde- und Videoanlagen, Funk und Brandschutz. [Themen und eine Frage aus Sachgebiet 7](https://becertain.app/34a/sachgebiet-7/)
+
+## Warum zu jeder Lösung die Quelle gehört
+
+Wer eine Liste mit Lösungen auswendig lernt, kennt die Antwort, aber nicht die Regel. Die Prüfung stellt andere Fälle. In der App nennt jede Lösung die Stelle in Gesetz, Verordnung, Unfallverhütungsvorschrift oder Rahmenplan, aus der sie folgt, mit dem Wortlaut zum Aufklappen und dem Rechtsstand 3.11.2026. Fachbegriffe wie Besitzdiener oder frische Tat tippst du an und bekommst sie kurz erklärt. Findest du einen Fehler, meldest du ihn direkt an der Frage.
+
+## Gratis üben: der Einstiegstest
+
+In der App beginnst du mit dem Einstiegstest: 35 Aufgaben aus allen sieben Sachgebieten mit voller Erklärung, danach 10 neue Aufgaben auf Zeit. Die Auswertung zeigt dir, wie viel du je Sachgebiet richtig hattest. Der Einstiegstest ist gratis, Pro mit allen Aufgaben kaufst du einmal für 14,99 €, kein Abo.
+
+[Zur 34a-App](https://becertain.app/34a/)
+
+## Quellen
+
+- [§ 7 BewachV, Inhalt der Unterrichtung (die sieben Sachgebiete)](https://www.gesetze-im-internet.de/bewachv_2019/__7.html)
+
+- [§ 9 BewachV, Zweck und Gegenstand der Sachkundeprüfung](https://www.gesetze-im-internet.de/bewachv_2019/__9.html)
+
+- [Informationsblatt zum neuen Bewertungsschema der Sachkundeprüfung im Bewachungsgewerbe, IHK Ostthüringen zu Gera, Stand 9. Mai 2025 (PDF)](https://www.ihk.de/blueprint/servlet/resource/blob/6557764/04e27d3867d0f2698a93f35ae0ca4254/skp-bewachung-info-zum-neuen-bewertungsschema-data.pdf)
+
+- [Bewachungsgewerbe, Rahmenplan für die Sachkundeprüfung, Stoffsammlung für die Unterrichtung, Stand September 2019 (PDF)](https://www.dihk.de/resource/blob/153894/6c2cf0e5eac95e7f4343bf549e983abb/recht-rahmenplan-fuer-sachkundepruefung-und-unterrichtung-im-bewachungsgewerbe-data.pdf)
+
+---
+
+Seite: https://becertain.app/34a/sachgebiet-1/
+Titel: 34a Sachgebiet 1: Sicherheit und Gewerberecht · becertain
+Stand: 2026-11-03
+
+34a Sachkunde · Sachgebiet 1
+
+# Sachgebiet 1 der Sachkundeprüfung 34a: Öffentliche Sicherheit und Ordnung, Gewerberecht
+
+Sachgebiet 1 der Sachkundeprüfung fragt, wo du als Wachperson im Staat stehst: Rechtsordnung und Grundrechte, die Grenze zur Polizei, die Erlaubnis nach § 34a GewO und deine Pflichten nach der Bewachungsverordnung (§ 7 Nr. 1 BewachV). In der mündlichen Prüfung ist es einer der zwei Schwerpunkte (§ 11 Abs. 2 BewachV). Hier stehen die sechs Unterthemen in eigenen Worten, dazu eine Übungsfrage aus der App 34a Sachkunde · becertain und wie die App dieses Sachgebiet abdeckt.
+
+Stand: 3. November 2026. Verantwortlich: Sergej Markwart, becertain. Quellen am Ende der Seite.
+
+## Die 6 Unterthemen
+
+Grundlage sind § 7 Nr. 1 BewachV und die Gliederung des Rahmenplans für die Sachkundeprüfung. Die Texte fassen die Inhalte in eigenen Worten zusammen, die Paragrafen zeigen, wo du nachlesen kannst.
+
+### 1.1 Staat und Rechtsordnung
+
+Deutschland ist ein demokratischer und sozialer Bundesstaat (Art. 20 Abs. 1 GG). Die Staatsgewalt ist geteilt in Gesetzgebung, vollziehende Gewalt und Rechtsprechung (Art. 20 Abs. 2 GG). Gesetze machen Bund und Länder, je nach Zuständigkeit (Art. 30 und 70 GG). Widersprechen sie sich, bricht Bundesrecht Landesrecht (Art. 31 GG). Dazu kommt der Unterschied zwischen öffentlichem Recht, dem Verhältnis zum Staat, und Privatrecht zwischen Bürgern.
+
+### 1.2 Grundrechte im Wachdienst
+
+Die Grundrechte binden Gesetzgebung, vollziehende Gewalt und Rechtsprechung (Art. 1 Abs. 3 GG). Im Wachdienst zeigen sie dir, welche Güter besonders geschützt sind: die Würde des Menschen (Art. 1), die Freiheit der Person (Art. 2 Abs. 2), die Gleichheit vor dem Gesetz (Art. 3), die Unverletzlichkeit der Wohnung (Art. 13) und das Eigentum (Art. 14). Über eine Freiheitsentziehung entscheidet nur ein Richter (Art. 104 Abs. 2 GG).
+
+### 1.3 Private Sicherheit und Polizei abgrenzen
+
+Als Wachperson hast du keine hoheitlichen Befugnisse. Das muss sogar in deiner Dienstanweisung stehen (§ 17 Abs. 1 BewachV). Du handelst mit den Jedermannsrechten, also Notwehr, Notstand, Selbsthilfe und vorläufiger Festnahme (§ 127 Abs. 1 StPO), und mit dem Hausrecht, das dir der Auftraggeber überträgt. Die Identität eines Verdächtigen feststellen dürfen Staatsanwaltschaft und Polizei (§ 163b StPO).
+
+### 1.4 Erlaubnis, Sachkunde und Unterrichtung nach § 34a GewO
+
+Wer gewerbsmäßig Leben oder Eigentum fremder Personen bewachen will, braucht eine Erlaubnis (§ 34a Abs. 1 GewO). Sie wird versagt, wenn der Antragsteller unzuverlässig ist, in ungeordneten Vermögensverhältnissen lebt, keine Sachkundeprüfung nachweist oder keine Haftpflichtversicherung hat. Wachpersonen brauchen Zuverlässigkeit und die Unterrichtung, für fünf Tätigkeiten die Sachkundeprüfung, etwa für den Schutz vor Ladendieben (§ 34a Abs. 1a GewO).
+
+### 1.5 Gewerbeordnung: Begriffe, Anzeige, Register, Aufsicht
+
+Jeder darf ein Gewerbe betreiben, soweit das Gesetz nichts anderes bestimmt (§ 1 Abs. 1 GewO). Ein stehendes Gewerbe zeigst du bei der zuständigen Behörde an (§ 14). Unternehmen und Wachpersonen stehen im Bewacherregister, das beim Statistischen Bundesamt geführt wird (§ 11b). Die Behörde darf Auskunft verlangen und Geschäftsräume betreten (§ 29). Verstöße gegen die Erlaubnispflicht sind Ordnungswidrigkeiten (§ 144).
+
+### 1.6 Pflichten nach der Bewachungsverordnung
+
+Der Unternehmer hält eine Haftpflichtversicherung, für Personenschäden mit mindestens einer Million Euro je Schadensereignis (§ 14 BewachV). Er meldet jede Wachperson vor dem ersten Einsatz über das Bewacherregister an (§ 16), gibt ihr eine Dienstanweisung (§ 17) und einen Ausweis, den sie im Dienst mitführt (§ 18). Dienstkleidung darf nicht mit Uniformen von Streitkräften oder Polizei zu verwechseln sein (§ 19). Geschäftsgeheimnisse des Kunden bleiben geheim, auch nach dem Ausscheiden (§ 17 Abs. 3).
+
+## Probier eine Frage
+
+Eine Aufgabe aus der App zu Sachgebiet 1, Unterthema 1.4. Wähle eine Antwort und prüf sie. Danach liest du die Erklärung und die Quelle, wie in der App.
+
+Du arbeitest bei einem zugangsgeschützten Festival als Ordner am Eingang. Du hast keine Leitungsfunktion. Was brauchst du nach § 34a Abs. 1a GewO?
+
+Lösung: Zuverlässigkeit und Unterrichtung, die Sachkundeprüfung nur in leitender Funktion, nach § 34a Abs. 1a GewO. Zum Ausprobieren braucht die Seite JavaScript.
+
+## Die wichtigsten Paragrafen
+
+- Art. 1, 2, 3, 13, 14, 20 und 104 GG: Grundrechte und Staatsaufbau
+
+- § 34a GewO: Erlaubnis, Unterrichtung, Sachkundeprüfung, Zuverlässigkeit
+
+- §§ 1, 11b, 14, 29 und 144 GewO: Gewerbefreiheit, Bewacherregister, Anzeige, Aufsicht, Bußgeld
+
+- §§ 14 bis 21 BewachV: Versicherung, Anmeldung, Dienstanweisung, Ausweis, Dienstkleidung, Waffen
+
+- § 127 Abs. 1 und § 163b StPO: Festnahme durch jedermann, Identität durch die Polizei
+
+## So deckt die App Sachgebiet 1 ab
+
+In der App 34a Sachkunde · becertain hat Sachgebiet 1 über 90 eigene Übungsaufgaben, verteilt auf alle Unterthemen oben. Jede Lösung nennt die Stelle, aus der sie folgt, mit dem Wortlaut zum Aufklappen. In der Probeprüfung mit 82 Aufgaben stammen etwa 11 % der Aufgaben aus diesem Sachgebiet. Die Verteilung folgt der Fragenzahl je Bereich im alten Prüfungsformat bis Juni 2025; wie die Prüfung heute verteilt, ist nicht veröffentlicht. Weil die mündliche Prüfung hier einen Schwerpunkt hat, übst du Sachgebiet 1 in der App auch mündlich: Du antwortest laut und vergleichst danach mit der Musterantwort.
+
+Nach dem Einstiegstest mit 45 Aufgaben zeigt dir die Auswertung, wie viel du in Sachgebiet 1 richtig hattest. Jede falsche Antwort kommt später wieder dran, bis du sie richtig hast. Der Einstiegstest ist gratis, Pro kaufst du einmal für 14,99 €, kein Abo.
+
+[Zur 34a-App](https://becertain.app/34a/)
+
+Erst den Einstiegstest machen, dann entscheiden.
+
+## Weiterlesen
+
+- [Sachgebiet 2: Datenschutzrecht](https://becertain.app/34a/sachgebiet-2/)
+
+- [Sachgebiet 3: Bürgerliches Gesetzbuch](https://becertain.app/34a/sachgebiet-3/)
+
+- [Sachgebiet 4: Straf- und Strafverfahrensrecht, Umgang mit Waffen](https://becertain.app/34a/sachgebiet-4/)
+
+- [Sachgebiet 5: Unfallverhütungsvorschrift Wach- und Sicherungsdienste](https://becertain.app/34a/sachgebiet-5/)
+
+- [Sachgebiet 6: Umgang mit Menschen](https://becertain.app/34a/sachgebiet-6/)
+
+- [Sachgebiet 7: Grundzüge der Sicherheitstechnik](https://becertain.app/34a/sachgebiet-7/)
+
+- [Sachkundeprüfung 34a: Ablauf, Punkte, Termine und Gebühr](https://becertain.app/34a/pruefung/)
+
+- [Prüfungsfragen zur Sachkundeprüfung 34a nach Sachgebiet](https://becertain.app/34a/fragen/)
+
+## Quellen
+
+- [Grundgesetz für die Bundesrepublik Deutschland, gesetze-im-internet.de](https://www.gesetze-im-internet.de/gg/)
+
+- [§ 34a GewO, Bewachungsgewerbe](https://www.gesetze-im-internet.de/gewo/__34a.html)
+
+- [Bewachungsverordnung (BewachV) vom 3. Mai 2019, gesetze-im-internet.de](https://www.gesetze-im-internet.de/bewachv_2019/)
+
+- [§ 7 BewachV, Inhalt der Unterrichtung (die sieben Sachgebiete)](https://www.gesetze-im-internet.de/bewachv_2019/__7.html)
+
+---
+
+Seite: https://becertain.app/34a/sachgebiet-2/
+Titel: 34a Sachgebiet 2: Datenschutzrecht · becertain
+Stand: 2026-11-03
+
+34a Sachkunde · Sachgebiet 2
+
+# Sachgebiet 2 der Sachkundeprüfung 34a: Datenschutzrecht
+
+Sachgebiet 2 der Sachkundeprüfung fragt, wie du mit Daten von Menschen umgehst: Namen auf der Besucherliste, Bilder aus der Videoanlage, Einträge im Wachbuch (§ 7 Nr. 2 BewachV). Grundlage sind die Datenschutz-Grundverordnung (DSGVO) und das Bundesdatenschutzgesetz (BDSG). Hier stehen die sechs Unterthemen in eigenen Worten, dazu eine Übungsfrage aus der App 34a Sachkunde · becertain und wie die App dieses Sachgebiet abdeckt.
+
+Stand: 3. November 2026. Verantwortlich: Sergej Markwart, becertain. Quellen am Ende der Seite.
+
+## Die 6 Unterthemen
+
+Grundlage sind § 7 Nr. 2 BewachV und die Gliederung des Rahmenplans für die Sachkundeprüfung. Die Texte fassen die Inhalte in eigenen Worten zusammen, die Paragrafen zeigen, wo du nachlesen kannst.
+
+### 2.1 Personenbezogene Daten und Anwendungsbereich
+
+Personenbezogen ist jede Information über eine bestimmte oder bestimmbare Person, also auch ein Bild, auf dem man jemanden erkennen kann (Art. 4 Nr. 1 DSGVO). Gesundheitsdaten und einige andere Arten gehören zu den besonderen Kategorien, für die strengere Regeln gelten (Art. 9). Die DSGVO gilt in der ganzen EU, das BDSG ergänzt sie in Deutschland.
+
+### 2.2 Grundsätze und Rechtmäßigkeit der Verarbeitung
+
+Daten dürfen nur für einen festgelegten Zweck erhoben werden, nur so viele wie nötig und nur so lange wie nötig: Zweckbindung, Datenminimierung und Speicherbegrenzung (Art. 5 Abs. 1 DSGVO). Jede Verarbeitung braucht eine Rechtsgrundlage, etwa eine Einwilligung, einen Vertrag, eine rechtliche Pflicht oder ein berechtigtes Interesse (Art. 6 Abs. 1).
+
+### 2.3 Rechte der betroffenen Person
+
+Wer erfasst oder gefilmt wird, hat Rechte: Information, Auskunft, Berichtigung, Löschung und Widerspruch (Art. 13 bis 21 DSGVO). Auf einen Antrag antwortet der Verantwortliche ohne unangemessene Verzögerung, spätestens innerhalb eines Monats, und in der Regel unentgeltlich (Art. 12 Abs. 3 und 5).
+
+### 2.4 Videoüberwachung öffentlich zugänglicher Räume
+
+Für Kameras in öffentlich zugänglichen Räumen, etwa in einem Einkaufszentrum, nennt § 4 BDSG die Voraussetzungen: Die Beobachtung muss erforderlich sein, und schutzwürdige Interessen der Betroffenen dürfen nicht überwiegen. Auf die Kamera und den Verantwortlichen wird frühzeitig hingewiesen, und die Aufnahmen werden gelöscht, sobald sie nicht mehr gebraucht werden.
+
+### 2.5 Datensicherheit, Auftragsverarbeitung, Datenpannen
+
+Daten werden durch technische und organisatorische Maßnahmen geschützt, etwa durch Passwörter und Zugriffsrechte (Art. 32 DSGVO). Wer im Auftrag eines Kunden Daten verarbeitet, etwa dessen Videoanlage auswertet, darf das nur auf Weisung des Kunden (Art. 28 und 29). Eine Datenpanne meldet der Verantwortliche möglichst binnen 72 Stunden der Aufsichtsbehörde (Art. 33).
+
+### 2.6 Strafen, Bußgelder, Haftung
+
+Wer das nicht öffentlich gesprochene Wort eines anderen unbefugt aufnimmt oder Bilder macht, die einen Menschen in hilfloser Lage zur Schau stellen, kann sich strafbar machen (§§ 201 und 201a StGB). Verstöße gegen die DSGVO können Geldbußen nach sich ziehen (Art. 83), und wer dadurch einen Schaden erleidet, kann Schadensersatz verlangen (Art. 82).
+
+## Probier eine Frage
+
+Eine Aufgabe aus der App zu Sachgebiet 2, Unterthema 2.5. Wähle eine Antwort und prüf sie. Danach liest du die Erklärung und die Quelle, wie in der App.
+
+Deine Firma wertet als Auftragsverarbeiter die Kameras eines Kunden aus. Ein Kollege will spannende Szenen für ein Schulungsvideo der eigenen Firma verwenden. Was gilt nach Art. 29 DSGVO?
+
+Lösung: Die Daten dürfen nur auf Weisung des Verantwortlichen verarbeitet werden, nach Art. 29 DSGVO. Zum Ausprobieren braucht die Seite JavaScript.
+
+## Die wichtigsten Paragrafen
+
+- Art. 4, 5, 6 und 9 DSGVO: Begriffe, Grundsätze, Rechtsgrundlagen, besondere Kategorien
+
+- Art. 12 bis 21 DSGVO: Rechte der betroffenen Person
+
+- Art. 28, 29, 32 und 33 DSGVO: Auftragsverarbeitung, Sicherheit, Datenpannen
+
+- § 4 BDSG: Videoüberwachung öffentlich zugänglicher Räume
+
+- §§ 201 und 201a StGB: Vertraulichkeit des Wortes, Bildaufnahmen
+
+## So deckt die App Sachgebiet 2 ab
+
+In der App 34a Sachkunde · becertain hat Sachgebiet 2 rund 50 eigene Übungsaufgaben, verteilt auf alle Unterthemen oben. Jede Lösung nennt die Stelle, aus der sie folgt, mit dem Wortlaut zum Aufklappen. In der Probeprüfung mit 82 Aufgaben stammen etwa 6 % der Aufgaben aus diesem Sachgebiet. Die Verteilung folgt der Fragenzahl je Bereich im alten Prüfungsformat bis Juni 2025; wie die Prüfung heute verteilt, ist nicht veröffentlicht.
+
+Nach dem Einstiegstest mit 45 Aufgaben zeigt dir die Auswertung, wie viel du in Sachgebiet 2 richtig hattest. Jede falsche Antwort kommt später wieder dran, bis du sie richtig hast. Der Einstiegstest ist gratis, Pro kaufst du einmal für 14,99 €, kein Abo.
+
+[Zur 34a-App](https://becertain.app/34a/)
+
+Erst den Einstiegstest machen, dann entscheiden.
+
+## Weiterlesen
+
+- [Sachgebiet 1: Öffentliche Sicherheit und Ordnung, Gewerberecht](https://becertain.app/34a/sachgebiet-1/)
+
+- [Sachgebiet 3: Bürgerliches Gesetzbuch](https://becertain.app/34a/sachgebiet-3/)
+
+- [Sachgebiet 4: Straf- und Strafverfahrensrecht, Umgang mit Waffen](https://becertain.app/34a/sachgebiet-4/)
+
+- [Sachgebiet 5: Unfallverhütungsvorschrift Wach- und Sicherungsdienste](https://becertain.app/34a/sachgebiet-5/)
+
+- [Sachgebiet 6: Umgang mit Menschen](https://becertain.app/34a/sachgebiet-6/)
+
+- [Sachgebiet 7: Grundzüge der Sicherheitstechnik](https://becertain.app/34a/sachgebiet-7/)
+
+- [Sachkundeprüfung 34a: Ablauf, Punkte, Termine und Gebühr](https://becertain.app/34a/pruefung/)
+
+- [Prüfungsfragen zur Sachkundeprüfung 34a nach Sachgebiet](https://becertain.app/34a/fragen/)
+
+## Quellen
+
+- [Datenschutz-Grundverordnung (EU) 2016/679, EUR-Lex](https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:02016R0679-20160504)
+
+- [§ 4 BDSG, Videoüberwachung öffentlich zugänglicher Räume](https://www.gesetze-im-internet.de/bdsg_2018/__4.html)
+
+- [§ 201a StGB, Verletzung des höchstpersönlichen Lebensbereichs durch Bildaufnahmen](https://www.gesetze-im-internet.de/stgb/__201a.html)
+
+- [§ 7 BewachV, Inhalt der Unterrichtung (die sieben Sachgebiete)](https://www.gesetze-im-internet.de/bewachv_2019/__7.html)
+
+---
+
+Seite: https://becertain.app/34a/sachgebiet-3/
+Titel: 34a Sachgebiet 3: Bürgerliches Gesetzbuch · becertain
+Stand: 2026-11-03
+
+34a Sachkunde · Sachgebiet 3
+
+# Sachgebiet 3 der Sachkundeprüfung 34a: Bürgerliches Gesetzbuch
+
+Sachgebiet 3 der Sachkundeprüfung fragt nach den Rechten aus dem Bürgerlichen Gesetzbuch, die du im Dienst brauchst: Besitz und Eigentum, Notwehr, Notstand, Selbsthilfe, Schadensersatz und Fundsachen (§ 7 Nr. 3 BewachV). Viele Aufgaben sind Abgrenzungen: Ein Merkmal im Fall entscheidet, welche Vorschrift passt. Hier stehen die sieben Unterthemen in eigenen Worten, dazu eine Übungsfrage aus der App 34a Sachkunde · becertain und wie die App dieses Sachgebiet abdeckt.
+
+Stand: 3. November 2026. Verantwortlich: Sergej Markwart, becertain. Quellen am Ende der Seite.
+
+## Die 7 Unterthemen
+
+Grundlage sind § 7 Nr. 3 BewachV und die Gliederung des Rahmenplans für die Sachkundeprüfung. Die Texte fassen die Inhalte in eigenen Worten zusammen, die Paragrafen zeigen, wo du nachlesen kannst.
+
+### 3.1 Eigentum, Besitz und Besitzdiener
+
+Eigentümer ist, wem die Sache gehört. Er kann mit ihr nach Belieben verfahren (§ 903 BGB). Besitzer ist, wer die tatsächliche Gewalt über die Sache hat (§ 854). Wer die Sache für einen anderen nach dessen Weisungen in der Hand hat, etwa du mit dem Schlüsselbund des Kunden, ist Besitzdiener (§ 855). Tiere sind keine Sachen, werden aber meist wie Sachen behandelt (§ 90a).
+
+### 3.2 Notwehr nach dem BGB
+
+Notwehr ist die Verteidigung, die erforderlich ist, um einen gegenwärtigen rechtswidrigen Angriff von dir oder einem anderen abzuwenden (§ 227 Abs. 2 BGB). Eine solche Handlung ist nicht widerrechtlich, du schuldest also keinen Schadensersatz (§ 227 Abs. 1). Ist der Angriff vorbei, endet auch die Notwehr.
+
+### 3.3 Verteidigungsnotstand und Angriffsnotstand
+
+Geht die Gefahr von einer fremden Sache aus, etwa von einem frei angreifenden Hund, darfst du die Sache beschädigen, soweit das zur Abwehr nötig ist und der Schaden nicht außer Verhältnis zur Gefahr steht (§ 228 BGB, Verteidigungsnotstand). Nutzt du eine unbeteiligte fremde Sache, um eine viel größere Gefahr abzuwenden, muss der Eigentümer das dulden, kann aber Ersatz verlangen (§ 904, Angriffsnotstand).
+
+### 3.4 Selbsthilfe, verbotene Eigenmacht, Besitzschutz
+
+Wer dem Besitzer ohne dessen Willen den Besitz entzieht oder ihn stört, handelt mit verbotener Eigenmacht (§ 858 BGB). Dagegen darf sich der Besitzer mit Gewalt wehren (Besitzwehr) und eine gerade weggenommene Sache dem Täter auf frischer Tat wieder abnehmen (Besitzkehr, § 859). Als Besitzdiener hast du dieselben Rechte (§ 860). Die allgemeine Selbsthilfe ist enger: nur, wenn obrigkeitliche Hilfe nicht rechtzeitig kommt (§ 229), und nur so weit wie nötig (§ 230).
+
+### 3.5 Verhältnismäßigkeit, Schikaneverbot, Abgrenzung zum Strafrecht
+
+Ein Recht darf nicht nur dazu ausgeübt werden, einem anderen zu schaden (§ 226 BGB, Schikaneverbot). Jedes Jedermannsrecht hat Grenzen: Das Mittel muss geeignet, erforderlich und angemessen sein. Hier lernst du auch, wie sich die Rechte aus dem BGB von Notwehr und Notstand im Strafgesetzbuch (§§ 32 bis 35 StGB) und von der Festnahme nach § 127 StPO unterscheiden.
+
+### 3.6 Schadensersatz und Haftung
+
+Wer vorsätzlich oder fahrlässig Leben, Körper, Gesundheit, Freiheit oder Eigentum eines anderen widerrechtlich verletzt, muss den Schaden ersetzen (§ 823 Abs. 1 BGB). Kinder unter sieben Jahren haften nicht, Jugendliche nur mit der nötigen Einsicht (§ 828). Richtet ein Tier einen Schaden an, haftet in der Regel der Halter (§ 833).
+
+### 3.7 Fundsachen
+
+Wer eine verlorene Sache findet und an sich nimmt, meldet den Fund unverzüglich dem Verlierer, dem Eigentümer oder, wenn er sie nicht kennt, der Behörde (§ 965 BGB) und verwahrt die Sache (§ 966). Findest du sie in den Räumen einer Behörde oder in einem öffentlichen Verkehrsmittel, lieferst du sie dort unverzüglich ab (§ 978).
+
+## Probier eine Frage
+
+Eine Aufgabe aus der App zu Sachgebiet 3, Unterthema 3.2. Wähle eine Antwort und prüf sie. Danach liest du die Erklärung und die Quelle, wie in der App.
+
+Ein Angreifer hat dich mit einem Messer bedroht. Du hast ihn zu Boden gebracht. Er wirft das Messer weg und hebt die Hände. Trotzdem schlägst du noch zweimal zu. Später verlangt er Ersatz für die Verletzungen aus diesen zwei Schlägen. Was gilt nach dem BGB?
+
+Lösung: Die zwei Schläge deckt die Notwehr nicht, dafür kann er Ersatz verlangen, nach § 227 und § 823 Abs. 1 BGB. Zum Ausprobieren braucht die Seite JavaScript.
+
+## Die wichtigsten Paragrafen
+
+- §§ 854, 855, 903 BGB: Besitz, Besitzdiener, Eigentum
+
+- § 227 BGB: Notwehr
+
+- §§ 228 und 904 BGB: Verteidigungsnotstand und Angriffsnotstand
+
+- §§ 229, 230, 858 bis 860 BGB: Selbsthilfe, verbotene Eigenmacht, Besitzwehr und Besitzkehr
+
+- §§ 823, 828, 833 BGB: Schadensersatz und Haftung
+
+- §§ 965 bis 967 und 978 BGB: Fundsachen
+
+## So deckt die App Sachgebiet 3 ab
+
+In der App 34a Sachkunde · becertain hat Sachgebiet 3 über 100 eigene Übungsaufgaben, verteilt auf alle Unterthemen oben. Jede Lösung nennt die Stelle, aus der sie folgt, mit dem Wortlaut zum Aufklappen. In der Probeprüfung mit 82 Aufgaben stammen etwa 17 % der Aufgaben aus diesem Sachgebiet. Die Verteilung folgt der Fragenzahl je Bereich im alten Prüfungsformat bis Juni 2025; wie die Prüfung heute verteilt, ist nicht veröffentlicht.
+
+Nach dem Einstiegstest mit 45 Aufgaben zeigt dir die Auswertung, wie viel du in Sachgebiet 3 richtig hattest. Jede falsche Antwort kommt später wieder dran, bis du sie richtig hast. Der Einstiegstest ist gratis, Pro kaufst du einmal für 14,99 €, kein Abo.
+
+[Zur 34a-App](https://becertain.app/34a/)
+
+Erst den Einstiegstest machen, dann entscheiden.
+
+## Weiterlesen
+
+- [Sachgebiet 1: Öffentliche Sicherheit und Ordnung, Gewerberecht](https://becertain.app/34a/sachgebiet-1/)
+
+- [Sachgebiet 2: Datenschutzrecht](https://becertain.app/34a/sachgebiet-2/)
+
+- [Sachgebiet 4: Straf- und Strafverfahrensrecht, Umgang mit Waffen](https://becertain.app/34a/sachgebiet-4/)
+
+- [Sachgebiet 5: Unfallverhütungsvorschrift Wach- und Sicherungsdienste](https://becertain.app/34a/sachgebiet-5/)
+
+- [Sachgebiet 6: Umgang mit Menschen](https://becertain.app/34a/sachgebiet-6/)
+
+- [Sachgebiet 7: Grundzüge der Sicherheitstechnik](https://becertain.app/34a/sachgebiet-7/)
+
+- [Sachkundeprüfung 34a: Ablauf, Punkte, Termine und Gebühr](https://becertain.app/34a/pruefung/)
+
+- [Prüfungsfragen zur Sachkundeprüfung 34a nach Sachgebiet](https://becertain.app/34a/fragen/)
+
+## Quellen
+
+- [§ 227 BGB, Notwehr](https://www.gesetze-im-internet.de/bgb/__227.html)
+
+- [§ 859 BGB, Selbsthilfe des Besitzers](https://www.gesetze-im-internet.de/bgb/__859.html)
+
+- [Bürgerliches Gesetzbuch, gesetze-im-internet.de](https://www.gesetze-im-internet.de/bgb/)
+
+- [§ 7 BewachV, Inhalt der Unterrichtung (die sieben Sachgebiete)](https://www.gesetze-im-internet.de/bewachv_2019/__7.html)
+
+---
+
+Seite: https://becertain.app/34a/sachgebiet-4/
+Titel: 34a Sachgebiet 4: Strafrecht und Waffen · becertain
+Stand: 2026-11-03
+
+34a Sachkunde · Sachgebiet 4
+
+# Sachgebiet 4 der Sachkundeprüfung 34a: Straf- und Strafverfahrensrecht, Umgang mit Waffen
+
+Sachgebiet 4 der Sachkundeprüfung ist das größte: Strafrecht, Strafverfahrensrecht und der Umgang mit Waffen (§ 7 Nr. 4 BewachV). Du lernst, wann eine Tat strafbar ist, wann Notwehr und Notstand dich rechtfertigen, welche Straftaten dir im Dienst begegnen, wann du jemanden festhalten darfst und was das Waffengesetz erlaubt. Hier stehen die acht Unterthemen in eigenen Worten, dazu eine Übungsfrage aus der App 34a Sachkunde · becertain und wie die App dieses Sachgebiet abdeckt.
+
+Stand: 3. November 2026. Verantwortlich: Sergej Markwart, becertain. Quellen am Ende der Seite.
+
+## Die 8 Unterthemen
+
+Grundlage sind § 7 Nr. 4 BewachV und die Gliederung des Rahmenplans für die Sachkundeprüfung. Die Texte fassen die Inhalte in eigenen Worten zusammen, die Paragrafen zeigen, wo du nachlesen kannst.
+
+### 4.1 Grundlagen des Strafrechts
+
+Eine Tat ist nur strafbar, wenn das Gesetz das vor der Tat bestimmt hat (§ 1 StGB). Verbrechen sind Taten mit mindestens einem Jahr Freiheitsstrafe, alle anderen sind Vergehen (§ 12). Strafbar ist meist nur vorsätzliches Handeln (§ 15), Kinder unter 14 Jahren sind schuldunfähig (§ 19). Dazu kommen Versuch, Täter, Anstifter und Gehilfe und der Unterschied zwischen Antrags- und Offizialdelikt.
+
+### 4.2 Notwehr, Notstand und Entschuldigung im Strafrecht
+
+Notwehr nach § 32 StGB rechtfertigt die erforderliche Verteidigung gegen einen gegenwärtigen rechtswidrigen Angriff. Wer aus Verwirrung, Furcht oder Schrecken zu weit geht, wird nicht bestraft (§ 33). Der rechtfertigende Notstand erlaubt einen Eingriff, wenn das geschützte Interesse das beeinträchtigte wesentlich überwiegt (§ 34). Der entschuldigende Notstand betrifft Gefahren für Leben, Leib oder Freiheit (§ 35).
+
+### 4.3 Straftaten gegen Ordnung, Rechtspflege und Ehre
+
+Hausfriedensbruch begeht, wer widerrechtlich in fremde Räume eindringt oder trotz Aufforderung nicht geht (§ 123 StGB). Wer sich als Polizist ausgibt, macht sich wegen Amtsanmaßung strafbar (§ 132). Dazu kommen falsche Aussage vor Gericht, falsche Verdächtigung und Beleidigung (§§ 153, 164 und 185).
+
+### 4.4 Straftaten gegen Körper, Freiheit und Hilfepflicht
+
+Aus einer Körperverletzung (§ 223 StGB) wird eine gefährliche, etwa mit einer Waffe oder gemeinsam mit anderen (§ 224). Wer jemanden einsperrt oder festhält, ohne dass ein Recht das erlaubt, begeht Freiheitsberaubung (§ 239). Wer mit Gewalt oder Drohung zu etwas zwingt, begeht Nötigung (§ 240). Bei einem Unglücksfall musst du helfen, soweit es dir zuzumuten ist (§ 323c).
+
+### 4.5 Eigentums- und Vermögensdelikte
+
+Diebstahl ist die Wegnahme einer fremden beweglichen Sache in der Absicht, sie sich rechtswidrig zuzueignen (§ 242 StGB). Mit Gewalt oder Drohung wird daraus Raub (§ 249). Wer nach einem Diebstahl Gewalt anwendet, um die Beute zu behalten, begeht räuberischen Diebstahl (§ 252). Dazu kommen Unterschlagung, Erpressung, Hehlerei, Betrug, Erschleichen von Leistungen, Urkundenfälschung, Sachbeschädigung und Brandstiftung.
+
+### 4.6 Festnahme, Ermittlungsverfahren, Ordnungswidrigkeiten
+
+Wird jemand auf frischer Tat betroffen oder verfolgt, darf ihn jeder vorläufig festnehmen, wenn er der Flucht verdächtig ist oder seine Identität nicht sofort festgestellt werden kann (§ 127 Abs. 1 StPO). Ermitteln müssen Staatsanwaltschaft und Polizei (§§ 152 und 163). Ordnungswidrigkeiten sind keine Straftaten, sie werden mit einer Geldbuße geahndet (§ 1 OWiG).
+
+### 4.7 Waffenrecht
+
+Das Waffengesetz unterscheidet Erwerb, Besitz und Führen (Anlage 1 WaffG). Für Schusswaffen brauchst du eine Erlaubnis, zum Führen einen Waffenschein (§ 10). Ein Bewachungsunternehmer bekommt sie nur, wenn Aufträge zum Schutz gefährdeter Personen oder Objekte Schusswaffen erfordern (§ 28). Bei öffentlichen Veranstaltungen ist das Führen von Waffen verboten (§ 42 Abs. 1), inzwischen auch von Messern, mit Ausnahmen etwa für Beschäftigte bei der Arbeit (§ 42 Abs. 4a).
+
+### 4.8 Reizstoffsprühgeräte, Schlagstöcke und andere Abwehrmittel
+
+Reizstoffsprühgeräte und Schlagstöcke können Waffen im Sinne des Gesetzes sein; was gilt, steht in § 1 Abs. 2 und den Anlagen 1 und 2 WaffG. Im Dienst führst du Hieb- und Stoßwaffen und Reizstoffsprühgeräte nur mit Zustimmung deines Arbeitgebers, und jeden Gebrauch zeigst du der Polizei und ihm an (§ 17 Abs. 1 BewachV).
+
+## Probier eine Frage
+
+Eine Aufgabe aus der App zu Sachgebiet 4, Unterthema 4.6. Wähle eine Antwort und prüf sie. Danach liest du die Erklärung und die Quelle, wie in der App.
+
+Nachts ertappt ein Wachmann einen Unbekannten im umzäunten Lagerhof. Der Mann will über den Zaun flüchten. Hausfriedensbruch wird nur auf Antrag verfolgt. Ein Antrag ist noch nicht gestellt. Darf der Wachmann ihn vorläufig festnehmen?
+
+Lösung: Ja, die vorläufige Festnahme ist auch ohne Strafantrag zulässig, nach § 127 Abs. 3 StPO. Zum Ausprobieren braucht die Seite JavaScript.
+
+## Die wichtigsten Paragrafen
+
+- §§ 32 bis 35 StGB: Notwehr, Notwehrüberschreitung, Notstand
+
+- §§ 123, 223, 239, 240, 242, 249, 252 und 323c StGB: Straftaten aus dem Wachalltag
+
+- § 127 StPO: Vorläufige Festnahme durch jedermann
+
+- § 1 OWiG: Ordnungswidrigkeit
+
+- §§ 1, 10, 28 und 42 WaffG mit Anlagen 1 und 2: Waffen, Erlaubnisse, Bewachungsunternehmer, Verbot bei Veranstaltungen
+
+- § 17 Abs. 1 BewachV: Waffen im Dienst nur mit Zustimmung
+
+## So deckt die App Sachgebiet 4 ab
+
+In der App 34a Sachkunde · becertain hat Sachgebiet 4 rund 150 eigene Übungsaufgaben, verteilt auf alle Unterthemen oben. Jede Lösung nennt die Stelle, aus der sie folgt, mit dem Wortlaut zum Aufklappen. In der Probeprüfung mit 82 Aufgaben stammen etwa 22 % der Aufgaben aus diesem Sachgebiet. Die Verteilung folgt der Fragenzahl je Bereich im alten Prüfungsformat bis Juni 2025; wie die Prüfung heute verteilt, ist nicht veröffentlicht.
+
+Nach dem Einstiegstest mit 45 Aufgaben zeigt dir die Auswertung, wie viel du in Sachgebiet 4 richtig hattest. Jede falsche Antwort kommt später wieder dran, bis du sie richtig hast. Der Einstiegstest ist gratis, Pro kaufst du einmal für 14,99 €, kein Abo.
+
+[Zur 34a-App](https://becertain.app/34a/)
+
+Erst den Einstiegstest machen, dann entscheiden.
+
+## Weiterlesen
+
+- [Sachgebiet 1: Öffentliche Sicherheit und Ordnung, Gewerberecht](https://becertain.app/34a/sachgebiet-1/)
+
+- [Sachgebiet 2: Datenschutzrecht](https://becertain.app/34a/sachgebiet-2/)
+
+- [Sachgebiet 3: Bürgerliches Gesetzbuch](https://becertain.app/34a/sachgebiet-3/)
+
+- [Sachgebiet 5: Unfallverhütungsvorschrift Wach- und Sicherungsdienste](https://becertain.app/34a/sachgebiet-5/)
+
+- [Sachgebiet 6: Umgang mit Menschen](https://becertain.app/34a/sachgebiet-6/)
+
+- [Sachgebiet 7: Grundzüge der Sicherheitstechnik](https://becertain.app/34a/sachgebiet-7/)
+
+- [Sachkundeprüfung 34a: Ablauf, Punkte, Termine und Gebühr](https://becertain.app/34a/pruefung/)
+
+- [Prüfungsfragen zur Sachkundeprüfung 34a nach Sachgebiet](https://becertain.app/34a/fragen/)
+
+## Quellen
+
+- [§ 32 StGB, Notwehr](https://www.gesetze-im-internet.de/stgb/__32.html)
+
+- [§ 127 StPO, Vorläufige Festnahme](https://www.gesetze-im-internet.de/stpo/__127.html)
+
+- [§ 42 WaffG, Verbot des Führens von Waffen und Messern bei öffentlichen Veranstaltungen](https://www.gesetze-im-internet.de/waffg_2002/__42.html)
+
+- [Strafgesetzbuch, gesetze-im-internet.de](https://www.gesetze-im-internet.de/stgb/)
+
+- [§ 7 BewachV, Inhalt der Unterrichtung (die sieben Sachgebiete)](https://www.gesetze-im-internet.de/bewachv_2019/__7.html)
+
+---
+
+Seite: https://becertain.app/34a/sachgebiet-5/
+Titel: 34a Sachgebiet 5: Unfallverhütung · becertain
+Stand: 2026-11-03
+
+34a Sachkunde · Sachgebiet 5
+
+# Sachgebiet 5 der Sachkundeprüfung 34a: Unfallverhütungsvorschrift Wach- und Sicherungsdienste
+
+Sachgebiet 5 der Sachkundeprüfung fragt nach der Unfallverhütungsvorschrift Wach- und Sicherungsdienste, der DGUV Vorschrift 23, und nach den Grundsätzen der Prävention aus der DGUV Vorschrift 1 (§ 7 Nr. 5 BewachV). Sie regeln, wie du im Dienst sicher arbeitest und was dein Arbeitgeber dafür tun muss. Hier stehen die fünf Unterthemen in eigenen Worten, dazu eine Übungsfrage aus der App 34a Sachkunde · becertain und wie die App dieses Sachgebiet abdeckt.
+
+Stand: 3. November 2026. Verantwortlich: Sergej Markwart, becertain. Quellen am Ende der Seite.
+
+## Die 5 Unterthemen
+
+Grundlage sind § 7 Nr. 5 BewachV und die Gliederung des Rahmenplans für die Sachkundeprüfung. Die Texte fassen die Inhalte in eigenen Worten zusammen, die Paragrafen zeigen, wo du nachlesen kannst.
+
+### 5.1 Eignung, Dienstanweisung, Objekt und Einweisung
+
+Wach- und Sicherungsaufgaben übernehmen nur Versicherte mit den nötigen Befähigungen (§ 3 DGUV Vorschrift 23). Den Dienst regelt der Unternehmer durch Dienstanweisungen; Weisungen des Auftraggebers, die dem Sicherungsauftrag entgegenstehen, befolgst du nicht (§ 4 Abs. 3). Alkohol und andere berauschende Mittel sind im Dienst und eine angemessene Zeit davor verboten (§ 5). Objekte werden auf Gefahren geprüft, und du wirst in jedes Objekt eingewiesen (§§ 8 und 9).
+
+### 5.2 Ausrüstung, Brille und Diensthunde
+
+Der Unternehmer sorgt für passendes Schuhwerk und bei Dunkelheit für leistungsfähige Handleuchten (§ 10). Wer eine Brille braucht, sichert sie gegen Verlieren oder hat eine Ersatzbrille dabei (§ 11). Als Diensthunde arbeiten nur geprüfte Hunde mit Hundeführern (§ 12). Einen Hund übergibst du nicht von Person zu Person, sondern im Zwinger bei geschlossener Tür (§ 16 Abs. 1).
+
+### 5.3 Schusswaffen im Wachdienst
+
+Schusswaffen gibt es im Dienst nur auf ausdrückliche Anordnung des Unternehmers und nur für Versicherte, die nach dem Waffenrecht zuverlässig, geeignet und sachkundig sind und regelmäßig Schießübungen machen (§ 18). Schreck- und Gasschusswaffen sind im Wachdienst unzulässig (§ 19 Abs. 4). Übergeben wird eine Schusswaffe nur entladen, aufbewahrt in einem verschlossenen Stahlschrank (§§ 21 und 22).
+
+### 5.4 Geld- und Werttransporte
+
+Für Geldtransporte setzt der Unternehmer nur Personen ein, die mindestens 18 Jahre alt, zuverlässig, geeignet und besonders ausgebildet sind (§ 24). Boten sind in öffentlich zugänglichen Bereichen mindestens zu zweit unterwegs, eine Person übernimmt die Sicherung (§ 25 Abs. 1). Ausnahmen nennt § 25 Abs. 2.
+
+### 5.5 Grundsätze der Prävention und Erste Hilfe
+
+Die DGUV Vorschrift 1 gilt für alle Betriebe. Der Unternehmer trifft die Maßnahmen zum Arbeitsschutz und darf ihre Kosten nicht dir auferlegen (§ 2 Abs. 5). Er unterweist dich mindestens einmal im Jahr (§ 4). Du darfst dich auch durch Medikamente nicht so beeinträchtigen, dass du dich oder andere gefährdest (§ 15). Dazu kommen Erste Hilfe und Ersthelfer (§§ 24 bis 26). Unfallverhütungsvorschriften erlassen die Unfallversicherungsträger (§ 15 SGB VII).
+
+## Probier eine Frage
+
+Eine Aufgabe aus der App zu Sachgebiet 5, Unterthema 5.1. Wähle eine Antwort und prüf sie. Danach liest du die Erklärung und die Quelle, wie in der App.
+
+Du bewachst nachts ein Autohaus. Der Inhaber ruft an: Du sollst das Rolltor zum Hof offen lassen, weil früh ein Lieferant kommt. Das widerspricht deinem Sicherungsauftrag. Was gilt?
+
+Lösung: Du befolgst die Weisung nicht, weil sie dem Sicherungsauftrag entgegensteht, nach § 4 Abs. 3 DGUV Vorschrift 23. Zum Ausprobieren braucht die Seite JavaScript.
+
+## Die wichtigsten Paragrafen
+
+- §§ 3 bis 9 DGUV Vorschrift 23: Eignung, Dienstanweisung, Rauschmittel, Objekt und Einweisung
+
+- §§ 10 bis 17 DGUV Vorschrift 23: Ausrüstung, Brille, Diensthunde
+
+- §§ 18 bis 22 DGUV Vorschrift 23: Schusswaffen
+
+- §§ 24 und 25 DGUV Vorschrift 23: Geldtransporte
+
+- §§ 2, 4, 15 und 24 bis 26 DGUV Vorschrift 1: Grundpflichten, Unterweisung, Erste Hilfe
+
+## So deckt die App Sachgebiet 5 ab
+
+In der App 34a Sachkunde · becertain hat Sachgebiet 5 rund 60 eigene Übungsaufgaben, verteilt auf alle Unterthemen oben. Jede Lösung nennt die Stelle, aus der sie folgt, mit dem Wortlaut zum Aufklappen. In der Probeprüfung mit 82 Aufgaben stammen etwa 11 % der Aufgaben aus diesem Sachgebiet. Die Verteilung folgt der Fragenzahl je Bereich im alten Prüfungsformat bis Juni 2025; wie die Prüfung heute verteilt, ist nicht veröffentlicht.
+
+Nach dem Einstiegstest mit 45 Aufgaben zeigt dir die Auswertung, wie viel du in Sachgebiet 5 richtig hattest. Jede falsche Antwort kommt später wieder dran, bis du sie richtig hast. Der Einstiegstest ist gratis, Pro kaufst du einmal für 14,99 €, kein Abo.
+
+[Zur 34a-App](https://becertain.app/34a/)
+
+Erst den Einstiegstest machen, dann entscheiden.
+
+## Weiterlesen
+
+- [Sachgebiet 1: Öffentliche Sicherheit und Ordnung, Gewerberecht](https://becertain.app/34a/sachgebiet-1/)
+
+- [Sachgebiet 2: Datenschutzrecht](https://becertain.app/34a/sachgebiet-2/)
+
+- [Sachgebiet 3: Bürgerliches Gesetzbuch](https://becertain.app/34a/sachgebiet-3/)
+
+- [Sachgebiet 4: Straf- und Strafverfahrensrecht, Umgang mit Waffen](https://becertain.app/34a/sachgebiet-4/)
+
+- [Sachgebiet 6: Umgang mit Menschen](https://becertain.app/34a/sachgebiet-6/)
+
+- [Sachgebiet 7: Grundzüge der Sicherheitstechnik](https://becertain.app/34a/sachgebiet-7/)
+
+- [Sachkundeprüfung 34a: Ablauf, Punkte, Termine und Gebühr](https://becertain.app/34a/pruefung/)
+
+- [Prüfungsfragen zur Sachkundeprüfung 34a nach Sachgebiet](https://becertain.app/34a/fragen/)
+
+## Quellen
+
+- [DGUV Vorschrift 23, Unfallverhütungsvorschrift Wach- und Sicherungsdienste (PDF)](https://publikationen.dguv.de/widgets/pdf/download/article/1105)
+
+- [DGUV Vorschrift 1, Grundsätze der Prävention (PDF)](https://publikationen.dguv.de/widgets/pdf/download/article/2909)
+
+- [§ 15 SGB VII, Unfallverhütungsvorschriften](https://www.gesetze-im-internet.de/sgb_7/__15.html)
+
+- [§ 7 BewachV, Inhalt der Unterrichtung (die sieben Sachgebiete)](https://www.gesetze-im-internet.de/bewachv_2019/__7.html)
+
+---
+
+Seite: https://becertain.app/34a/sachgebiet-6/
+Titel: 34a Sachgebiet 6: Umgang mit Menschen · becertain
+Stand: 2026-11-03
+
+34a Sachkunde · Sachgebiet 6
+
+# Sachgebiet 6 der Sachkundeprüfung 34a: Umgang mit Menschen
+
+Sachgebiet 6 der Sachkundeprüfung fragt, wie du mit Menschen umgehst: wahrnehmen, ansprechen, Konflikte entschärfen, dich selbst schützen, mit Vielfalt und mit Menschenmengen umgehen (§ 7 Nr. 6 BewachV). In der mündlichen Prüfung ist es neben Sachgebiet 1 der Schwerpunkt (§ 11 Abs. 2 BewachV). Hier stehen die sieben Unterthemen in eigenen Worten, dazu eine Übungsfrage aus der App 34a Sachkunde · becertain und wie die App dieses Sachgebiet abdeckt.
+
+Stand: 3. November 2026. Verantwortlich: Sergej Markwart, becertain. Quellen am Ende der Seite.
+
+## Die 7 Unterthemen
+
+Grundlage sind § 7 Nr. 6 BewachV und die Gliederung des Rahmenplans für die Sachkundeprüfung. Die Texte fassen die Inhalte in eigenen Worten zusammen, die Paragrafen zeigen, wo du nachlesen kannst.
+
+Lehrmeinung nach Rahmenplan
+
+Für Sachgebiet 6 gibt es kaum Paragrafen. Die Lösungen folgen der Lehrmeinung nach dem Rahmenplan für die Sachkundeprüfung, also dem, was Lehrbücher übereinstimmend lehren. In der App nennt jede dieser Aufgaben den Abschnitt des Rahmenplans als Quelle und, wo es eine gibt, auch die Norm, etwa § 323c StGB bei der Hilfepflicht. Wo Lehrbücher etwas unterschiedlich gewichten, steht das in der Erklärung.
+
+### 6.1 Wahrnehmung, Selbstbild und Vorurteile
+
+Was du siehst, ist immer schon gefiltert: Du nimmst wahr, worauf du achtest, und übersiehst anderes (selektive Wahrnehmung). Ein einzelnes Merkmal wie ein teurer Anzug färbt leicht das ganze Bild (Halo-Effekt). Du vergleichst dein Selbstbild mit dem Bild, das andere von dir haben, und prüfst Vorurteile, bevor du handelst.
+
+### 6.2 Kommunikation und Gesprächsführung
+
+Jede Nachricht hat mehrere Seiten, neben der Sache auch eine Beziehungsebene. Du sprichst Menschen klar und höflich an, stellst offene Fragen, wenn du viel erfahren willst, hörst aktiv zu und sprichst in Ich-Botschaften. Körpersprache und Abstand zählen mit: Wer zu nah kommt, wirkt bedrohlich.
+
+### 6.3 Konflikt, Stress und Aggression
+
+Konflikte entstehen, wenn Interessen aufeinandertreffen, etwa am Einlass mit der Hausordnung. Unter Stress wird die Wahrnehmung enger, und du handelst schneller, als du denkst. Du kennst Wege, Stress abzubauen, und weißt, dass Ärger oft nicht dir gilt, sondern aus Frust über etwas anderes kommt.
+
+### 6.4 Deeskalation, Eigensicherung und Gefahrensituationen
+
+Du entschärfst eine Lage mit Ruhe, Abstand, klarer Sprache und einem Ausweg für dein Gegenüber. Deeskalation hat Grenzen: Wird es gefährlich, geht deine eigene Sicherheit vor, du holst Hilfe und alarmierst Polizei oder Leitstelle. Helfen musst du, soweit es ohne erhebliche eigene Gefahr möglich ist (§ 323c StGB). Im Team sprecht ihr ab, wer redet und wer sichert.
+
+### 6.5 Interkulturelle Kompetenz, Vielfalt und Schutzbedürftige
+
+Menschen verhalten sich je nach Herkunft und Erfahrung unterschiedlich, etwa beim Blickkontakt oder beim Abstand. Du deutest einzelne Zeichen nicht vorschnell und behandelst alle gleich (Art. 3 GG). In Unterkünften für Geflüchtete achtest du besonders auf Menschen, die Schutz brauchen, etwa Kinder.
+
+### 6.6 Besondere Personengruppen, Menschenmengen und Großveranstaltungen
+
+Betrunkene, verwirrte oder psychisch auffällige Menschen brauchen eine andere Ansprache. Eine Menschenmenge verhält sich anders als eine Gruppe: Einzelne fühlen sich weniger verantwortlich, Stimmungen springen über. Bei Panik lenkst du Menschen mit klaren, ruhigen Ansagen zu freien Ausgängen und arbeitest mit Polizei, Feuerwehr und Rettungsdienst zusammen.
+
+### 6.7 Personal führen
+
+Wer andere Wachpersonen führt, spricht Probleme sachlich und zeitnah an, beschreibt das Verhalten statt die Person und vereinbart, was sich ändern soll. Dieses Thema gehört nur zur Sachkundeprüfung, nicht zur Unterrichtung.
+
+## Probier eine Frage
+
+Eine Aufgabe aus der App zu Sachgebiet 6, Unterthema 6.4. Wähle eine Antwort und prüf sie. Danach liest du die Erklärung und die Quelle, wie in der App.
+
+Nachts im Bahnhof schlagen zwei Männer auf einen dritten ein. Du bist allein im Dienst. Was ist richtig?
+
+Lösung: Du alarmierst sofort Polizei und Leitstelle und hilfst, soweit es ohne erhebliche eigene Gefahr geht, nach § 323c StGB und Rahmenplan Abschnitt 6. Zum Ausprobieren braucht die Seite JavaScript.
+
+## Die wichtigsten Paragrafen und Quellen
+
+- Rahmenplan, Abschnitt 6: Gliederung des Sachgebiets und Grundlage der Lehrmeinung
+
+- § 323c StGB: Unterlassene Hilfeleistung und die Grenze der Zumutbarkeit
+
+- § 32 StGB: Körperliche Gewalt nur zur Abwehr eines gegenwärtigen rechtswidrigen Angriffs
+
+- Art. 3 GG: Gleichbehandlung
+
+- § 11 Abs. 2 BewachV: Schwerpunkt der mündlichen Prüfung
+
+## So deckt die App Sachgebiet 6 ab
+
+In der App 34a Sachkunde · becertain hat Sachgebiet 6 über 110 eigene Übungsaufgaben, verteilt auf alle Unterthemen oben. Jede Lösung nennt die Stelle, aus der sie folgt, mit dem Wortlaut zum Aufklappen. In der Probeprüfung mit 82 Aufgaben stammen etwa 22 % der Aufgaben aus diesem Sachgebiet. Die Verteilung folgt der Fragenzahl je Bereich im alten Prüfungsformat bis Juni 2025; wie die Prüfung heute verteilt, ist nicht veröffentlicht. Weil die mündliche Prüfung hier einen Schwerpunkt hat, übst du Sachgebiet 6 in der App auch mündlich: Du antwortest laut und vergleichst danach mit der Musterantwort.
+
+Nach dem Einstiegstest mit 45 Aufgaben zeigt dir die Auswertung, wie viel du in Sachgebiet 6 richtig hattest. Jede falsche Antwort kommt später wieder dran, bis du sie richtig hast. Der Einstiegstest ist gratis, Pro kaufst du einmal für 14,99 €, kein Abo.
+
+[Zur 34a-App](https://becertain.app/34a/)
+
+Erst den Einstiegstest machen, dann entscheiden.
+
+## Weiterlesen
+
+- [Sachgebiet 1: Öffentliche Sicherheit und Ordnung, Gewerberecht](https://becertain.app/34a/sachgebiet-1/)
+
+- [Sachgebiet 2: Datenschutzrecht](https://becertain.app/34a/sachgebiet-2/)
+
+- [Sachgebiet 3: Bürgerliches Gesetzbuch](https://becertain.app/34a/sachgebiet-3/)
+
+- [Sachgebiet 4: Straf- und Strafverfahrensrecht, Umgang mit Waffen](https://becertain.app/34a/sachgebiet-4/)
+
+- [Sachgebiet 5: Unfallverhütungsvorschrift Wach- und Sicherungsdienste](https://becertain.app/34a/sachgebiet-5/)
+
+- [Sachgebiet 7: Grundzüge der Sicherheitstechnik](https://becertain.app/34a/sachgebiet-7/)
+
+- [Sachkundeprüfung 34a: Ablauf, Punkte, Termine und Gebühr](https://becertain.app/34a/pruefung/)
+
+- [Prüfungsfragen zur Sachkundeprüfung 34a nach Sachgebiet](https://becertain.app/34a/fragen/)
+
+## Quellen
+
+- [Bewachungsgewerbe, Rahmenplan für die Sachkundeprüfung, Stoffsammlung für die Unterrichtung, Stand September 2019 (PDF)](https://www.dihk.de/resource/blob/153894/6c2cf0e5eac95e7f4343bf549e983abb/recht-rahmenplan-fuer-sachkundepruefung-und-unterrichtung-im-bewachungsgewerbe-data.pdf)
+
+- [§ 323c StGB, Unterlassene Hilfeleistung](https://www.gesetze-im-internet.de/stgb/__323c.html)
+
+- [§ 11 BewachV, Prüfung, Verfahren](https://www.gesetze-im-internet.de/bewachv_2019/__11.html)
+
+- [§ 7 BewachV, Inhalt der Unterrichtung (die sieben Sachgebiete)](https://www.gesetze-im-internet.de/bewachv_2019/__7.html)
+
+---
+
+Seite: https://becertain.app/34a/sachgebiet-7/
+Titel: 34a Sachgebiet 7: Sicherheitstechnik · becertain
+Stand: 2026-11-03
+
+34a Sachkunde · Sachgebiet 7
+
+# Sachgebiet 7 der Sachkundeprüfung 34a: Grundzüge der Sicherheitstechnik
+
+Sachgebiet 7 der Sachkundeprüfung fragt nach den Grundzügen der Sicherheitstechnik: mechanische Sicherungen, Melde- und Videoanlagen, Kommunikationsmittel und Brandschutz (§ 7 Nr. 7 BewachV). Hier stehen die vier Unterthemen in eigenen Worten, dazu eine Übungsfrage aus der App 34a Sachkunde · becertain und wie die App dieses Sachgebiet abdeckt.
+
+Stand: 3. November 2026. Verantwortlich: Sergej Markwart, becertain. Quellen am Ende der Seite.
+
+## Die 4 Unterthemen
+
+Grundlage sind § 7 Nr. 7 BewachV und die Gliederung des Rahmenplans für die Sachkundeprüfung. Die Texte fassen die Inhalte in eigenen Worten zusammen, die Paragrafen zeigen, wo du nachlesen kannst.
+
+Lehrmeinung nach Rahmenplan
+
+Auch für Sachgebiet 7 gibt es kaum Paragrafen. Die Lösungen folgen der Lehrmeinung nach dem Rahmenplan für die Sachkundeprüfung, also dem, was Lehrbücher übereinstimmend lehren. In der App nennt jede dieser Aufgaben den Abschnitt des Rahmenplans als Quelle und, wo es eine gibt, auch die Norm, etwa § 4 BDSG bei Videoanlagen. Wo Lehrbücher etwas unterschiedlich gewichten, steht das in der Erklärung.
+
+### 7.1 Mechanische Sicherungen
+
+Zäune, Tore, Schlösser, Türen und Fenster halten Täter auf. Wie lange, sagt die Widerstandsklasse: Je höher die Klasse, desto mehr Werkzeug und Zeit braucht ein Täter. Mechanik verzögert, sie meldet nichts. Darum gehört eine Meldeanlage dazu, die Alarm gibt, solange der Täter noch beschäftigt ist.
+
+### 7.2 Elektronische Überwachung und Alarmverfolgung
+
+Einbruch-, Überfall- und Brandmeldeanlagen melden Gefahren, oft an eine ständig besetzte Leitstelle, die das Eingreifen vor Ort veranlasst. Zutrittskontrolle regelt, wer wann wohin darf, und Wächterkontrollsysteme belegen deinen Rundgang. Für Videoanlagen in öffentlich zugänglichen Räumen gilt zusätzlich das Datenschutzrecht (§ 4 BDSG). Wer gefährlich allein arbeitet, braucht besondere Schutzmaßnahmen, etwa ein Personen-Notsignal-Gerät (§ 8 Abs. 2 DGUV Vorschrift 1).
+
+### 7.3 Kommunikationsmittel
+
+Im Dienst funkst du meist über Betriebsfunk mit einem Handfunkgerät. Du hältst dich an die Funkdisziplin: kurz und klar, erst die Gegenstelle, dann dein eigener Rufname. Bleibt die Antwort aus, prüfst du Gerät und Standort und nutzt einen zweiten Weg.
+
+### 7.4 Brandschutz
+
+Feuer braucht einen brennbaren Stoff, Sauerstoff und Wärme. Fehlt eines davon, geht es aus: Ersticken nimmt den Sauerstoff, Kühlen die Wärme. Die Brandklasse sagt, welches Löschmittel passt. Bei einem Brand gilt: melden, retten, löschen. Vorbeugender Brandschutz hält Fluchtwege frei und Brandschutztüren geschlossen.
+
+## Probier eine Frage
+
+Eine Aufgabe aus der App zu Sachgebiet 7, Unterthema 7.4. Wähle eine Antwort und prüf sie. Danach liest du die Erklärung und die Quelle, wie in der App.
+
+Du entdeckst nachts in einem Bürogebäude einen Brand in einem Kopierraum. Was ist nach dem üblichen Grundsatz deine erste Handlung?
+
+Lösung: Du meldest den Brand zuerst. Der Grundsatz lautet melden, retten, löschen (Rahmenplan Abschnitt 7). Zum Ausprobieren braucht die Seite JavaScript.
+
+## Die wichtigsten Paragrafen und Quellen
+
+- Rahmenplan, Abschnitt 7: Gliederung des Sachgebiets und Grundlage der Lehrmeinung
+
+- § 4 BDSG: Videoüberwachung öffentlich zugänglicher Räume
+
+- § 8 Abs. 2 DGUV Vorschrift 1: Gefährliche Alleinarbeit
+
+- § 323c StGB: Hilfepflicht, auch bei einem Brand
+
+## So deckt die App Sachgebiet 7 ab
+
+In der App 34a Sachkunde · becertain hat Sachgebiet 7 über 60 eigene Übungsaufgaben, verteilt auf alle Unterthemen oben. Jede Lösung nennt die Stelle, aus der sie folgt, mit dem Wortlaut zum Aufklappen. In der Probeprüfung mit 82 Aufgaben stammen etwa 11 % der Aufgaben aus diesem Sachgebiet. Die Verteilung folgt der Fragenzahl je Bereich im alten Prüfungsformat bis Juni 2025; wie die Prüfung heute verteilt, ist nicht veröffentlicht.
+
+Nach dem Einstiegstest mit 45 Aufgaben zeigt dir die Auswertung, wie viel du in Sachgebiet 7 richtig hattest. Jede falsche Antwort kommt später wieder dran, bis du sie richtig hast. Der Einstiegstest ist gratis, Pro kaufst du einmal für 14,99 €, kein Abo.
+
+[Zur 34a-App](https://becertain.app/34a/)
+
+Erst den Einstiegstest machen, dann entscheiden.
+
+## Weiterlesen
+
+- [Sachgebiet 1: Öffentliche Sicherheit und Ordnung, Gewerberecht](https://becertain.app/34a/sachgebiet-1/)
+
+- [Sachgebiet 2: Datenschutzrecht](https://becertain.app/34a/sachgebiet-2/)
+
+- [Sachgebiet 3: Bürgerliches Gesetzbuch](https://becertain.app/34a/sachgebiet-3/)
+
+- [Sachgebiet 4: Straf- und Strafverfahrensrecht, Umgang mit Waffen](https://becertain.app/34a/sachgebiet-4/)
+
+- [Sachgebiet 5: Unfallverhütungsvorschrift Wach- und Sicherungsdienste](https://becertain.app/34a/sachgebiet-5/)
+
+- [Sachgebiet 6: Umgang mit Menschen](https://becertain.app/34a/sachgebiet-6/)
+
+- [Sachkundeprüfung 34a: Ablauf, Punkte, Termine und Gebühr](https://becertain.app/34a/pruefung/)
+
+- [Prüfungsfragen zur Sachkundeprüfung 34a nach Sachgebiet](https://becertain.app/34a/fragen/)
+
+## Quellen
+
+- [Bewachungsgewerbe, Rahmenplan für die Sachkundeprüfung, Stoffsammlung für die Unterrichtung, Stand September 2019 (PDF)](https://www.dihk.de/resource/blob/153894/6c2cf0e5eac95e7f4343bf549e983abb/recht-rahmenplan-fuer-sachkundepruefung-und-unterrichtung-im-bewachungsgewerbe-data.pdf)
+
+- [§ 4 BDSG, Videoüberwachung öffentlich zugänglicher Räume](https://www.gesetze-im-internet.de/bdsg_2018/__4.html)
+
+- [DGUV Vorschrift 1, Grundsätze der Prävention (PDF)](https://publikationen.dguv.de/widgets/pdf/download/article/2909)
+
+- [§ 7 BewachV, Inhalt der Unterrichtung (die sieben Sachgebiete)](https://www.gesetze-im-internet.de/bewachv_2019/__7.html)
 
 ---
 

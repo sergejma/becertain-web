@@ -73,6 +73,23 @@ Grundlage: SEO Blueprint der Knowledge Base (Keyword Research, On-Page-Elemente,
 - Erwartung: Indexierung der sechs Seiten innerhalb von vier Wochen nach Einreichen; erste Impressionen für „aevo prüfung ablauf“, „aevo prüfungsfragen“, „aevo handlungsfeld 3“. Risiko: `/aevo/` und `/aevo/pruefung/` teilen „aevo prüfung“; in der Search Console auf Wechsel der URL je Suchanfrage achten.
 - Messtermin: vier Wochen nach Livegang, dann acht Wochen. Bis dahin Titel und H1 der neuen Seiten nicht anfassen.
 
+### 03.11.2026: Bereich /34a/ mit neun Inhaltsseiten (Entwurf, nicht veröffentlicht)
+
+Grundlage: `../docs/store/03-seo-massnahmen.md` (Regeln wie beim AEVO-Hub), Nachfrage aus `keywords.md` Abschnitt 34a, Inhalte aus `34a-1.0.0.json`, `THEMENPLAN.md`, `GEGENPROBE-GESAMT.md`.
+
+- Neue Seiten, gleiche Bausteine und Klassen wie `/aevo/`, keine neuen Farben oder Schriften, `og:image` vorerst `og-becertain.png`:
+  - `/34a/` „34a Sachkundeprüfung: App für den 34a Schein · becertain“ (56), Hauptbegriffe „34a sachkundeprüfung“ (1.900), „34a schein“ (4.050), „sachkundeprüfung 34a app kostenlos“ (250). `MobileApplication` (Preis 0 € für den Download, Pro 14,99 € in der Beschreibung, keine Bewertungen, noch ohne `screenshot`), `FAQPage` mit sieben Fragen, `Legislation` § 34a GewO und BewachV, `BreadcrumbList`. Store-Button grau „Bald im App Store“. Demo-Aufgabe `34a-sg3.4-017` (§ 859 Abs. 2 BGB).
+  - `/34a/pruefung/` „Sachkundeprüfung 34a: Ablauf, Punkte, Termine · becertain“ (57), Hauptbegriff „sachkundeprüfung 34a“ (9.100) mit Info-Zusatz, Nebenbegriff „mündliche prüfungsfragen 34a“ (100). `Article`, `FAQPage` (fünf Fragen), `Legislation`.
+  - `/34a/fragen/` „Sachkundeprüfung 34a Prüfungsfragen · becertain“ (47), Hauptbegriff „sachkundeprüfung 34a prüfungsfragen (pdf)“ (1.200), ohne PDF-Versprechen. `Article` plus `LearningResource`.
+  - `/34a/sachgebiet-1/` bis `-7/` „34a Sachgebiet n: … · becertain“, Unterthemen in eigenen Worten, wichtigste Paragrafen, je eine echte Aufgabe (34a-sg1.4-012, 34a-sg2.5-004, 34a-sg3.2-012, 34a-sg4.6-005, 34a-sg5.1-008, 34a-sg6.4-009, 34a-sg7.4-013; alle Einfachauswahl, mittel), bei 6 und 7 Hinweis „Lehrmeinung nach Rahmenplan“. Volumen für „34a sachgebiet“ nicht gemessen.
+- Galerie mit fünf `<picture>`-Blöcken (`assets/screens/34a-*-420/-840.webp` und `.png`) liegt ausgeblendet (`hidden`, `data-wartet-auf-dateien`), bis die Screens aus der Store-Pipeline da sind.
+- `/`: 34a-Karte verlinkt `/34a/`, Name „34a Sachkunde · becertain“, Status „In Vorbereitung“, Link „Mehr zur 34a-App“, 34a im Fußmenü; `dateModified`, `data-stand`, `lastmod` 2026-11-03. Titel, H1 und Description unverändert.
+- `assets/site.js`: Quelle in der Demo auch als „Art. n“ (DSGVO) und „Rahmenplan 34a, Abschnitt n“.
+- `sitemap.xml` 22 Einträge, `llms.txt` mit Kernfakten und Pflichthinweis 34a, `llms-full.txt` mit den 34a-Seiten.
+- `tools/pruefen.py`: Pflichthinweis 34a im Fuß aller `/34a/`-Seiten, 34a-Inhaltsseiten vorhanden und von `/34a/` verlinkt, Brotkrümel, verbotene Wörter auch auf `/34a/`, nie 645, `srcset` geprüft, ausgeblendete Galerie darf auf fehlende Bilder zeigen (Hinweis statt Befund), Demo-Aufgaben wortgleich mit dem Paket.
+- Erwartung: Indexierung innerhalb von vier Wochen nach Einreichen; erste Impressionen für „sachkundeprüfung 34a ablauf“, „34a prüfungsfragen“, „mündliche prüfung 34a“. Risiko: `/34a/` und `/34a/pruefung/` teilen „sachkundeprüfung 34a“; Search Console beobachten.
+- Messtermin: vier Wochen nach Veröffentlichung, dann acht Wochen. Bis dahin Titel und H1 der neuen Seiten nicht anfassen.
+
 ## Messung
 
 - Erster Vergleich: vier Wochen nach Livegang in der Search Console (Indexierung, Impressionen und Position für „aevo prüfung", „aevo prüfung app", „ausbilderschein app", „becertain").
