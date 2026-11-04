@@ -740,7 +740,7 @@ Erst den Einstiegstest machen, dann entscheiden.
 
 Seite: https://becertain.app/34a/
 Titel: 34a Sachkundeprüfung: App für den 34a Schein · becertain
-Stand: 2026-11-03
+Stand: 2026-11-04
 
 App für iPhone · Bewachungsgewerbe
 
@@ -759,6 +759,42 @@ Für die Sachkundeprüfung nach § 34a GewO. Eigene Aufgaben in einfacher Sprach
 Bald im App Store Frage ausprobieren
 
 In Vorbereitung. Gratis laden, Pro einmal kaufen für 14,99 €, kein Abo, kein Konto.
+
+Aus der App
+
+## So sieht es aus
+
+Probeprüfung
+
+### 82 Aufgaben in 120 Minuten.
+
+Mit Teilpunkten wie in der Prüfung, bestanden ab 60 von 120 Punkten.
+
+Erklärung
+
+### Nachlesen, warum eine Antwort richtig ist.
+
+Jede Lösung mit Erklärung und dem Satz aus Gesetz, Verordnung oder Rahmenplan.
+
+Fachbegriffe
+
+### Tipp ein Wort an, das du nicht kennst.
+
+Besitzdiener, Notwehr, frische Tat: kurz erklärt, mit Paragraf.
+
+Mündliche Prüfung
+
+### Sachgebiet 1 und 6 laut üben.
+
+Erst antworten, dann die Musterantwort aufdecken und selbst einschätzen.
+
+Auswertung
+
+### Dein Stand je Sachgebiet.
+
+Nach dem Einstiegstest siehst du, wo du anfangen solltest.
+
+Wische für alle fünf Bilder.
 
 Ausprobieren
 
