@@ -13,7 +13,7 @@
    auflösbar, Brotkrümel bis zur kanonischen URL und sichtbar als Navigation, FAQPage nur mit sichtbaren Fragen und
    Antworten, Artikel-Überschrift gleich h1, keine Bewertungen (aggregateRating, review).
 5. Hausregeln: keine Gedankenstriche im sichtbaren Text, „IHK" nie in Titel, Description oder Überschriften,
-   Marke klein geschrieben, Pflichthinweis im Fuß jeder Seite, keine externen Skripte, Stile oder Schriften,
+   Marke klein geschrieben, Pflichthinweis im Fuß jeder Seite (gemeinsame Seiten beide, /aevo/ nur AEVO, /34a/ nur 34a), keine externen Skripte, Stile oder Schriften,
    nie die genaue Fragenzahl, auf den neuen Inhaltsseiten keine verbotenen Wörter (offiziell, empfohlen …).
 6. Dateien für Crawler: Sitemap vollständig, robots.txt mit Sitemap-Zeile und ohne Sperre für KI-Crawler,
    llms.txt im Format von llmstxt.org mit allen Seiten der Sitemap und dem Pflichthinweis, llms-full.txt aktuell.
@@ -596,9 +596,23 @@ def main():
                 treffer = re.search(muster, ohne_fuss + " " + s.title + " " + (s.desc or ""), re.I)
                 if treffer:
                     f.append(f"{name}: verbotenes Wort {treffer.group(0)!r}")
+        # Fuß: /aevo/ nur der AEVO-Hinweis, /34a/ nur der 34a-Hinweis, gemeinsame Seiten (Start, Support, Rechtsseiten,
+        # 404) beide, erst AEVO, dann 34a, jeder als eigener Absatz.
         fuss = re.sub(r"\s+", " ", " ".join(s.footer_text))
-        if (PFLICHT_34A if pfad.startswith("/34a/") else PFLICHT) not in fuss:
-            f.append(f"{name}: Pflichthinweis fehlt im Fuß")
+        if pfad.startswith("/34a/"):
+            soll, nicht = [PFLICHT_34A], [PFLICHT]
+        elif pfad.startswith("/aevo/"):
+            soll, nicht = [PFLICHT], [PFLICHT_34A]
+        else:
+            soll, nicht = [PFLICHT, PFLICHT_34A], []
+        for hinweis in soll:
+            if hinweis not in fuss:
+                f.append(f"{name}: Pflichthinweis {'34a ' if hinweis == PFLICHT_34A else ''}fehlt im Fuß")
+        for hinweis in nicht:
+            if hinweis in fuss:
+                f.append(f"{name}: Pflichthinweis {'34a ' if hinweis == PFLICHT_34A else 'AEVO '}gehört nicht in den Fuß dieser Seite")
+        if len(soll) == 2 and all(h in fuss for h in soll) and fuss.index(PFLICHT) > fuss.index(PFLICHT_34A):
+            f.append(f"{name}: Pflichthinweise im Fuß nicht in der Reihenfolge AEVO, 34a")
         f += pruefe_demo(name, s)
         fehlend = [u for u, _ in s.wartend if (t := ziel(u, pfad)) and not os.path.isfile(t[0])]
         versteckt = any(h for _, h in s.wartend)

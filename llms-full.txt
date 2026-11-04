@@ -6,7 +6,7 @@
 
 Seite: https://becertain.app/
 Titel: becertain: Prüfungs-Apps mit Erklärung und Paragraf
-Stand: 2026-11-03
+Stand: 2026-11-04
 
 Prüfungstrainer für iPhone
 
@@ -1838,13 +1838,13 @@ Erst den Einstiegstest machen, dann entscheiden.
 
 Seite: https://becertain.app/support/
 Titel: Support · becertain
-Stand: 2026-10-30
+Stand: 2026-11-04
 
 Hilfe
 
 # Support
 
-Hinter becertain steht Sergej Markwart. Er liest jede Mail selbst.
+Hilfe zu AEVO Prüfung · becertain und 34a Sachkunde · becertain. Hinter becertain steht Sergej Markwart. Er liest jede Mail selbst.
 
 ## Kontakt
 

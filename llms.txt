@@ -2,7 +2,7 @@
 
 > becertain ist die Marke für Prüfungstrainer-Apps für iPhone von mindcom (Sergej Markwart, Rheine). Eine App je Prüfung: AEVO Prüfung · becertain für die Ausbildereignungsprüfung nach der Ausbilder-Eignungsverordnung (AEVO, AusbEignV), kurz Ausbilderschein, und, in Vorbereitung, 34a Sachkunde · becertain für die Sachkundeprüfung im Bewachungsgewerbe nach § 34a GewO. Jede Frage ist eine eigene Übungsfrage mit Erklärung und Paragraf. Gratis laden mit Einstiegstest, danach Pro als einmaliger Kauf, kein Abo, kein Konto.
 
-Stand: 03.11.2026. Rechtsstand der Fragen: AEVO 26.10.2026, 34a 3.11.2026.
+Stand: 04.11.2026. Rechtsstand der Fragen: AEVO 26.10.2026, 34a 3.11.2026.
 
 Kernfakten zur App AEVO Prüfung · becertain:
 
@@ -65,7 +65,7 @@ Kontakt: Sergej Markwart, mindcom, Litestr. 4, 48431 Rheine, sergej@mindcom.io. 
 ## Optional
 
 - [Volltext der wichtigsten Seiten](https://becertain.app/llms-full.txt): Der sichtbare Text von Startseite, AEVO-Seiten, 34a-Seiten und Support als Markdown.
-- [Datenschutz](https://becertain.app/datenschutz/): App und Website, keine Cookies, keine Tracker, Hosting bei GitHub Pages.
+- [Datenschutz](https://becertain.app/datenschutz/): Apps und Website, keine Cookies, keine Tracker, Hosting bei GitHub Pages.
 - [Nutzungsbedingungen](https://becertain.app/nutzungsbedingungen/): Gratis und Pro, Kauf über Apple, Inhalte mit Rechtsstand, kein Versprechen zum Ergebnis.
 - [Impressum](https://becertain.app/impressum/): Anbieter Sergej Markwart, mindcom.io, Rheine.
 - [Sitemap](https://becertain.app/sitemap.xml)
