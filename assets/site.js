@@ -1,25 +1,61 @@
-/* becertain.app: Einblenden beim Scrollen, Balken „Chance zu bestehen", Probier-eine-Frage (AEVO und 34a).
-   Ohne Abhängigkeiten, ohne Netzwerk, ohne Speicher. Bewegung nur über CSS, das bei
-   prefers-reduced-motion abschaltet. Ohne JavaScript ist alles sichtbar (Klasse .js fehlt). */
+/* becertain.app: Einblenden beim Scrollen, Balken „Chance zu bestehen“, Probier eine Frage (AEVO und 34a).
+   Ohne Abhängigkeiten, ohne Netzwerk, ohne Speicher. Bewegung steckt ganz im CSS (Transitions und
+   @starting-style), dieses Skript setzt nur Zustände. Ohne JavaScript ist alles sichtbar und lesbar.
+   Den Einstieg des Kopfes entscheidet das kleine Skript im <head> jeder Seite, bevor etwas gemalt wird. */
 (function () {
   "use strict";
 
-  // 1. Einblenden beim Scrollen, einmal je Element
-  var ziele = document.querySelectorAll("[data-reveal], .balken");
-  if (!("IntersectionObserver" in window)) {
-    ziele.forEach(function (el) { el.classList.add("is-sichtbar", "is-gefuellt"); });
-  } else {
-    var io = new IntersectionObserver(function (eintraege) {
-      eintraege.forEach(function (e) {
-        if (!e.isIntersecting) return;
-        e.target.classList.add(e.target.classList.contains("balken") ? "is-gefuellt" : "is-sichtbar");
-        io.unobserve(e.target);
-      });
-    }, { rootMargin: "0px 0px -8% 0px", threshold: 0.15 });
-    ziele.forEach(function (el) { io.observe(el); });
+  var reduziert = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  // Startzustand ohne Übergang setzen, damit nichts sichtbar ausblendet.
+  function startzustand(el, klasse) {
+    el.style.transition = "none";
+    el.classList.add(klasse);
+    void el.offsetHeight;
+    el.style.transition = "";
   }
 
-  // 2. Probier eine Frage
+  // 1. Einblenden beim Scrollen: nur Elemente, die beim Laden unter dem sichtbaren Bereich liegen.
+  //    Was schon im Bild ist, bleibt einfach stehen. Jedes Element blendet genau einmal ein.
+  var reveal = Array.prototype.slice.call(document.querySelectorAll("[data-reveal]"));
+  var balken = Array.prototype.slice.call(document.querySelectorAll(".balken"));
+
+  if ("IntersectionObserver" in window) {
+    var hoehe = window.innerHeight || document.documentElement.clientHeight;
+
+    var ioReveal = new IntersectionObserver(function (eintraege) {
+      eintraege.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        e.target.classList.remove("wartet");
+        ioReveal.unobserve(e.target);
+      });
+    }, { rootMargin: "0px 0px -10% 0px", threshold: 0.1 });
+
+    reveal.forEach(function (el) {
+      if (el.getBoundingClientRect().top < hoehe) return;
+      startzustand(el, "wartet");
+      ioReveal.observe(el);
+    });
+
+    // 2. Balken: füllt sich einmal, wenn er ganz zu sehen ist. Bei „Bewegung reduzieren“ steht er gleich auf seinem Wert.
+    if (!reduziert) {
+      var ioBalken = new IntersectionObserver(function (eintraege) {
+        eintraege.forEach(function (e) {
+          if (!e.isIntersecting) return;
+          e.target.classList.remove("wartet");
+          ioBalken.unobserve(e.target);
+        });
+      }, { rootMargin: "0px 0px -12% 0px", threshold: 1 });
+
+      balken.forEach(function (el) {
+        startzustand(el, "wartet");
+        el.classList.add("fuellt");
+        ioBalken.observe(el);
+      });
+    }
+  }
+
+  // 3. Probier eine Frage
   var demo = document.getElementById("demo");
   var daten = document.getElementById("demo-aufgabe");
   if (!demo || !daten) return;
@@ -41,7 +77,7 @@
   function neu(tag, klasse) { var el = document.createElement(tag); if (klasse) el.className = klasse; return el; }
 
   function optionenBauen() {
-    liste.innerHTML = "";
+    liste.textContent = "";
     aufgabe.optionen.forEach(function (o, i) {
       var li = neu("li");
       var b = neu("button", "option");
@@ -64,6 +100,8 @@
     });
   }
 
+  // Wählen ist ein Zustandswechsel: aria-pressed umschalten, das CSS blendet die Ebene über Opazität.
+  // Schnelles Umentscheiden ist kein Problem, Transitions setzen am aktuellen Wert an.
   function waehlen(id) {
     if (geprueft) return;
     gewaehlt = id;
@@ -76,11 +114,11 @@
 
   function quelleText(f) {
     // Rahmenplan und andere Quellen ohne Paragraf: „Rahmenplan 34a, Abschnitt 6“
-    if (!f.paragraf && !f.artikel) return f.kurz + (f.abschnitt ? ", Abschnitt\u00a0" + f.abschnitt : "");
-    var t = f.artikel ? "Art.\u00a0" + f.artikel : "§\u00a0" + f.paragraf;
-    if (f.absatz) t += " Abs.\u00a0" + f.absatz;
-    if (f.satz) t += " Satz\u00a0" + f.satz;
-    if (f.nummer) t += " Nr.\u00a0" + f.nummer;
+    if (!f.paragraf && !f.artikel) return f.kurz + (f.abschnitt ? ", Abschnitt " + f.abschnitt : "");
+    var t = f.artikel ? "Art. " + f.artikel : "§ " + f.paragraf;
+    if (f.absatz) t += " Abs. " + f.absatz;
+    if (f.satz) t += " Satz " + f.satz;
+    if (f.nummer) t += " Nr. " + f.nummer;
     return t + " " + f.kurz;
   }
 
@@ -124,7 +162,7 @@
     r.appendChild(sym); r.appendChild(mitte); r.appendChild(punkte);
 
     // Erklärung und Quelle mit Zitat
-    var erk = neu("div", "erklaerung is-eingeblendet");
+    var erk = neu("div", "erklaerung");
     erk.appendChild(text(neu("p", "label"), "Erklärung"));
     erk.appendChild(text(neu("p"), aufgabe.erklaerung));
     erk.appendChild(text(neu("p", "label"), aufgabe.fundstellen.length > 1 ? "Quellen" : "Quelle"));
@@ -154,16 +192,17 @@
     nochmal.appendChild(nb);
     erk.appendChild(nochmal);
 
-    ergebnis.innerHTML = "";
-    r.classList.add("is-eingeblendet");
+    // Neu eingefügt treten beide über @starting-style ein (CSS), Rückmeldung zuerst, Erklärung 60 ms später.
+    ergebnis.textContent = "";
     ergebnis.appendChild(r);
     ergebnis.appendChild(erk);
     r.focus({ preventScroll: false });
   }
 
+  // Zurücksetzen ist ein Ausgang, den du gewählt hast: alles sofort, ohne Bewegung.
   function zuruecksetzen() {
     gewaehlt = null; geprueft = false;
-    ergebnis.innerHTML = "";
+    ergebnis.textContent = "";
     optionenBauen();
     pruefen.disabled = true;
     pruefen.parentNode.hidden = false;

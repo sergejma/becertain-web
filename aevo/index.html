@@ -24,7 +24,7 @@
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/assets/icon-180.png">
   <link rel="stylesheet" href="/assets/site.css">
-  <script>document.documentElement.classList.add("js")</script>
+  <script>(function(d){d.classList.add("js");try{var r=document.referrer;if(!r||new URL(r).origin!==location.origin)d.classList.add("einstieg")}catch(e){d.classList.add("einstieg")}})(document.documentElement)</script>
   <script src="/assets/site.js" defer></script>
   <script type="application/ld+json">
 {
@@ -279,11 +279,11 @@
 
     <section class="section" aria-labelledby="bilder">
       <div class="wrap wrap--wide">
-        <div class="section-head" data-reveal>
+        <div class="section-head">
           <p class="label">Aus der App</p>
           <h2 id="bilder">So sieht es aus</h2>
         </div>
-        <ul class="gallery" data-reveal style="--i: 1">
+        <ul class="gallery" data-reveal>
           <li class="shot">
             <div class="device device--small"><picture><source type="image/webp" srcset="/assets/screens/auswertung-420.webp 420w, /assets/screens/auswertung-840.webp 840w" sizes="(min-width: 900px) 190px, 240px"><img src="/assets/screens/auswertung-420.png" srcset="/assets/screens/auswertung-420.png 420w, /assets/screens/auswertung-840.png 840w" sizes="(min-width: 900px) 190px, 240px" width="420" height="913" alt="App-Screen Auswertung nach dem Einstiegstest: 27 von 40 richtig, Teil 1 mit 20 von 30, kurze Probeprüfung mit 7 von 10, darunter am sichersten Handlungsfeld 4 und am meisten fehlt Handlungsfeld 1." loading="lazy" decoding="async"></picture></div>
             <div class="shot__text">
@@ -331,12 +331,12 @@
 
     <section class="section" aria-labelledby="probieren">
       <div class="wrap">
-        <div class="section-head" data-reveal>
+        <div class="section-head">
           <p class="label">Ausprobieren</p>
           <h2 id="probieren">Probier eine Frage</h2>
         </div>
-        <p class="intro" data-reveal style="--i: 1">Eine Aufgabe aus der App, Handlungsfeld 3. Wähle eine Antwort und prüf sie. Danach liest du die Erklärung und den Paragrafen, wie in der App.</p>
-        <div class="card demo" id="demo" data-aufgabe="aevo-hf3.6-007" data-thema="hf3.6" data-reveal style="--i: 2" hidden>
+        <p class="intro">Eine Aufgabe aus der App, Handlungsfeld 3. Wähle eine Antwort und prüf sie. Danach liest du die Erklärung und den Paragrafen, wie in der App.</p>
+        <div class="card demo" id="demo" data-aufgabe="aevo-hf3.6-007" data-thema="hf3.6" hidden>
           <p class="demo__meta"><span class="mono-chip">3.6</span><span>Zusatzangebote und Verkürzung</span></p>
           <p class="demo__frage" id="demo-frage">Die vorzeitig zugelassene Auszubildende Carla, Hotelfachfrau, besteht ihre Abschlussprüfung; der Prüfungsausschuss gibt das Ergebnis am 20. Juni bekannt. Ihr Vertrag läuft bis 31. Juli. Wann endet ihr Ausbildungsverhältnis?</p>
           <p class="demo__anleitung">Wähle eine Antwort.</p>
@@ -400,7 +400,7 @@
 
     <section class="section" aria-labelledby="gruende">
       <div class="wrap wrap--wide">
-        <div class="section-head" data-reveal>
+        <div class="section-head">
           <p class="label">Was anders ist</p>
           <h2 id="gruende">Drei Dinge, die du in der App nachprüfen kannst</h2>
         </div>
@@ -434,7 +434,7 @@
 
     <section class="section" aria-labelledby="preis">
       <div class="wrap wrap--wide">
-        <div class="section-head" data-reveal>
+        <div class="section-head">
           <p class="label">Gratis und Pro</p>
           <h2 id="preis">Erst prüfen, dann zahlen</h2>
         </div>
@@ -451,7 +451,7 @@
             <p class="reassure">Einmal kaufen, kein Abo. Den Preis zeigt dir der App Store.</p>
           </div>
         </div>
-        <div class="card" style="margin-top: var(--s16); --i: 2" data-reveal>
+        <div class="card" data-reveal style="--i: 2">
           <h3>Drei Zusagen</h3>
           <ul class="checks"><li><span>Du hast Pro schon ausprobiert: Der Einstiegstest war echt.</span></li><li><span>Gilt auch, wenn du die Prüfung wiederholst.</span></li><li><span>Ändert sich das Recht, bekommst du die neuen Aufgaben ohne Aufpreis.</span></li></ul>
         </div>
@@ -460,12 +460,12 @@
 
     <section class="section" aria-labelledby="mehr">
       <div class="wrap">
-        <div class="section-head" data-reveal>
+        <div class="section-head">
           <p class="label">Zum Nachlesen</p>
           <h2 id="mehr">Mehr zur AEVO-Prüfung</h2>
         </div>
-        <p class="intro" data-reveal style="--i: 1">Hier liest du, wie die Prüfung abläuft und was in den vier Handlungsfeldern drankommt. Auf jeder Seite zu einem Handlungsfeld probierst du eine weitere Frage aus der App aus.</p>
-        <ul class="toc" data-reveal style="--i: 2"><li><a href="/aevo/pruefung/">AEVO-Prüfung: Ablauf, Dauer und Bestehen</a></li><li><a href="/aevo/fragen/">AEVO-Prüfungsfragen: Aufbau und Aufgabentypen</a></li><li><a href="/aevo/handlungsfeld-1/">Handlungsfeld 1: Ausbildungsvoraussetzungen prüfen und Ausbildung planen</a></li><li><a href="/aevo/handlungsfeld-2/">Handlungsfeld 2: Ausbildung vorbereiten und bei der Einstellung mitwirken</a></li><li><a href="/aevo/handlungsfeld-3/">Handlungsfeld 3: Ausbildung durchführen</a></li><li><a href="/aevo/handlungsfeld-4/">Handlungsfeld 4: Ausbildung abschließen</a></li></ul>
+        <p class="intro">Hier liest du, wie die Prüfung abläuft und was in den vier Handlungsfeldern drankommt. Auf jeder Seite zu einem Handlungsfeld probierst du eine weitere Frage aus der App aus.</p>
+        <ul class="toc"><li><a href="/aevo/pruefung/">AEVO-Prüfung: Ablauf, Dauer und Bestehen</a></li><li><a href="/aevo/fragen/">AEVO-Prüfungsfragen: Aufbau und Aufgabentypen</a></li><li><a href="/aevo/handlungsfeld-1/">Handlungsfeld 1: Ausbildungsvoraussetzungen prüfen und Ausbildung planen</a></li><li><a href="/aevo/handlungsfeld-2/">Handlungsfeld 2: Ausbildung vorbereiten und bei der Einstellung mitwirken</a></li><li><a href="/aevo/handlungsfeld-3/">Handlungsfeld 3: Ausbildung durchführen</a></li><li><a href="/aevo/handlungsfeld-4/">Handlungsfeld 4: Ausbildung abschließen</a></li></ul>
       </div>
     </section>
 
@@ -480,7 +480,7 @@
 
     <section class="section" aria-labelledby="fragen">
       <div class="wrap">
-        <div class="section-head" data-reveal>
+        <div class="section-head">
           <p class="label">Fragen</p>
           <h2 id="fragen">Häufige Fragen</h2>
         </div>
@@ -502,7 +502,7 @@
             <div class="answer"><p>Nein. Die App hilft dir beim Üben. Ob du bestehst, hängt von dir und von der Prüfung ab. Die Chance zu bestehen ist eine Schätzung aus deinen Antworten, keine Zusage. Pro gilt auch, wenn du die Prüfung wiederholst.</p></div>
           </details>
         </div>
-        <p class="muted small" style="margin-top: var(--s24)">Noch eine Frage? Schreib an <a href="mailto:sergej@mindcom.io">sergej@mindcom.io</a> oder lies den <a href="/support/">Support</a>.</p>
+        <p class="muted small">Noch eine Frage? Schreib an <a href="mailto:sergej@mindcom.io">sergej@mindcom.io</a> oder lies den <a href="/support/">Support</a>.</p>
       </div>
     </section>
   </main>

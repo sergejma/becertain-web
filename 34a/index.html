@@ -24,7 +24,7 @@
   <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/assets/icon-180.png">
   <link rel="stylesheet" href="/assets/site.css">
-  <script>document.documentElement.classList.add("js")</script>
+  <script>(function(d){d.classList.add("js");try{var r=document.referrer;if(!r||new URL(r).origin!==location.origin)d.classList.add("einstieg")}catch(e){d.classList.add("einstieg")}})(document.documentElement)</script>
   <script src="/assets/site.js" defer></script>
   <script type="application/ld+json">
 {
@@ -314,7 +314,7 @@
         <p class="label">App für iPhone · Bewachungsgewerbe</p>
         <h1>Sachkundeprüfung 34a üben, mit Quelle zu jeder Antwort.</h1>
         <p class="lead">Für die Sachkundeprüfung nach §&nbsp;34a GewO. Eigene Aufgaben in einfacher Sprache, und du siehst, wo dir noch Punkte fehlen.</p>
-        <ul class="checks" style="margin-bottom: var(--s24)"><li><span>Über 600 eigene Aufgaben zu allen sieben Sachgebieten, jede mit Quelle.</span></li><li><span>Probeprüfung im echten Format: 82 Aufgaben in 120 Minuten, mit Punkten wie seit dem 1.&nbsp;Juli 2025.</span></li><li><span>Fachbegriffe antippen: Besitzdiener, frische Tat, Notwehr, kurz erklärt.</span></li><li><span>Mündliche Prüfung üben, mit Sachgebiet 1 und 6.</span></li></ul>
+        <ul class="checks"><li><span>Über 600 eigene Aufgaben zu allen sieben Sachgebieten, jede mit Quelle.</span></li><li><span>Probeprüfung im echten Format: 82 Aufgaben in 120 Minuten, mit Punkten wie seit dem 1.&nbsp;Juli 2025.</span></li><li><span>Fachbegriffe antippen: Besitzdiener, frische Tat, Notwehr, kurz erklärt.</span></li><li><span>Mündliche Prüfung üben, mit Sachgebiet 1 und 6.</span></li></ul>
         <div class="actions">
           <!-- APP-STORE-BADGE: Platzhalter. Nach dem Livegang href auf die App-Store-URL setzen, aria-disabled entfernen, Text „Im App Store“, später das Badge von Apple (README, Livegang). -->
           <a class="button" data-app-store-url="" aria-disabled="true">Bald im App Store</a>
@@ -326,11 +326,11 @@
 
     <section class="section" aria-labelledby="bilder">
       <div class="wrap wrap--wide">
-        <div class="section-head" data-reveal>
+        <div class="section-head">
           <p class="label">Aus der App</p>
           <h2 id="bilder">So sieht es aus</h2>
         </div>
-        <ul class="gallery" data-reveal style="--i: 1">
+        <ul class="gallery" data-reveal>
           <li class="shot">
             <div class="device device--small"><picture><source type="image/webp" srcset="/assets/screens/34a-probepruefung-420.webp 420w, /assets/screens/34a-probepruefung-840.webp 840w" sizes="(min-width: 900px) 190px, 240px"><img src="/assets/screens/34a-probepruefung-420.png" srcset="/assets/screens/34a-probepruefung-420.png 420w, /assets/screens/34a-probepruefung-840.png 840w" sizes="(min-width: 900px) 190px, 240px" width="420" height="913" alt="App-Screen Probeprüfung aus 34a Sachkunde · becertain: Uhr oben bei 1:59:55, Aufgabe 1 von 82 zu § 4 Abs. 4 BDSG mit vier Antworten, Antwort B gewählt." loading="lazy" decoding="async"></picture></div>
             <div class="shot__text">
@@ -378,12 +378,12 @@
 
     <section class="section" aria-labelledby="probieren">
       <div class="wrap">
-        <div class="section-head" data-reveal>
+        <div class="section-head">
           <p class="label">Ausprobieren</p>
           <h2 id="probieren">Probier eine Frage</h2>
         </div>
-        <p class="intro" data-reveal style="--i: 1">Eine Aufgabe aus der App, Sachgebiet 3. Wähle eine Antwort und prüf sie. Danach liest du die Erklärung und den Paragrafen, wie in der App.</p>
-        <div class="card demo" id="demo" data-reveal style="--i: 2" data-aufgabe="34a-sg3.4-017" data-thema="sg3.4" hidden>
+        <p class="intro">Eine Aufgabe aus der App, Sachgebiet 3. Wähle eine Antwort und prüf sie. Danach liest du die Erklärung und den Paragrafen, wie in der App.</p>
+        <div class="card demo" id="demo" data-aufgabe="34a-sg3.4-017" data-thema="sg3.4" hidden>
           <p class="demo__meta"><span class="mono-chip">3.4</span><span>Selbsthilfe, verbotene Eigenmacht, Besitzschutz</span></p>
           <p class="demo__frage" id="demo-frage">Ein Stammkunde, dessen Namen und Adresse du kennst, rennt mit einer unbezahlten Flasche Whisky aus dem Laden. Du holst ihn direkt vor der Tür ein. Darfst du ihm die Flasche wieder abnehmen?</p>
           <p class="demo__anleitung">Wähle eine Antwort.</p>
@@ -454,7 +454,7 @@
 
     <section class="section" aria-labelledby="gruende">
       <div class="wrap wrap--wide">
-        <div class="section-head" data-reveal>
+        <div class="section-head">
           <p class="label">Was anders ist</p>
           <h2 id="gruende">So prüfen wir jede Aufgabe</h2>
         </div>
@@ -483,7 +483,7 @@
 
     <section class="section" aria-labelledby="preis">
       <div class="wrap wrap--wide">
-        <div class="section-head" data-reveal>
+        <div class="section-head">
           <p class="label">Gratis und Pro</p>
           <h2 id="preis">Erst prüfen, dann zahlen</h2>
         </div>
@@ -505,12 +505,12 @@
 
     <section class="section" aria-labelledby="mehr">
       <div class="wrap">
-        <div class="section-head" data-reveal>
+        <div class="section-head">
           <p class="label">Zum Nachlesen</p>
           <h2 id="mehr">Mehr zur Sachkundeprüfung</h2>
         </div>
-        <p class="intro" data-reveal style="--i: 1">Hier liest du, wie die Sachkundeprüfung abläuft und was in den sieben Sachgebieten drankommt. Auf jeder Seite zu einem Sachgebiet probierst du eine weitere Frage aus der App aus.</p>
-        <ul class="toc" data-reveal style="--i: 2"><li><a href="/34a/pruefung/">Sachkundeprüfung 34a: Ablauf, Punkte, Termine und Gebühr</a></li><li><a href="/34a/fragen/">Prüfungsfragen zur Sachkundeprüfung 34a nach Sachgebiet</a></li><li><a href="/34a/sachgebiet-1/">Sachgebiet 1: Öffentliche Sicherheit und Ordnung, Gewerberecht</a></li><li><a href="/34a/sachgebiet-2/">Sachgebiet 2: Datenschutzrecht</a></li><li><a href="/34a/sachgebiet-3/">Sachgebiet 3: Bürgerliches Gesetzbuch</a></li><li><a href="/34a/sachgebiet-4/">Sachgebiet 4: Straf- und Strafverfahrensrecht, Umgang mit Waffen</a></li><li><a href="/34a/sachgebiet-5/">Sachgebiet 5: Unfallverhütungsvorschrift Wach- und Sicherungsdienste</a></li><li><a href="/34a/sachgebiet-6/">Sachgebiet 6: Umgang mit Menschen</a></li><li><a href="/34a/sachgebiet-7/">Sachgebiet 7: Grundzüge der Sicherheitstechnik</a></li></ul>
+        <p class="intro">Hier liest du, wie die Sachkundeprüfung abläuft und was in den sieben Sachgebieten drankommt. Auf jeder Seite zu einem Sachgebiet probierst du eine weitere Frage aus der App aus.</p>
+        <ul class="toc"><li><a href="/34a/pruefung/">Sachkundeprüfung 34a: Ablauf, Punkte, Termine und Gebühr</a></li><li><a href="/34a/fragen/">Prüfungsfragen zur Sachkundeprüfung 34a nach Sachgebiet</a></li><li><a href="/34a/sachgebiet-1/">Sachgebiet 1: Öffentliche Sicherheit und Ordnung, Gewerberecht</a></li><li><a href="/34a/sachgebiet-2/">Sachgebiet 2: Datenschutzrecht</a></li><li><a href="/34a/sachgebiet-3/">Sachgebiet 3: Bürgerliches Gesetzbuch</a></li><li><a href="/34a/sachgebiet-4/">Sachgebiet 4: Straf- und Strafverfahrensrecht, Umgang mit Waffen</a></li><li><a href="/34a/sachgebiet-5/">Sachgebiet 5: Unfallverhütungsvorschrift Wach- und Sicherungsdienste</a></li><li><a href="/34a/sachgebiet-6/">Sachgebiet 6: Umgang mit Menschen</a></li><li><a href="/34a/sachgebiet-7/">Sachgebiet 7: Grundzüge der Sicherheitstechnik</a></li></ul>
       </div>
     </section>
 
@@ -525,7 +525,7 @@
 
     <section class="section" aria-labelledby="fragen">
       <div class="wrap">
-        <div class="section-head" data-reveal>
+        <div class="section-head">
           <p class="label">Fragen</p>
           <h2 id="fragen">Häufige Fragen</h2>
         </div>
@@ -559,7 +559,7 @@
             <div class="answer"><p>Nein. Die App hilft dir beim Üben. Ob du bestehst, hängt von dir und von der Prüfung ab. Pro gilt auch, wenn du die Prüfung wiederholst.</p></div>
           </details>
         </div>
-        <p class="muted small" style="margin-top: var(--s24)">Noch eine Frage? Schreib an <a href="mailto:sergej@mindcom.io">sergej@mindcom.io</a> oder lies den <a href="/support/">Support</a>.</p>
+        <p class="muted small">Noch eine Frage? Schreib an <a href="mailto:sergej@mindcom.io">sergej@mindcom.io</a> oder lies den <a href="/support/">Support</a>.</p>
       </div>
     </section>
   </main>
