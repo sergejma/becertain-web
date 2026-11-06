@@ -22,7 +22,7 @@ Website der App-Familie becertain: Startseite, Produktseite je Prüfung (zuerst 
 ├── datenschutz/index.html      App und Website, App-Teil wortgleich mit Texte.swift
 ├── nutzungsbedingungen/        wortgleich mit Texte.swift
 ├── impressum/  support/  404.html
-├── assets/                     site.css, site.js, favicon.svg, icon-180.png, icon-512.png, og-*.png
+├── assets/                     site.css, site.js, favicon.svg, icon-180.png, icon-512.png, og-*.png, app-store-badge-de.svg (Badge von Apple)
 │   └── screens/                App-Screens aus pruefungstrainer-ios/Store/raw/1206x2622, 420 und 840 px, WebP mit PNG-Fallback
 ├── sitemap.xml  robots.txt  llms.txt  llms-full.txt (aus dem HTML erzeugt)
 ├── CNAME                       becertain.app
@@ -163,6 +163,8 @@ Bildschirmfotos, Bewegung und Grenzfälle prüft ein Chrome ohne Fenster, gesteu
 8. **Google Search Console:** Domain-Property `becertain.app` anlegen (TXT-Record beim Registrar), dann `https://becertain.app/sitemap.xml` einreichen.
 
 ## Livegang der App (Sergej)
+
+Erledigt am 06.11.2026: App im App Store (`https://apps.apple.com/de/app/aevo-pr%C3%BCfung-becertain/id6827949762`), Schritte 1, 2, 3 und 5 umgesetzt, Schritt 4 nicht nötig. Das Badge ist Apples schwarze deutsche Fassung, auch im Dark Mode (ihr grauer Rand hebt sie vom dunklen Grund ab). Für die 34a-App dieselben Schritte wiederholen.
 
 1. **App Store Connect:** Datenschutz-URL `https://becertain.app/datenschutz/`, Support-URL `https://becertain.app/support/`, Marketing-URL `https://becertain.app/aevo/`. Die Nutzungsbedingungen `https://becertain.app/nutzungsbedingungen/` als eigene Lizenzvereinbarung (EULA) eintragen oder in die Beschreibung verlinken; ohne Eintrag gilt die Standard-Lizenz von Apple.
 2. **Store-Badge:** das Badge „Laden im App Store" von Apple (Apple Marketing Tools, deutsch, schwarz und weiß) als SVG nach `assets/` legen. In `index.html` und `aevo/index.html` jeweils den Kommentar `APP-STORE-BADGE` suchen und den Platzhalter `<p class="store-slot" …>Bald im App Store</p>` ersetzen durch einen Link `<a href="https://apps.apple.com/de/app/…/id…">` mit dem Badge als `<img alt="Laden im App Store">`. Auf der Startseite zusätzlich den Chip „Bald im App Store" entfernen.

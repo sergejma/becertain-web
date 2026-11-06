@@ -90,6 +90,16 @@ Grundlage: `../docs/store/03-seo-massnahmen.md` (Regeln wie beim AEVO-Hub), Nach
 - Erwartung: Indexierung innerhalb von vier Wochen nach Einreichen; erste Impressionen für „sachkundeprüfung 34a ablauf“, „34a prüfungsfragen“, „mündliche prüfung 34a“. Risiko: `/34a/` und `/34a/pruefung/` teilen „sachkundeprüfung 34a“; Search Console beobachten.
 - Messtermin: vier Wochen nach Veröffentlichung, dann acht Wochen. Bis dahin Titel und H1 der neuen Seiten nicht anfassen.
 
+### 06.11.2026: AEVO-App im App Store, Store-Link live
+
+- App „AEVO Prüfung · becertain“ seit 06.11.2026 im App Store: `https://apps.apple.com/de/app/aevo-pr%C3%BCfung-becertain/id6827949762` (Apple-ID 6827949762).
+- `/`: Platzhalter „Bald im App Store“ im Kopf ersetzt durch Apples Badge „Laden im App Store“ (`assets/app-store-badge-de.svg`, deutsch, schwarz, von Apples Badge-Dienst, unverändert) mit Link in den Store. Chip der AEVO-Karte „Im App Store“ statt „Bald im App Store“, gleiche Form wie „In Vorbereitung“ bei 34a. Titel, H1 und Description unverändert.
+- `/aevo/`: Knopf „Im App Store laden“ verlinkt den Store (vorher deaktiviert), Satz darunter ohne „Bald im App Store“. JSON-LD `MobileApplication` mit `downloadUrl` und `sameAs` auf die Store-URL, weiterhin ohne Bewertungen. Titel, H1 und Description unverändert.
+- `dateModified`, `data-stand`, `lastmod` beider Seiten 2026-11-06. `llms.txt` Status „im App Store seit 06.11.2026“ mit Link, `llms-full.txt` neu erzeugt. 34a bleibt „In Vorbereitung“.
+- Grund: Besucher sollen die App direkt laden können; der Store-Link verbindet Website und Store-Eintrag auch für Suchmaschinen und KI-Suche (`sameAs`).
+- Erwartung: Klicks in den Store aus `/` und `/aevo/` (App Store Connect, Quelle „Web-Verweis“); Markensuche „aevo prüfung becertain“ zeigt Website und Store-Eintrag nebeneinander.
+- Messtermin: vier Wochen nach Livegang (04.12.2026), App Store Connect (Seitenaufrufe aus Web-Verweisen, Downloads) und Search Console.
+
 ## Messung
 
 - Erster Vergleich: vier Wochen nach Livegang in der Search Console (Indexierung, Impressionen und Position für „aevo prüfung", „aevo prüfung app", „ausbilderschein app", „becertain").

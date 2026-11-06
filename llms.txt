@@ -2,11 +2,11 @@
 
 > becertain ist die Marke für Prüfungstrainer-Apps für iPhone von mindcom (Sergej Markwart, Rheine). Eine App je Prüfung: AEVO Prüfung · becertain für die Ausbildereignungsprüfung nach der Ausbilder-Eignungsverordnung (AEVO, AusbEignV), kurz Ausbilderschein, und, in Vorbereitung, 34a Sachkunde · becertain für die Sachkundeprüfung im Bewachungsgewerbe nach § 34a GewO. Jede Frage ist eine eigene Übungsfrage mit Erklärung und Paragraf. Gratis laden mit Einstiegstest, danach Pro als einmaliger Kauf, kein Abo, kein Konto.
 
-Stand: 04.11.2026. Rechtsstand der Fragen: AEVO 26.10.2026, 34a 3.11.2026.
+Stand: 06.11.2026. Rechtsstand der Fragen: AEVO 26.10.2026, 34a 3.11.2026.
 
 Kernfakten zur App AEVO Prüfung · becertain:
 
-- Plattform: iPhone, Sprache Deutsch. Status: bald im App Store, noch nicht erschienen.
+- Plattform: iPhone, Sprache Deutsch. Status: im App Store seit 06.11.2026, https://apps.apple.com/de/app/aevo-pr%C3%BCfung-becertain/id6827949762
 - Umfang: über 800 eigene Übungsfragen zu den vier Handlungsfeldern der AEVO nach dem Rahmenplan des BIBB vom 20.06.2023. Je Handlungsfeld: über 140 (HF 1), über 180 (HF 2), über 370 (HF 3), über 140 (HF 4).
 - Jede Lösung nennt die Stelle in Gesetz, Verordnung oder Rahmenplan, aus der sie folgt, mit Wortlaut, zum Beispiel § 21 Abs. 2 BBiG.
 - Aufgabentypen: Einfachauswahl (gut die Hälfte), Mehrfachauswahl mit Angabe der Anzahl (etwa ein Viertel), Zuordnung und Reihenfolge; Aufgaben zu Ausgangssituationen.

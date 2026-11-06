@@ -6,7 +6,7 @@
 
 Seite: https://becertain.app/
 Titel: becertain: Prüfungs-Apps mit Erklärung und Paragraf
-Stand: 2026-11-04
+Stand: 2026-11-06
 
 Prüfungstrainer für iPhone
 
@@ -14,9 +14,7 @@ Prüfungstrainer für iPhone
 
 becertain macht Prüfungstrainer für iPhone, eine App je Prüfung, entwickelt von Sergej Markwart (mindcom) in Rheine. Zu jeder Frage liest du, warum die Antwort stimmt und in welchem Paragrafen das steht. Du schreibst Probeprüfungen auf Zeit und siehst, wo dir noch Punkte fehlen. Kein Konto, kein Abo.
 
-[AEVO Prüfung ansehen](https://becertain.app/aevo/)
-
-Bald im App Store
+[AEVO Prüfung ansehen](https://becertain.app/aevo/) [](https://apps.apple.com/de/app/aevo-pr%C3%BCfung-becertain/id6827949762)
 
 Die Apps
 
@@ -24,7 +22,7 @@ Die Apps
 
 ### [AEVO Prüfung · becertain](https://becertain.app/aevo/)
 
-Bald im App Store
+Im App Store
 
 Für die schriftliche Ausbildereignungsprüfung, kurz Ausbilderschein. Über 800 Fragen, jede mit Erklärung und Paragraf. Der Einstiegstest mit 40 davon ist gratis, danach siehst du deine Auswertung je Handlungsfeld. Pro kaufst du einmal, kein Abo.
 
@@ -66,7 +64,7 @@ becertain ist die Marke für die Prüfungs-Apps von mindcom, dem Unternehmen von
 
 Seite: https://becertain.app/aevo/
 Titel: AEVO Prüfung üben: App für den Ausbilderschein · becertain
-Stand: 2026-10-30
+Stand: 2026-11-06
 
 App für iPhone · Ausbilderschein
 
@@ -74,9 +72,9 @@ App für iPhone · Ausbilderschein
 
 Über 800 eigene Fragen nach dem Rahmenplan, Probeprüfungen über 180 Minuten, und du siehst, wo dir noch Punkte fehlen.
 
-Im App Store Frage ausprobieren
+[Im App Store laden](https://apps.apple.com/de/app/aevo-pr%C3%BCfung-becertain/id6827949762) Frage ausprobieren
 
-Bald im App Store. Gratis laden, Pro einmal kaufen, kein Abo.
+Gratis laden, Pro einmal kaufen, kein Abo.
 
 Aus der App
 
